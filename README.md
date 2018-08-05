@@ -37,8 +37,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img align = "left" src='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' title='' width='' alt='Video Walkthrough' />
-
-
+<img align = "left" src='' title='' width='' alt='Video Walkthrough' />
+<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683493-c359d8c8-9841-11e8-9cfc-6886b17b374b.png' title='' width='' alt='Video Walkthrough' />
 
 GIF created with [ffmpeg](https://www.ffmpeg.org/).
 
