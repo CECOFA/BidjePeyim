@@ -36,9 +36,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' title='' width='' alt='' />
-<img align = "left" src='' title='' width='' alt='' />
-<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683493-c359d8c8-9841-11e8-9cfc-6886b17b374b.png' title='' width='' alt='V' />
+<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' title='I' width='' alt='' />
+<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683582-d4e35432-9843-11e8-85ea-a10dc55f68b4.png' title='II' width='' alt='' />
+<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683493-c359d8c8-9841-11e8-9cfc-6886b17b374b.png' title='III' width='' alt='V' />
 
 
 ## Notes
