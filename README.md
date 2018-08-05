@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align = "left" src='' title='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' width='' alt='Video Walkthrough' />
+<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' title='' width='' alt='Video Walkthrough' />
 
 
 
