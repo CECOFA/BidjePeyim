@@ -10,13 +10,15 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] User can see a list of news related to Public Finances.
-* [ ] User can search news and documents using Search bar.
-* [ ] User can access budget(credit and expenditures) report of each Ministry.
-* [ ] User can access "employment statistics on each ministry".
-* [ ] User can access statistics related to nominations, termination and reintegration process.
-* [ ] User can access and download text related to "Regulatory framework for budget"
-* [ ] User can read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
+User can : 
+
+* [ ] see a list of news related to Public Finances.
+* [ ] search news and documents using Search bar.
+* [ ] access budget(credit and expenditures) report of each Ministry.
+* [ ] access "employment statistics on each ministry".
+* [ ] access statistics related to nominations, termination and reintegration process.
+* [ ] access and download text related to "Regulatory framework for budget"
+* [ ] read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
 
 The following **optional** features are implemented:
 
