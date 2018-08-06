@@ -12,19 +12,12 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 
 ### Objectif général
 
-* []	Rendre accessibles au moins quatre lois de finances passees et celle en cours d'application ;
+* [ ]	Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
+* [ ] Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
 
-# Objectifs spécifiques
+### Objectifs spécifiques
 
-* [] Recenser les différentes Lois de Finances d’Haïti publiées entre 1900 et 2010 ;
-	Numériser et traiter l’ensemble des Lois de Finances pour la période sous études ;
-	Mettre en ligne sur l’Intranet de la Direction Générale du Budget le répertoire électronique des Lois de Finances.
-	Vulgariser les lois de Finances ;
-	Assurer une meilleure diffusion des Lois de Finances ;
-	Aider et susciter la recherche ;
-	Satisfaire les besoins des chercheurs nationaux et internationaux ;
-	Former des cadres de l’institution à l’administration de l’application.
-
+* [ ] Publier au moins quatre lois de finances passees et celle en vigueur (en cours d'application) ;
 
 
 Time spent: **3** hours spent in total
