@@ -6,7 +6,7 @@
 
 (**BidjePeyim** est une application mobile sous android pour la publication des projets de lois de finances, du cadre légal et réglementaire du budget haïtien, de rapports sur la situation financière et de l'emploi dans l’administration d'Etat.)
 
-## Objectifs
+## OBJECTIFS
 
 Des objectifs sont naturellement assignés au projet ; ils sont d’ordre général et spécifique.
 
@@ -24,7 +24,7 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 
 Time spent: **3** hours spent in total
 
-## User Stories
+## USER STORIES
 
 The following **required** functionality is completed:
 
@@ -52,7 +52,7 @@ The following **additional** features are implemented:
 * [ ] List anything else that you can get done to improve the app functionality!
  
 
-## Video Walkthrough
+## VIDEO WALKTHROUGH
 
 Here's a walkthrough of implemented user stories:
 
@@ -61,16 +61,16 @@ Here's a walkthrough of implemented user stories:
 <img align = "left" src='https://user-images.githubusercontent.com/22782294/43683493-c359d8c8-9841-11e8-9cfc-6886b17b374b.png' title='III' width='' alt='V' />
 
 
-## Notes
+## NOTES
 
 Describe any challenges encountered while building the app.
 
-## Open-source libraries used
+## OPEN-SOURCE LIBRARIES USED
 
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android by Google
 - [Parceler](https://github.com/johncarl81/parceler) - Make class parcelable
 
-## License
+## LICENCE
 
     Copyright [2018] [Jephte Colin, Célande Pierre, Frabrice Ledan]
 
