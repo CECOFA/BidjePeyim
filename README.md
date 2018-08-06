@@ -17,7 +17,9 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 
 ### Objectifs spécifiques
 
-* [ ] Publier au moins quatre lois de finances passees et celle en vigueur (en cours d'application) ;
+* [ ] Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
+* [ ] Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
+* [ ] Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
 Time spent: **3** hours spent in total
