@@ -4,6 +4,9 @@
 
 **BidjePeyim** gives access to various draft laws of finance, the legal and regulatory framework of the Haitian budget, statistics on the financial situation and employment in the state administration.
 
+(** bidjePam est une application mobile sous android pour la publication des projets de lois de finances, du cadre légal et réglementaire du budget haïtien, de rapports sur la situation financière et de l'emploi dans l’administration d'Etat.)
+
+
 Time spent: **3** hours spent in total
 
 ## User Stories
