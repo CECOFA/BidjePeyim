@@ -10,7 +10,7 @@
 
 Des objectifs sont naturellement assignés au projet ; ils sont d’ordre général et spécifique.
 
-# Objectif général
+### Objectif général
 
 * []	Rendre accessibles au moins quatre lois de finances passees et celle en cours d'application ;
 
