@@ -4,19 +4,39 @@
 
 **BidjePeyim** gives access to various draft laws of finance, the legal and regulatory framework of the Haitian budget, statistics on the financial situation and employment in the state administration.
 
+(**BidjePeyim** est une application mobile sous android pour la publication des projets de lois de finances, du cadre légal et réglementaire du budget haïtien, de rapports sur la situation financière et de l'emploi dans l’administration d'Etat.)
+
+## OBJECTIFS
+
+Des objectifs sont naturellement assignés au projet ; ils sont d’ordre général et spécifique.
+
+### Objectif général
+
+* [ ]	Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
+* [ ] Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
+
+### Objectifs spécifiques
+
+* [ ] Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
+* [ ] Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
+* [ ] Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
+
+
 Time spent: **3** hours spent in total
 
-## User Stories
+## USER STORIES
 
 The following **required** functionality is completed:
 
-* [ ] User can see a list of news related to Public Finances.
-* [ ] User can search news and documents using Search bar.
-* [ ] User can access budget(credit and expenditures) report of each Ministry.
-* [ ] User can access "employment statistics on each ministry".
-* [ ] User can access statistics related to nominations, termination and reintegration process.
-* [ ] User can access and download text related to "Regulatory framework for budget"
-* [ ] User can read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
+User can : 
+
+* [ ] see a list of news related to Public Finances.
+* [ ] search news and documents using Search bar.
+* [ ] access budget(credit and expenditures) report of each Ministry.
+* [ ] access "employment statistics on each ministry".
+* [ ] access statistics related to nominations, termination and reintegration process.
+* [ ] access and download text related to "Regulatory framework for budget"
+* [ ] read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
 
 The following **optional** features are implemented:
 
@@ -32,27 +52,27 @@ The following **additional** features are implemented:
 * [ ] List anything else that you can get done to improve the app functionality!
  
 
-## Video Walkthrough
+## VIDEO WALKTHROUGH
 
 Here's a walkthrough of implemented user stories:
 
-<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683491-c2064efc-9841-11e8-881f-4783477a8ae9.png' title='I' width='' alt='' />
-<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683582-d4e35432-9843-11e8-85ea-a10dc55f68b4.png' title='II' width='' alt='' />
-<img align = "left" src='https://user-images.githubusercontent.com/22782294/43683493-c359d8c8-9841-11e8-9cfc-6886b17b374b.png' title='III' width='' alt='V' />
+<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-1.png' title='I' width='' alt='' />
+<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2.png' title='II' width='' alt='' />
+<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2-copy.png' title='III' width='' alt='V' />
 
 
-## Notes
+## NOTES
 
 Describe any challenges encountered while building the app.
 
-## Open-source libraries used
+## OPEN-SOURCE LIBRARIES USED
 
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android by Google
 - [Parceler](https://github.com/johncarl81/parceler) - Make class parcelable
 
-## License
+## LICENCE
 
-    Copyright [2018] [Jephte Colin, Célande Pierre, Frabrice Ledan]
+    Copyright [2018] [Jephté Colin, Célande Pierre, Frabrice Ledan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
