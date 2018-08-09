@@ -5,6 +5,6 @@ import android.support.v4.app.Fragment;
 /**
  * Created by drake on 8/8/18
  */
-public class BudgetFragment extends Fragment {
-    //todo Implement BudgetFragment here
+public class StatisticsFragment extends Fragment {
+    //todo Implement StatisticsFragment here
 }
