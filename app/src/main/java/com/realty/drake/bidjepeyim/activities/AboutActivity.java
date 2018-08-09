@@ -6,6 +6,7 @@ import android.os.Bundle;
 import com.realty.drake.bidjepeyim.R;
 
 public class AboutActivity extends AppCompatActivity {
+    //todo Implement About Activity here
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
