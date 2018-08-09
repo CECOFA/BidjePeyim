@@ -5,12 +5,12 @@ import android.os.Bundle;
 
 import com.realty.drake.bidjepeyim.R;
 
-public class AboutActivity extends AppCompatActivity {
-    //todo Implement About Activity here
+public class SearchActivity extends AppCompatActivity {
+    //todo Implement the Search Activity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
+        setContentView(R.layout.activity_search);
     }
 }
