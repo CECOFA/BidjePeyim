@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "14714612397",
+    "firebase_url": "https://bidjepeyim.firebaseio.com",
+    "project_id": "bidjepeyim",
+    "storage_bucket": "bidjepeyim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14714612397:android:0f9be62e53fd488d",
+        "android_client_info": {
+          "package_name": "com.realty.drake.bidjepeyim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14714612397-ojrrsm1mpi53qcivaa2b9juaiqvt3ile.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realty.drake.bidjepeyim",
+            "certificate_hash": "a1b2fb4f6424ac45b9dce171047ccb28eb446eab"
+          }
+        },
+        {
+          "client_id": "14714612397-cg0o17c8uakq6dfcmpp12saifp5k8bj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMkHRocGIKVWJg8bUpdUMAapxK_OR-c1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14714612397-cg0o17c8uakq6dfcmpp12saifp5k8bj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

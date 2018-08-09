@@ -1,0 +1,1804 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-TWpmaIgbLeEglE+xl1SOBnHQoK7ScaGgpsqLKZ1OCoJvBDA7YHi1Svkl6ycTvDdqgiib/kn046lTFZQBV9fGJw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-0603882e6b9840d86c616b357dcbbdad.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-onMWDoU3ExDLWkMVzMrJt4SpSz00d/9SZd8u5YPKOZH/MtpHnQ4rFe8PGHN6GSxtgBxGOm8kLEcfEi4mqVVETQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-3b1ff0fa1a50c95fd5b021b20db36092.css" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>BidjePeyim/actualites_bidjepeyim.csv at develop · CECOFA/BidjePeyim</title>
+    <meta name="description" content="Espace de travail dédié à la réalisation du projet &quot;BidgePeyim&quot; dans le cadre du bootcamp codepath du 3 juillet au 25 août à St-Louis de Conzague">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/41973728?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="CECOFA/BidjePeyim" /><meta property="og:url" content="https://github.com/CECOFA/BidjePeyim" /><meta property="og:description" content="BidjePeyim - Espace de travail dédié à la réalisation du projet &quot;BidgePeyim&quot; dans le cadre du bootcamp codepath du 3 juillet au 25 août à St-Louis de Conzague" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzAyMTQ0MzMwOmRmMDIzZjBjYjk1OWZkZTVhNjQ0ODc3NjNiYWJhYWQwMTZiZDg5MzY2MjVjYmU5NDZlMWI1OTliMzQ3YjkwNzE=--bc532c0cb1bf2f06d8584509b8f8c8e1529e5be6">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="CB4E:76B2:2363B62:403BD6D:5B6C762F" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="CB4E:76B2:2363B62:403BD6D:5B6C762F" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="39745513" /><meta name="octolytics-actor-login" content="Draketheb4dass" /><meta name="octolytics-actor-hash" content="ea467ef4519e9811ef6e2f7c464853446c33fda5d056891f7458676b244c59e1" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+  <meta class="js-ga-set" name="userId" content="b88e4bd8539129e57e08c9c1249c4b0b" %>
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="Draketheb4dass">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZDVmMzk0OTEwODhkYjI1YTQ0ZTI5YTdmN2EyMDczN2YyMmU4MDNhMDJhODZhMDMwNjk0ZGFlZjViMGZhMjliMXx7InJlbW90ZV9hZGRyZXNzIjoiMjAwLjIuMTMyLjIxOCIsInJlcXVlc3RfaWQiOiJDQjRFOjc2QjI6MjM2M0I2Mjo0MDNCRDZEOjVCNkM3NjJGIiwidGltZXN0YW1wIjoxNTMzODM0ODA1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,MARKETPLACE_RETARGETING">
+
+  <meta name="html-safe-nonce" content="2afe98d43fa47ac75a839cb8d58d3a1458020b77">
+
+  <meta http-equiv="x-pjax-version" content="e96d97c7b95709a0cff9dc5fc0e8d0c9">
+  
+
+      <link href="https://github.com/CECOFA/BidjePeyim/commits/develop.atom" rel="alternate" title="Recent Commits to BidjePeyim:develop" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/CECOFA/BidjePeyim git https://github.com/CECOFA/BidjePeyim.git">
+
+  <meta name="octolytics-dimension-user_id" content="41973728" /><meta name="octolytics-dimension-user_login" content="CECOFA" /><meta name="octolytics-dimension-repository_id" content="143475938" /><meta name="octolytics-dimension-repository_nwo" content="CECOFA/BidjePeyim" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="143475938" /><meta name="octolytics-dimension-repository_network_root_nwo" content="CECOFA/BidjePeyim" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/CECOFA/BidjePeyim/blob/develop/actualites_bidjepeyim.csv" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="search combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="true"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="143475938" data-scoped-search-url="/CECOFA/BidjePeyim/search" data-unscoped-search-url="/search" action="/CECOFA/BidjePeyim/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=nI6b7zRs2CHPvWMZyRXRQg34i2wVKETxmnRcHiF/FvKm3GJ+KpNMrP0tvae1vxFxueflkXAYN7SsADm4jxWHyQ=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none"></div>
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar" alt="" aria-label="Team" src="" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+                <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-repo-octicon-template" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-project-octicon-template" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-search-octicon-template" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" >
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+                Issues
+</a>            </li>
+              <li>
+                <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+                   Marketplace
+</a>              </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have no unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:39745513" href="/notifications">
+        <span class="mail-status "></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown">
+    <details class="details-overlay details-reset d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="CECOFA/BidjePeyim">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/CECOFA/BidjePeyim/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </details-menu>
+    </details>
+  </li>
+
+  <li class="dropdown">
+
+    <details class="details-overlay details-reset d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@Draketheb4dass" class="avatar float-left mr-1" src="https://avatars2.githubusercontent.com/u/39745513?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        <ul>
+          <li class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/Draketheb4dass" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">Draketheb4dass</strong></a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="/Draketheb4dass" data-ga-click="Header, go to profile, text:your profile">Your profile</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/Draketheb4dass?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/Draketheb4dass?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a></li>
+            <li><a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
+          <li>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QIh76eD+VOe/qLXZeSoDhtENlKhgxTPk7lmkz71HKslYtcZV+vkkfIUgboZTUiEckCEzGIcSscoGuFj7+EkQbA==" />
+              <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+                Sign out
+              </button>
+</form>          </li>
+        </ul>
+      </details-menu>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eF7R7Az/NPfI6Bp3EFNSYxDHoabekBeaCNy8i8K1/A9gY2xQFvhEbPJgwSg6K3D5UesGFjlHlbTgPUC/h7vGqg==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4+hXZMZKLKiRNDxLYcAZqBCRDwnihOuN4hQ3vUAnvkpoLoEinf1UusjMgBBywU8jbGLljbeZaixBoMozw8JkHg==" />      <input type="hidden" name="repository_id" id="repository_id" value="143475938" class="form-control" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/CECOFA/BidjePeyim/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Unwatch
+            </span>
+          </a>
+          <a class="social-count js-social-count"
+            href="/CECOFA/BidjePeyim/watchers"
+            aria-label="2 users are watching this repository">
+            2
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_included" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_subscribed" value="subscribed" checked="checked" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_ignore" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/CECOFA/BidjePeyim/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aEFXwuGGLMRHL/65/ZODUv4wEJIsPjtneJn3tgwOtJFIYCg+q/RcEtMQF5YDC+wI3YaedlcXmWDr+eZ/+7NO8w==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar CECOFA/BidjePeyim"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/CECOFA/BidjePeyim/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/CECOFA/BidjePeyim/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LSyg5TQSr1CVJ9DZoyO0X1Q8st+aGmVaspPlNWOIfp47TcmuiznAlJ0Ze0QdaeNEGeAYtlXCy8cWvGrdKaFFsg==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star CECOFA/BidjePeyim"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/CECOFA/BidjePeyim/stargazers"
+           aria-label="0 users starred this repository">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left"
+            data-deferred-details-content-url="/CECOFA/BidjePeyim/fork?fragment=1">
+            <summary class="btn btn-sm btn-with-count"
+              title="Fork your own copy of CECOFA/BidjePeyim to your account"
+              data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </summary>
+            <details-dialog class="anim-fade-in fast Box Box--overlay d-flex flex-column">
+              <div class="Box-header">
+                <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+                  <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+                </button>
+                <h3 class="Box-title">Where should we fork this repository?</h3>
+              </div>
+              <div class="Box-body overflow-auto text-center">
+                <include-fragment>
+                  <div class="octocat-spinner my-3" aria-label="Loading..."></div>
+                  <p class="f5 text-gray">If this dialog fails to load, you can visit <a href="/CECOFA/BidjePeyim/fork">the fork page</a> directly.</p>
+                </include-fragment>
+              </div>
+            </details-dialog>
+          </details>
+
+    <a href="/CECOFA/BidjePeyim/network/members" class="social-count"
+       aria-label="1 user forked this repository">
+      1
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/CECOFA">CECOFA</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/CECOFA/BidjePeyim">BidjePeyim</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /CECOFA/BidjePeyim" href="/CECOFA/BidjePeyim">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /CECOFA/BidjePeyim/issues" href="/CECOFA/BidjePeyim/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">5</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /CECOFA/BidjePeyim/pulls" href="/CECOFA/BidjePeyim/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /CECOFA/BidjePeyim/projects" href="/CECOFA/BidjePeyim/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >1</span>
+</a>
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /CECOFA/BidjePeyim/wiki" href="/CECOFA/BidjePeyim/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /CECOFA/BidjePeyim/pulse" href="/CECOFA/BidjePeyim/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations repo_keys_settings issue_template_editor /CECOFA/BidjePeyim/settings" href="/CECOFA/BidjePeyim/settings">
+      <svg class="octicon octicon-gear" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
+      Settings
+</a>
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/CECOFA/BidjePeyim/blob/f0c4b6dd339298b6f88af0472afce0aa1315b996/actualites_bidjepeyim.csv">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:f7769c0f08a5842fc63fe55b681d8a38 -->
+
+  
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">develop</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Find or create a branch…" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/CECOFA/BidjePeyim/blob/develop/actualites_bidjepeyim.csv"
+               data-name="develop"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                develop
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/CECOFA/BidjePeyim/blob/master/actualites_bidjepeyim.csv"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/CECOFA/BidjePeyim/blob/pcelande-patch-1/actualites_bidjepeyim.csv"
+               data-name="pcelande-patch-1"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                pcelande-patch-1
+              </span>
+            </a>
+        </div>
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" action="/CECOFA/BidjePeyim/branches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uzkw1BLw2iFZHp00YL4K4CJUpPytOAr/fOEo/T2mOu9j2dvJWYNmXJqsJhk9OVjXA/+80Zctxy3TpHVGHl448Q==" />
+          <svg class="octicon octicon-git-branch select-menu-item-icon" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <div class="select-menu-item-text">
+              <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
+              <span class="description">from ‘develop’</span>
+            </div>
+            <input type="hidden" name="name" id="name" class="js-new-item-value">
+            <input type="hidden" name="branch" id="branch" value="develop">
+            <input type="hidden" name="path" id="path" value="actualites_bidjepeyim.csv">
+</form>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/CECOFA/BidjePeyim/find/develop"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/CECOFA/BidjePeyim"><span>BidjePeyim</span></a></span></span><span class="separator">/</span><strong class="final-path">actualites_bidjepeyim.csv</strong>
+    </div>
+  </div>
+
+
+  
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/CECOFA/BidjePeyim/commit/701cef261f1c5904dbc5fe9b4cd6f2b4c47a2794" data-pjax>
+          701cef2
+        </a>
+        <relative-time datetime="2018-08-09T16:55:41Z">Aug 9, 2018</relative-time>
+      </span>
+      <div>
+        <a rel="contributor" data-skip-pjax="true" data-hovercard-user-id="11791566" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pcelande"><img class="avatar" src="https://avatars0.githubusercontent.com/u/11791566?s=40&amp;v=4" width="20" height="20" alt="@pcelande" /></a>
+        <a class="user-mention" rel="contributor" data-hovercard-user-id="11791566" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pcelande">pcelande</a>
+          <a data-pjax="true" title="Add files via upload" class="message" href="/CECOFA/BidjePeyim/commit/701cef261f1c5904dbc5fe9b4cd6f2b4c47a2794">Add files via upload</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+  <summary class="btn-link" aria-haspopup="dialog" >
+    
+    <span><strong>1</strong> contributor</span>
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <h3 class="Box-title">Users who have contributed to this file</h3>
+    </div>
+    
+        <ul class="list-style-none overflow-auto">
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/pcelande">
+                <img class="avatar mr-2" alt="" src="https://avatars0.githubusercontent.com/u/11791566?s=40&amp;v=4" width="20" height="20" />
+                pcelande
+</a>            </li>
+        </ul>
+
+  </details-dialog>
+</details>
+      
+    </div>
+  </div>
+
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/CECOFA/BidjePeyim/raw/develop/actualites_bidjepeyim.csv">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/CECOFA/BidjePeyim/blame/develop/actualites_bidjepeyim.csv">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/CECOFA/BidjePeyim/commits/develop/actualites_bidjepeyim.csv">History</a>
+    </div>
+
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/CECOFA/BidjePeyim/edit/develop/actualites_bidjepeyim.csv" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="es3rKPmMq7dGT1noU3HL0dN/2IoKBoP7H7eUGpdRGh+R4uReGc1PLTvVcrINXtw6tVWMrqyhkm/FIxxApUz+KA==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Edit this file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+            </button>
+</form>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/CECOFA/BidjePeyim/delete/develop/actualites_bidjepeyim.csv" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WPnvICrdoGJH/huECxWuZQrAQNKUk1MS0AYi0ZY1dmrvJKTCZ/AKdxj9RoUe3Op2uOGYfMqwQRcfMlAwSx2kIQ==" />
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Delete this file" data-disable-with>
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      599 lines (581 sloc)
+      <span class="file-info-divider"></span>
+    82.1 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-csv">
+      <div class="blob-interaction-bar">
+  <svg class="octicon octicon-search" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+  <input type="text" name="filter" class="form-control js-csv-filter-field blob-filter" autocapitalize="off"
+         placeholder="Search this file…" aria-label="Search this file…">
+</div>
+
+<div class="markdown-body">
+  <table class="js-csv-data csv-data js-file-line-container">
+    <thead>
+      <tr id="LC1" class="js-file-line">
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <th>idActualite</th>
+        <th>titreActualite</th>
+        <th>contenuActualite</th>
+        <th>motsCles</th>
+        <th>datePublication</th>
+        <th>auteur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="LC2" class="js-file-line">
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td>30</td>
+        <td>Des milliers de manifestants à Paris pour la 5e journée de mobilisation unitaire</td>
+        <td>Plusieurs milliers de personnes défilaient samedi après-midi à Paris dans le cadre de la cinquième journée de mobilisation unitaire depuis le 29 janvier, mobilisation qui cette fois-ci &quot;est incontestablement en dessous de ce qu&#39;on aurait souhaité&quot; a reconnu le secrétaire général de la CGT Bernard Thibault. Ils étaient 9.000 selon la police, 30.000 selon les syndicats.&lt;br /&gt;
+Malgré des tensions, les syndicats veulent rester unis&lt;br /&gt;&lt;br /&gt;Entre colère et résignation
+&lt;br /&gt;&lt;br /&gt;Manifestation ce samedi à Toulouse : moins mais peut-être mieux&lt;br /&gt;&lt;br /&gt;Partis vers 15h de la place de la Bastille, les manifestants doivent se rendre jusqu&#39;à la gare Montparnasse où la dispersion est attendue en début de soirée.
+&quot;Ensemble face à la crise, défendons l&#39;emploi, le pouvoir d&#39;achat et les services publics. Arrêt des suppressions d&#39;emplois. Augmentation des salaires et des retraites&quot;, peut-on lire sur la banderole en tête du cortège qui semble moins imposant que lors du 1er mai dernier.
+&quot;La participation est incontestablement en dessous de ce qu&#39;on aurait souhaité&quot;, a reconnu Bernard Thibault, présent en tête du défilé aux côtés des secrétaires généraux et présidents des huit syndicats à l&#39;origine de cette nouvelle journée de mobilisation pour exiger du gouvernement et du patronat un changement de politique économique et sociale face à la crise</td>
+        <td>mobilisation,paris,5e journee</td>
+        <td>2009-06-13 07:07:30.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC3" class="js-file-line">
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td>33</td>
+        <td>Dépôt du budget 2009-2010 : le ministre des finances est attendu ce mardi au parlement   </td>
+        <td>Le ministre de l&#39;économie et des finances, Daniel Dorsainvil, procédera ce mardi 30 juin 2009 au dépôt du projet de budget de l&#39;exercice fiscal 2009/2010, a annoncé le président du sénat de la république.&lt;br /&gt;&lt;br /&gt;
+Kelly C Bastien n&#39;était toutefois pas en mesure d&#39;opiner sur la conception et l&#39;orientation du budget, le texte n&#39;ayant pas encore été mis en circulation au Parlement. .&lt;br /&gt;&lt;br /&gt;
+Selon le président du sénat le gouvernement est contraint de respecter ses engagements notamment avec le dépôt du budget 2009-2010 avant l&#39;échéance du 30 juin.&lt;br /&gt;&lt;br /&gt;
+Par ailleurs le président de l&#39;assemblée nationale, a fait remarquer que des mesures devront être adoptées par les autorités gouvernementales en vue de l&#39;amélioration des conditions de vie de la population pour éviter a-t-il dit, que la présente situation déjà fragile ne devienne irréversible. .&lt;br /&gt;&lt;br /&gt;
+La constitution de 1987 fait obligation au gouvernement de faire le dépôt du budget au parlement ,trois mois avant l&#39;ouverture de la nouvelle année fiscale .&lt;br /&gt;&lt;br /&gt;
+Rappelons que La loi de finance 2008/2009 a été votée avec un retard de 8 mois, alors que plus de 50% du budget de 80 milliards de gourdes avait déjà été dépensé.&lt;br /&gt;&lt;br /&gt;
+Plus de la moitié du budget de la République est financée par la communauté internationale. .&lt;br /&gt;&lt;br /&gt;
+Radio métropole</td>
+        <td>budget 2009/2010, loi de finance</td>
+        <td>2009-06-30 14:54:59.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC4" class="js-file-line">
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td>34</td>
+        <td>La dette d’Haïti allégée de 1,2 milliard de dollars</td>
+        <td>La Banque mondiale (BM) a annoncé mardi la conclusion d’un accord prévoyant l’allèlegement de la dette externe d’Haïti à hauteur de 1,2 milliard de dollars environ.
+&lt;br /&gt;&lt;br /&gt;
+Soulignant qu’il s’agit du 26e pays à accéder à ce stade, l’institution multilatérale précise que 265 millions de dollars sont issus de l’initiative renforcée en faveur des pays pauvres très endettés (PPTE). Soumise à de nombreuses exigences, Haïti a finalement atteint le point d’achèvement de ce programme lancé en 1996 par la BM et le FMI en vue d’encadrer l’effort d’effacement de la dette des pays les plus sous-développés.
+&lt;br /&gt;&lt;br /&gt;
+Les 973 millions de dollars restants proviendront de l’initiative d’allégement de la dette multilatérale (IADM) lancée en 2005.
+&lt;br /&gt;&lt;br /&gt;
+&quot;Haïti a engagé des réformes ayant pour objectif d’établir un environnement macroéconomique plus stable et de mettre en oeuvre sa stratégie nationale de réduction de la pauvreté&quot;, affirme la Banque mondiale. Le pays a, d’autre part,&quot;renforcé son administration fiscale et ses douanes et amélioré sa gestion et sa publication de la dette&quot;, note le communiqué.
+&lt;br /&gt;&lt;br /&gt;
+Enfin, la réduction de la dette haïtienne s’accompagnait de conditions sociales, le pays s’étant engagé à maintenir un budget conséquent pour l’éducation et la santé, avec entre autres &quot;un mécanisme de financement qui permettra à plus de 50.000 enfants supplémentaires d’aller à l’école&quot;, des mesures de prévention contre le sida et la rougeole, et l’extension de la vaccination diphtérie-tétanos-poliomyélite.
+&lt;br /&gt;&lt;br /&gt;
+La Banque mondiale n’a pas précisé quelle part de la dette du pays représentaient ces 1,2 milliard de dollars. Elle a cependant indiqué que la dette publique représentait au 30 septembre 36% du produit intérieur brut, et la dette extérieur 28% du PIB.
+&lt;br /&gt;&lt;br /&gt;
+En s’appuyant sur l’estimation du PIB haïtien faite par le FMI, la réduction de la dette concerne environ 74% de la dette extérieure.
+&lt;br /&gt;&lt;br /&gt;
+Les créanciers internationaux d’Haïti sont la Banque de développement interaméricaine (41% du total), la Banque mondiale (27%) et divers pays (24%).
+&lt;br /&gt;&lt;br /&gt;
+Le ministre des Finances, Daniel Dorsainvil, cité dans le communiqué, s’est félicité de cet accord qui aidera le pays &quot;à investir dans des programmes de croissance et de réduction de la pauvreté&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Confrontée à une situation d’extrême pauvreté dûe en grande partie à la corruption et au pillage systématique du trésor public par différents régimes qui se sont succédés au pouvoir, Haïti avait subi en 2008 le passage dévastateur de quatre ouragans et tempêtes tropicales. Plus de 800 personnes avaient péri et les dégâts matériels et économiques enregistrés avaient dépassé 1 milliard de dollars. 
+&lt;br /&gt;&lt;br /&gt;spp/Radio Kiskeya
+</td>
+        <td>dette, allègement, haiti</td>
+        <td>2009-07-01 05:50:04.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC5" class="js-file-line">
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td>35</td>
+        <td> Le ministre des finances fait le dépôt du budget à la chambre basse   </td>
+        <td>En faisant le dépôt de la loi de finance 2009 – 2010 à la chambre basse hier, le ministre des finances Daniel Dorsainvil, a tenu ses promesses de respecter les prescrits de la constitution en la matière.
+&lt;br /&gt;&lt;br /&gt;
+L&#39;enveloppe budgétaire de 88,9 milliards de gourdes est légèrement en hausse par rapport à la loi de finance 2008- 2009 votée au début du mois. &quot; Nous avions consentis des efforts pour respecter notre engagement&quot;, a fait valoir M. Dorsainvil annonçant le début des échanges entre l&#39;exécutif et le législatif dans le cadre du processus d&#39;analyse de la loi de finance.
+Le budget d&#39;investissement est de 55.5 milliards et celui de dépenses est de 32.6 milliards de gourdes. L&#39;apport interne au budget d&#39;investissement est de seulement 8 milliards de gourdes.
+&lt;br /&gt;&lt;br /&gt;
+Le ministre Dorsainvil révèle que l&#39;appui budgétaire de la communauté internationale est de 3.2 milliards de gourdes qui s&#39;inscrivent dans une enveloppe globale de 50.6 milliards de gourdes d&#39;apport externe au budget.
+&lt;br /&gt;&lt;br /&gt;
+Il a soutenu que la sécurité publique, la production nationale et les infrastructures demeurent les principales priorités du gouvernement.
+&lt;br /&gt;&lt;br /&gt;
+Sénateurs et députés devront analyser et voter la loi de finance au cours des trois prochains mois.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>depot, projet de budget 2009-2010, dorsainvil</td>
+        <td>2009-07-02 05:45:50.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC6" class="js-file-line">
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td>36</td>
+        <td>La chambre basse se penche sur le projet de loi de finances 2009-2010</td>
+        <td>La commission de finances de la chambre basse commence à analyser le projet de loi de finances 2009-2010 qui a été déposé au parlement cette semaine par Le ministre de l&#39;Economie et des Finances, Daniel Dorsainvil.
+&lt;br /&gt;&lt;br /&gt;
+Le projet de budget pour la prochaine année fiscale s&#39;élève à 88,9 milliards de gourdes. Le président de la commission de finances le député Jean Marcel Lumerant qui opinait sur la conception et l&#39;orientation du projet de budget a indiqué que 85 milliards de gourdes seront mis à la disposition du pouvoir exécutif dont 30 milliards pour le budget de fonctionnement et 55 milliards pour le budget d&#39;investissement.
+&lt;br /&gt;&lt;br /&gt;
+Dans ce document Le pouvoir législatif dispose de 575 milliards de gourdes alors que le pouvoir judicaire doit se contenter de 879.960 mille gourdes.
+&lt;br /&gt;&lt;br /&gt;
+Le député Lumerant, président de la commission promet une étude minutieuse du document avant de pourvoir rendre son rapport à l&#39;assemblée des députés.
+&lt;br /&gt;&lt;br /&gt;
+C&#39;est pour la première fois, depuis plusieurs années, que l&#39;exécutif respecte l&#39;échéance constitutionnelle qui veut que le projet de budget soit déposé au Parlement à la fin du mois de juin. .
+&lt;br /&gt;&lt;br /&gt;
+http://www.metropolehaiti.com</td>
+        <td>loi de finances, chambre basse, senat</td>
+        <td>2009-07-02 13:20:15.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC7" class="js-file-line">
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td>37</td>
+        <td>Le FMI accorde 24,5 millions de dollars à Haïti </td>
+        <td>Le Fonds monétaire international a décidé d’étendre vendredi son programme de prêt à Haïti en lui accordant une enveloppe de 24,5 millions de dollars, selon un communiqué rendu public à Washington.
+&lt;br /&gt;&lt;br /&gt;
+&quot;Les autorités haïtiennes font face à des défis difficiles. La crise mondiale affecte actuellement Haïti principalement concernant la faiblesse des recettes fiscales&quot;, a indiqué le FMI.
+&lt;br /&gt;&lt;br /&gt;
+Rappelant avoir déjà débloqué des fonds en faveur du pays il y a deux mois, l’institution financière internationale précise qu’elle avait approuvé ce programme d’aide en novembre 2006 avant de porter les fonds disponibles à 177 millions de dollars. Une initiative qui est intervenue au milieu d’une récession économique mondiale et après les pertes énormes qu’avait entraînées le passage en Haïti de quatre ouragans et tempêtes tropicales en septembre et octobre 2008.
+&lt;br /&gt;&lt;br /&gt;
+Radio Kiskeya
+</td>
+        <td>fmi, dollars, haiti</td>
+        <td>2009-07-07 09:26:44.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC8" class="js-file-line">
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td>38</td>
+        <td> Les créanciers du Club de Paris annulent la dette d&#39;Haïti   </td>
+        <td>Le Club de Paris, groupe informel de créanciers publics, a annulé la totalité de la dette d&#39;Haïti, soit 214,73 millions de dollars. Dans un communiqué publié ce mercredi les membres du Club de Paris ont mis en évidence leur &quot;détermination&quot; à réduire la pauvreté&quot;.
+&lt;br /&gt;&lt;br /&gt;
+&quot;Afin de contribuer à restaurer la soutenabilité de la dette de la République d&#39;Haïti, les créanciers du Club de Paris ont décidé d&#39;annuler 62,73 millions de dollars&quot; au titre du dispositif des pays pauvres très endettés (PPTE), est-il indiqué. Haïti a rejoint le 30 juin la liste des PPTE, lui donnant droit à un effacement de dette réservé aux pays les plus démunis, selon le communiqué.
+&lt;br /&gt;&lt;br /&gt;
+Les créanciers du Club de Paris &quot;se sont également engagés à titre bilatéral&quot; à annuler 152 millions de dollars supplémentaires, précise le communiqué, appelant les autorités haïtiennes à favoriser &quot;une croissance économique soutenue et durable&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Parmi les membres du Club de Paris, l&#39;Allemagne, la Belgique, le Canada, le Danemark, l&#39;Espagne, les Etats-Unis, la France, l&#39;Italie, les Pays-Bas et le Royaume-Uni ont participé à l&#39;annulation de la dette d&#39;Haïti. La dette extérieure publique totale de la République d&#39;Haïti était d&#39;environ 1,8 milliard de dollars en valeur nominale fin septembre 2008.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>clud de paris, annulation, dette</td>
+        <td>2009-07-10 05:36:38.0</td>
+        <td>Bernard</td>
+      </tr>
+      <tr id="LC9" class="js-file-line">
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td>39</td>
+        <td>Annulation de la dette d’Haïti vis-à-vis de ses créanciers du Club de Paris, soit 214,73 millions de dollars</td>
+        <td>Les pays créanciers d’Haïti membres du Club de Paris ont convenu mercredi d’annuler, en deux étapes, la totalité de la dette d’Haïti vis-à-vis d’eux d’un montant de 214,73 millions de dollars.
+&lt;br /&gt;&lt;br /&gt;
+Le Club décide d’annuler 62,73 millions de dollars au titre du dispositif des Pays pauvres très endettés (PPTE).
+&lt;br /&gt;&lt;br /&gt;
+Les créanciers du Club de Paris se sont engagés à annuler, à titre bilatéral, 152 millions de dollars supplémentaires de dette d’Haïti. Ce qui devrait conduire à l’annulation totale de la dette d’Haïti vis-à-vis d’eux.
+&lt;br /&gt;&lt;br /&gt;
+« Cette décision a été prise suite à l’achèvement par Haït, le 30 juin dernier, de l’initiative renforcée en faveur des Pays pauvres très endettés (PPTE) », informe un communiqué du Club publié mercredi.
+&lt;br /&gt;&lt;br /&gt;
+La République d’Haïti s’est engagée à utiliser les ressources additionnelles provenant de l’annulation de sa dette pour atteindre les objectifs prioritaires identifiés dans son document de stratégie de réduction de la pauvreté, informe le Club de Paris.
+&lt;br /&gt;&lt;br /&gt;
+La dette externe publique d’Haïti s’élevait à 1,8 milliard de dollars en valeur nominale fin septembre 2008, selon le Club de Paris.
+&lt;br /&gt;&lt;br /&gt;
+Radio kiskeya</td>
+        <td>annulation, dette, haiti</td>
+        <td>2009-07-10 05:43:06.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC10" class="js-file-line">
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td>40</td>
+        <td>L’OEA se réjouit de l’annulation d’environ 2/3 de la dette d’Haïti vis-à-vis de la Banque Mondiale, du FMI et de la BID</td>
+        <td>Le secrétaire général adjoint de l’Organisation des Etats Américains, l’ambassadeur Albert Ramdin, s’est félicité jeudi, au cours d’une rencontre avec le groupe des pays amis d’Haïti au sein de l’organisation, de la décision conjointe de la Banque Mondiale, du Fond Monétaire International et de la Banque Interaméricaine de Développement d’annuler environ deux tiers de la dette d’Haïti vis-à-vis d’eux.
+&lt;br /&gt;&lt;br /&gt;
+Le montant de la dette annulée par les 3 institutions financières internationales s’élève à 1.2 billion de dollars.
+&lt;br /&gt;&lt;br /&gt;
+« L’annulation de la dette représentera certainement un apport substantiel au budget d’Haïti », a déclaré Ramdin après avoir présenté un rapport détaillé de la situation d’Haïti sur les plans économique, politique et social.
+&lt;br /&gt;&lt;br /&gt;
+Le représentant permanent d’Haïti à l’OEA, l’ambassadeur Duly Brutus, a mis l’accent sur l’importance de la décision prise par les 3 institutions multilatérales la qualifiant de « nouvelle incroyable pour le pays ».
+&lt;br /&gt;&lt;br /&gt;
+Soulignant le calme régnant en Haïti après le second tour des élections, Albert Ramdin a toutefois déploré le faible taux de participation à ce scrutin. Il s’est enfin félicité du support apporté par le groupe des amis d’Haïti au sein de l’OEA au renforcement du système électoral haïtien et à l’effort général en faveur de la stabilisation du pays dans le cadre de la Mission onusienne.
+&lt;br /&gt;&lt;br /&gt;
+Les créanciers d’Haïti au sein du Club de Paris ont convenu mercredi d’annuler, en deux étapes, la totalité de la dette d’Haïti vis-à-vis d’eux d’un montant de 214,73 millions de dollars.
+&lt;br /&gt;&lt;br /&gt;
+Ces annulations de dette effectuées au titre du dispositif des Pays pauvres très endettés (PPTE), rendent Haïti momentanément inéligibles pour certains prêts. Ce que déplorent de nombreux économistes.
+&lt;br /&gt;&lt;br /&gt;
+Radio Kiskéya</td>
+        <td>endettement,annulation</td>
+        <td>2009-07-11 07:29:51.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC11" class="js-file-line">
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td>41</td>
+        <td> Début des discussions entre l&#39;exécutif et le Parlement sur le budget   </td>
+        <td>Les membres de la commission parlementaire des finances auront des entretiens ce mardi avec la Première Michèle Pierre Louis, le ministre des finances, Daniel Dorsainvil et le ministre de la planification Jean Max Bellerive autour des grandes orientations de la loi de finances 2009 – 2010.
+&lt;br /&gt;&lt;br /&gt;
+Le président de la commission finance, Jean Marcel Lemeran, indique que le gouvernement devra expliquer les motivations dans la définition des priorités du budget. Selon le parlementaire, les élus sont dans l&#39;attente d&#39;un bilan des réalisations notamment dans le secteur justice/ sécurité, prioritaire depuis 2006.
+&lt;br /&gt;&lt;br /&gt;
+Le député de Grand Goave prédit que ces collègues feront écho des principales revendications de la population en ce qui concerne l&#39;administration publique.
+&lt;br /&gt;&lt;br /&gt;
+La séance de travail permettra l&#39;analyse de l&#39;ensemble du budget. La section recette et dépense de la loi de finance est gérée par le ministère des finances alors que la section investissement est placé sous la responsabilité du ministère de la planification.
+&lt;br /&gt;&lt;br /&gt;
+Le président de la commission finance de la chambre basse révèle qu&#39;une augmentation de 16 % est envisagée pour les fonctionnaires de l&#39;administration publique ayant un salaire inférieur à 38 000 gourdes.
+&lt;br /&gt;&lt;br /&gt;
+L&#39;enveloppe budgétaire de 88,9 milliards de gourdes est légèrement en hausse par rapport à la loi de finance 2008- 2009 votée au début du mois. Le budget d&#39;investissement est de 55.5 milliards et celui de dépenses est de 32.6 milliards de gourdes. L&#39;apport interne au budget d&#39;investissement est de seulement 8 milliards de gourdes.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>budget, pierre-louis,michele</td>
+        <td>2009-07-15 06:11:58.0</td>
+        <td>Bernard</td>
+      </tr>
+      <tr id="LC12" class="js-file-line">
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td>42</td>
+        <td>La Première Ministre veut introduire une nouvelle taxe sur les télécommunications   </td>
+        <td>La Première Ministre d&#39;Haïti, Michèle Pierre Louis, annonce qu&#39;elle entend réintroduire la législation relative à une nouvelle taxe sur les appels téléphoniques. Lors d&#39;une rencontre avec les membres de la commission finance de la chambre basse, Mme Pierre Louis a déploré que le projet de loi introduit l&#39;année dernière ait été rejeté par les élus. &quot; Je pense que cette taxe devrait déjà être prélevée&quot;, a lancé la Première Ministre qui se propose d&#39;engager des discussions avec les parlementaires autour de ce dossier.
+&lt;br /&gt;&lt;br /&gt;
+Pour justifier sa position Michèle Pierre Louis révèle qu&#39;Haïti est le seul pays de la région qui n&#39;applique pas de taxe sur les appels entrants internationaux.
+&lt;br /&gt;&lt;br /&gt;
+La démarche du gouvernement consiste à appliquer une taxe sur les entreprises et non les sur les utilisateurs . La Première Ministre fait remarquer que les compagnies de téléphonie réalisent des bénéfices importants dans la rubrique des appels internationaux.
+&lt;br /&gt;&lt;br /&gt;
+Le gouvernement se propose donc de capter une partie des bénéfices des 4 compagnies de téléphonie dans le cadre des efforts visant à obtenir des ressources financiers additionnelles.
+&lt;br /&gt;&lt;br /&gt;
+Même si aucune date n&#39;est annoncée le gouvernement semble faire de la nouvelle taxation sur les appels téléphoniques une de ses principales priorités.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>Duvivier Pierre-Louis, pm, telecommunication, taxe</td>
+        <td>2009-07-17 05:29:24.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC13" class="js-file-line">
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td>43</td>
+        <td>Vers la création d’un &quot;Fonds interaméricain pour Haïti&quot;</td>
+        <td>Le Secrétaire général adjoint de l’Organisation des Etats américains, Albert Ramdin, a tenu jeudi à Washington une réunion avec les représentants de différentes institutions régionales sur le renforcement de leur coopération en vue de la mise en place prochaine d’un &quot;Programme interaméricain pour Haïti&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Selon un communiqué de l’OEA, la Banque interaméricaine de développement (BID), l’Organisation panaméricaine de la santé (OPS/OMS), la Fondation panaméricaine pour le développement (PADF) et l’Institut interaméricain de coopération pour l’agriculture (IICA) ont pris part à cette rencontre.
+&lt;br /&gt;&lt;br /&gt;
+&quot;La coordination de l’assistance des donateurs reste encore un élément faible dans les efforts généraux déployés en faveur d’Haïti&quot;, a fait remarquer le numéro deux de l’organisation hémisphérique ajoutant &quot;à mon sens, il est d’une importance cruciale d’intensifier la coopération entre les institutions interaméricaines concernant Haïti, non seulement à Washington DC, mais aussi sur le terrain où nous devons coordonner du mieux que possible l’assistance au développement afin de faire une utilisation rationnelle des ressources disponibles&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Albert Ramdin explique que les différents acteurs vont se pencher sur les modalités de création d’un Fonds de développement hémisphérique pour Haïti conformément à l’engagement auquel avaient souscrit les chefs d’Etat et de gouvernement présents au Ve sommet des Amériques, en avril dernier à Trinidad et Tobago. Il espère que le rapport relatif à la création du Fonds sera disponible d’ici deux mois.
+&lt;br /&gt;&lt;br /&gt;
+L’OEA informe qu’à la réunion de jeudi, les cinq organismes interaméricains ont approuvé la préparation d’une &quot;mission de haut niveau&quot; attendue à Port-au-Prince à la mi-septembre. La délégation qui devra analyser &quot;la situation actuelle en Haïti et les projets positifs qui s’y développent&quot; sera composée, outre l’OEA, la BID, l’OPS, la PADF et l’IICA, de représentants des pays membres de l’organisation hémisphérique, de parlementaires et de médias.
+&lt;br /&gt;&lt;br /&gt;
+A côté de ses fonctions de secrétaire général adjoint de l’OEA, M. Ramdin dirige une task force sur Haïti. L’organisation panaméricaine joue dans le pays un rôle politique et technique de premier plan dans le cadre d’une prise en charge internationale consécutive à des crises en cascade ayant fortement ébranlé les institutions nationales et l’autorité de l’Etat.
+&lt;br /&gt;&lt;br /&gt;
+Radio Kiskeya
+</td>
+        <td>fonds interamérication, haiti</td>
+        <td>2009-07-17 05:35:42.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC14" class="js-file-line">
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td>44</td>
+        <td>Haïti allégement de la dette; Le premier ministre applaudit cette décision   </td>
+        <td>Le premier ministre haïtien Michèle D, Pierre-Louis s&#39;est réjouit de la décision prise par des institutions internationale d&#39;alléger la dette haïtienne de 1,2 milliards de dollars.
+&lt;br /&gt;&lt;br /&gt;
+« C&#39;est parce qu&#39;Haïti a su répondre aux conditionnalités de l&#39;allègement de la dette et que nous avons pu maintenir une certaines stabilité macro-économique » a laissé entendre le chef du gouvernement haïtien. .
+&lt;br /&gt;&lt;br /&gt;
+Michelle Duvivier Pierre Louis a fait ses déclarations en marge du forum déroulé à Port-au-Prince, les 16 et 17 juillet 2009, sous les auspices de la Banque interaméricaine de développement (BID) à l&#39;occasion de son cinquantenaire. .
+&lt;br /&gt;&lt;br /&gt;
+« Concrètement, cela signifie que 50 millions de dollars US n&#39;auront pas à être payés au titre du service de la dette chaque année. Cela veut donc dire que cette somme sera disponible dans le budget pour faire face à l&#39;augmentation du budget de fonctionnement et d&#39;investissement. signale Mme Pierre-Louis. .
+&lt;br /&gt;&lt;br /&gt;
+Le premier ministre haïtien a rappelé qu&#39; « Haïti est un des membres fondateurs de la Banque interaméricaine pour le développement. .
+&lt;br /&gt;&lt;br /&gt;
+Elle, a aussi insisté sur l&#39;importance de l&#39;appui de la BID dans un projet d&#39;identification en cours de toutes les Haïtiennes et de tous les Haïtiens. .
+&lt;br /&gt;&lt;br /&gt;
+A signaler en termes d&#39;allègement de la dette extérieure d&#39;Haïti [qui s&#39;élève à 1,2 milliard de dollars américains auprès de différents créditeurs], la BID annule 549 millions de dollars US dont 34,15 millions déjà alloués au titre d&#39;assistance intérimaire.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>allègement, dette, pm</td>
+        <td>2009-07-21 05:13:19.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC15" class="js-file-line">
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td>45</td>
+        <td>Bras de fer entre le gouvernement et le Parlement autour du 14 eme mois   </td>
+        <td>De nombreux députés menacent de ne pas voter la loi de finance 2009 – 2010 si le gouvernement persiste dans son refus d&#39;accorder des subventions scolaires aux fonctionnaires de l&#39;Etat.
+&lt;br /&gt;&lt;br /&gt;
+Le président de la commission finance de la chambre basse, Jean Marcel Lumérant, a révélé que le rapport de la commission a été déjà soumis au bureau. Il souligne que les présidents des commissions ont décidé de reporter la séance consacrée au vote du rapport afin de contraindre le ministre des finances à confirmer le versement du 14 eme mois aux 60 000 employés de la fonction publique.
+&lt;br /&gt;&lt;br /&gt;
+De nombreux députés et sénateurs sont mecontents de la décision du grand argentier de la république de mettre un terme au versement des subventions scolaires. La loi de finance est donc dans l&#39;impasse à la chambre basse en raison du 14 eme qui n&#39;est tout même pas prévu par le code du travail.
+&lt;br /&gt;&lt;br /&gt;
+Une rencontre entre la Première Ministre et l&#39;assemblée des députés est prévue le mardi 25 aout afin d&#39;évaluer les possibilités de mobiliser des fonds pour la subvention scolaire. Michèle Pierre Louis sera accompagnée des ministres des finances et de la planification au cours de cette séance de travail qui permettra également d&#39;analyser les projets prévus dans le budget 2008 – 2009.
+&lt;br /&gt;&lt;br /&gt;
+Le député de Pétion ville, Steven Benoit, met l&#39;accent sur la nécessité d&#39;accorder cette subvention tout en faisant remarquer qu&#39;elle pourrait être éliminer dans le prochain budget.
+&lt;br /&gt;&lt;br /&gt;
+Le sénateur Joseph Lambert s&#39;attend à un effort spécial du gouvernement pour accorder ce 14 eme tant attendu par les parents. Il préconise que cette subvention soit accordée partiellement en attendant le vote du budget 2009 -2010.
+&lt;br /&gt;&lt;br &gt;
+http://www.metropolehaiti.com</td>
+        <td>budget, quatrozième mois, 14e</td>
+        <td>2009-08-24 05:44:18.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC16" class="js-file-line">
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td>46</td>
+        <td>Nouvelle pomme « apparente » de discorde entre le Législatif et l’Exécutif : la suppression du 14ème mois de salaire aux employés de l’Etat</td>
+        <td>La décision de ne pas accorder un 14ème mois de salaire cette année aux employés de l’état commence à devenir un véritable sujet de préoccupation au parlement où certains sénateurs, des députés et même des employés du parlement appréhendent les conséquences d’une telle disposition sur la rentrée scolaire.
+&lt;br /&gt;&lt;br /&gt;
+Le sénateur Jean Hector Anacacis (Ouest, LESPWA) a ouvertement désapprouvé cette disposition, estimant qu’elle nuira à coup sûr aux parents qui se servent ordinairement de cet argent pour faire face aux coûteuses exigences de la rentrée scolaire. Anacacis demande au gouvernement d’user de tout ce qui est en son pouvoir afin de trouver les ressources nécessaires au paiement du 14ème mois de salaire.
+&lt;br /&gt;&lt;br /&gt;
+Abondant dans le même sens, le député Anthony Dumont (Léogane, RDNP) a critiqué le fait que le gouvernement ait attendu la veille de la rentrée scolaire pour annoncer « une aussi grave décision ».
+&lt;br /&gt;&lt;br /&gt;
+Le parlementaire a lancé un appel au gouvernement pour qu’il se ressaisisse au plus vite.
+&lt;br /&gt;&lt;br /&gt;
+Se mêlant de la partie, des employés du parlement ont exprimé jeudi leur désarroi face à cette mesure au micro des journalistes accrédités au Palais législatif.
+&lt;br /&gt;&lt;br /&gt;
+Face au tollé soulevé par la disposition, le président de la Commission Finances de la Chambre basse, le député Jean Marcel Lumérant, a annoncé la convocation la semaine prochaine, pour des explications, du ministre de l’Economie et des Finances, Daniel Dorsainvil et de son collègue de la Planification et de la Coopération Externe, Jean Max Bellerive.
+&lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>14e, budget, quatorzième mois</td>
+        <td>2009-08-24 05:50:15.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC17" class="js-file-line">
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td>47</td>
+        <td>Le premier ministre haïtien est attendu ce mardi au parlement   </td>
+        <td>Le chef du gouvernement accompagné des ministres des finances et de la panification externe est attendu ce mardi au sénat de la république selon le président de la chambre des députés.
+&lt;br /&gt;&lt;br /&gt;
+Plusieurs points sont à l&#39;ordre du jour lors de cette invitation, comme par exemple le paiement d&#39;un quatorzième mois aux employés de la fonction publique, et les 197 millions de dollars débloqués dans le cadre d&#39;un fond d&#39;urgence a indiqué Levaillant Louis Jeune. .
+&lt;br /&gt;&lt;br /&gt;
+Michelle Duvivier Pierre Louis devrait aussi fournir aux parlementaires des explications sur la façon dont été dépensés les fonds mis à la disposition du gouvernement dans le cadre du budget 2008-2009 a-t il-ajouté. .
+&lt;br /&gt;&lt;br /&gt;
+Certains parlementaires protestent contre la suppression du paiement du quatorzième mois aux employés de l&#39;Etat. Ils pensent qu&#39;il est possible de réaffecter certains fonds dans le projet de budget 20o9-2010 pour ne pas pénaliser les employés concernés. .
+&lt;br /&gt;&lt;br /&gt;
+Ils menacent déjà de ne pas voter le budget pour la nouvelle année fiscale si le gouvernement ne revient pas sur sa décision. .
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>parlement, budget, 14e mois</td>
+        <td>2009-08-24 11:32:58.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC18" class="js-file-line">
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td>48</td>
+        <td>Le gouvernement élimine le 14 eme mois</td>
+        <td>Le dossier des subventions scolaires aux fonctionnaires de l&#39;Etat a été débattu lors d&#39;une séance de travail hier entre le ministre des finances, Daniel Dorsainvil, et plusieurs députés, membres des commissions permanentes.
+&lt;br /&gt;&lt;br /&gt;
+Le grand argentier de la république a confirmé la décision du gouvernement de ne pas accorder les subventions scolaires, connu sous le nom de 14 eme mois.
+&lt;br /&gt;&lt;br /&gt;
+Il a expliqué que ces subventions totalisant 25 millions de dollars américains ne sont pas prioritaires comparées à des projets d&#39;infrastructures routières ou de relance de la production agricole. &quot; Cette subvention spéciale qui a été accordée en certaine occasion nécessite des ressources non disponibles&quot;, insiste le ministre des finances faisant remarquer qu&#39;aucune allocation dans le budget n&#39;a été prévue pour cette subvention.
+&lt;br /&gt;&lt;br /&gt;
+M. Dorsainvil a également attiré l&#39;attention sur la nécessité pour que le gouvernement mobilise des fonds en vue de subventionner des manuels scolaires et d&#39;autres programmes destinés à l&#39;ensemble de la population.
+&lt;br /&gt;&lt;br /&gt;
+Le gouvernement envisage de financer la confection de plusieurs centaines de milliers d&#39;uniformes et le programme de cantine scolaire.
+&lt;br /&gt;&lt;br /&gt;
+Face à l&#39;insistance des élus, le ministre des finances a évoqué la possibilité d&#39;accorder une première tranche du bonus aux fonctionnaires de l&#39;Etat au cours du mois de septembre. Il signale que la seconde tranche du bonus annuel devrait être versée comme prévue en décembre 2009.
+&lt;br /&gt;&lt;br /&gt;http://www.metropolehaiti.com</td>
+        <td>budget, 14e mois, dorsainvil, ministère des finances</td>
+        <td>2009-08-26 09:56:26.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC19" class="js-file-line">
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td>49</td>
+        <td>Le gouvernement réaffirme ne pas pouvoir accorder un 14ème mois de salaire cette année aux employés de l’Etat</td>
+        <td>La première ministre Michèle Pierre Louis a affirmé jeudi, par-devant la Commission Finances de la Chambre basse, l’impossibilité pour le gouvernement d’accorder cette année un 14ème mois de salaire aux employés de l’Etat, à l’occasion de la rentrée des classes.
+&lt;br /&gt;&lt;br /&gt;
+« La question du 14ème mois de salaire soulève un problème d’ordre financier, social et éthique », a soutenu Mme Michèle Pierre Louis à l’appui de l’argumentation qu’elle a développée pour justifier l’impossibilité d’accorder le bonus spécial.
+&lt;br /&gt;&lt;br /&gt;
+Le ministre de l’Economie et des finances, Daniel Dorsainvil, a proposé que le bonus distribué à la fin de l’année soit plutôt versé en deux temps,une partie maintenant, et l’autre en décembre. Formule que les membres de la commission ont formellement rejetée. Ils ont par contre proposé que le gouvernement insère le montant correspondant au 14ème mois dans le projet de budget 2009-2010 qui, s’il est voté, sera en vigueur à partir du 1er octobre. Le chef du gouvernement a promis d’analyser la proposition et de communiquer sa réponse aux députés dans 48 heures.
+&lt;br /&gt;&lt;br /&gt;
+La majorité des députés présents à l’audition se sont prononcés en faveur du « 14ème mois ».
+&lt;br /&gt;&lt;br /&gt;
+Outre le ministre des Finances, le chef du gouvernement s’était fait accompagner au Parlement du ministre de la Planification et de la Coopération externe, Jean Max Bellerive.
+&lt;br /&gt;&lt;br /&gt;
+La question du 14ème mois fait depuis quelques jours l’objet de débats passionnés au Parlement haïtien et dans les médias. Elle concerne des milliers d’employés du secteur public qui, depuis environ 3 ans, bénéficient de cette forme de subvention gouvernementale à la rentrée des classes.
+&lt;br /&gt;&lt;br /&gt;
+Alors que le débat va encore bon train, certains organismes autonomes de l’Etat auraient déjà distribué ce bonus spécial à leurs employés.
+&lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>14e mois, budget</td>
+        <td>2009-08-28 05:46:33.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC20" class="js-file-line">
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td>50</td>
+        <td>Le gouvernement ne dispose pas de moyens financiers pour accorder un 14è mois cette année   </td>
+        <td>La première ministre Michèle Pierre Louis a réaffirmé jeudi devant la commission/finances de la chambre des députés, que le gouvernement n&#39;a pas les moyens d&#39;accorder cette année un 14è mois de salaires aux employés de la fonction publique comme c&#39;est le cas depuis plusieurs années.
+&lt;br /&gt;&lt;br /&gt;
+Le moment est venu pour l&#39;Etat haïtien de bien dépenser l&#39;argent du trésor public&quot;, a fait savoir Michèle Pierre Louis .
+&lt;br /&gt;&lt;br /&gt;
+Le chef du gouvernement a précisé qu&#39;un mois de salaires pour 60,500 agents de la fonction publique s&#39;élève à près d&#39;un milliard de gourdes soit 25 millions de dollars américains.
+&lt;br /&gt;&lt;br /&gt;
+Faisant savoir que son gouvernement entreprend toutes les démarches possibles pour redresser la situation de corruption et de gaspillage qui règne dans l&#39;Etat, elle s&#39;est demandée s&#39;il faut distribuer ces fonds à 60,500 personnes ayant déjà 13 mois de salaires ou les utiliser au service de la collectivité.
+&lt;br /&gt;&lt;br /&gt;
+&quot;La majorité de la population ne travaille pas dans l&#39;Etat et les autorités se doivent de se pencher sur le sort de ceux qui gagnent 2 dollars américains par jour, a-t-elle indiqué, ajoutant que c&#39;est à l&#39;Etat qu&#39;il revient de s&#39;occuper surtout des plus pauvres et de combattre la corruption.
+&lt;br /&gt;&lt;br /&gt;
+Soulignant qu&#39;elle ne dispose même pas d&#39;une automobile neuve à la primature, Michèle Pierre-Louis a dit qu&#39;elle se sentirait inconfortable en augmentant le nombre de véhicules du parc automobile d&#39;un Etat dont la gestion laisse à désirer.
+&lt;br /&gt;&lt;br /&gt;
+A Face à l&#39;insistance des élus, le ministre des finances avait évoqué la semaine dernière la possibilité d&#39;accorder une première tranche du bonus aux fonctionnaires de l&#39;Etat au cours du mois de septembre.
+&lt;br /&gt;&lt;br /&gt;
+Il signale que la seconde tranche du bonus annuel devrait être versée comme prévue en décembre 2009.
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>14e mois, budget</td>
+        <td>2009-08-28 13:31:50.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC21" class="js-file-line">
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td>51</td>
+        <td>Haïti-rentrée scolaire: le gouvernement maintient sa décision de ne plus subventionner les fonctionnaires publics</td>
+        <td>Le gouvernement a maintenu sa décision de ne pas octroyer cette année le “quatorzième mois de salaire” aux employés de la fonction publique. Dans une correspondance adressée lundi au Président de la Chambre basse, Levaillant Louis-Jeune, la Première Ministre, Michèle Pierre-Louis, a expliqué que le budget de l’exercice fiscal 2008-2009 ne lui permettrait pas d’accorder cette subvention.
+&lt;br /&gt;&lt;br /&gt;
+Cependant, une avance de 50 % pourrait être attribuée aux fonctionnaires publics sur leur bonus régulier, si ces derniers le souhaitaient, a indiqué Madame Pierre-Louis.
+&lt;br /&gt;&lt;br /&gt;
+Le gouvernement serait également prêt à accompagner les parents nécessiteux à l’occasion de la rentrée des classes en leur offrant des kits scolaires, livres et uniformes.
+&lt;br /&gt;&lt;br /&gt;
+De plus, les efforts de l’équipe gouvernementale sont concentrés sur la réhabilitation des infrastructures endommagées lors du passage des cyclones en été dernier et sur la relance de la production agricole, a-t-elle dit.    
+&lt;br /&gt;&lt;br /&gt;
+Le Président de la Chambre des Députés a fait savoir que cette subvention n’était non plus insérée dans le budget de l’exercice fiscal 2009-2010.
+&lt;br /&gt;&lt;br /&gt;
+M. Louis-Jeune a dit qu’il incombait aux Députés de trancher sur la question tout en évitant un bras de fer entre l’exécutif et le Parlement vu la situation actuelle.
+&lt;br /&gt;&lt;br /&gt;
+Cette décision des autorités a révolté le Député Denis Saint-Fort, estimant que le gouvernement devrait être interpellé si ses collègues étaient responsables.
+&lt;br /&gt;&lt;br /&gt;
+Pour sa part, le Député Hugues Célestin s’est dit surpris de la décision du gouvernement de refuser le “quatorzième mois de salaire” aux employés de la fonction publique vu les ”fortes sommes engagées par les autorités pour parvenir à l’adoption des objections du Chef de l’Etat sur le salaire minimum”.
+&lt;br /&gt;&lt;br /&gt;
+Le Parlementaire a fait référence notamment aux dépenses effectuées pour la diffusion des spots concernant les recommandations de René Préval.
+&lt;br /&gt;&lt;br /&gt;
+M. Célestin serait disposé à rejoindre les Parlementaires favorables à l’interpellation du gouvernement.
+&lt;br /&gt;&lt;br /&gt;
+Depuis environ cinq (5) ans le gouvernement accordait un “quatorzième mois de salaire” aux fonctionnaires publics à chaque rentrée scolaire.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>14e, subventions, budget</td>
+        <td>2009-09-02 06:48:05.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC22" class="js-file-line">
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td>52</td>
+        <td>Michèle Pierre Louis refuse d&#39;accorder une subvention spéciale aux fonctionnaires   </td>
+        <td>La Première Ministre Michèle Pierre Louis dans une lettre au président de la chambre basse a expliqué que son gouvernement ne dispose pas de ressources financières pour accorder le 14 eme mois aux 60 500 fonctionnaires de l&#39;Etat.
+&lt;br /&gt;&lt;br /&gt;
+Elle a fait remarquer que cette rubrique n&#39;avait pas été insérée dans le budget 2008 -2009. De plus, elle informe qu&#39;aucune allocation pour le 14 eme mois ne figure dans le projet de loi de finance 2009-2010 qui a été récemment voté par la chambre basse.
+&lt;br /&gt;&lt;br /&gt;
+Pour conforter sa position la Première Ministre soutient que son gouvernement a décidé d&#39;accorder la priorité au programmes de subventions des manuels scolaires et des uniformes pour plusieurs milliers de familles dans le cadre de la rentrée scolaire.
+&lt;br /&gt;&lt;br /&gt;
+Dans sa correspondance, Mme Pierre Louis assure que son gouvernement préfère mobiliser les ressources financières disponibles pour la réalisation de projet d&#39;infrastructure visant notamment la relance de la production nationale.
+&lt;br /&gt;&lt;br /&gt;
+Toutefois elle annonce qu&#39;une première tranche du bonus annuel sera disponible afin de permettre aux fonctionnaires de l&#39;Etat de préparer la rentrée scolaire. Cette première tranche du bonus pourrait être accordée aux employés qui en font la demande.
+&lt;br /&gt;&lt;br /&gt;
+La chambre des députés devra se prononcer ce mercredi sur le refus du gouvernement d&#39;accorder une subvention spéciale, connue sous le nom de 14 eme mois aux employés de la fonction publique.
+&lt;br /&gt;&lt;br /&gt;
+De son coté, le président de la chambre basse souhaite que collègues évitent un bras de fer avec l&#39;exécutif autour de l&#39;épineux dossier du 14 eme mois.
+&lt;br /&gt;&lt;br /&gt;
+Plusieurs élus dont le député de Limonade, Hugues Célestin, envisagent d&#39;interpeller le gouvernement qui selon eux n&#39;œuvre pas afin d&#39;améliorer la situation des couches défavorisées.
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>14e, subventions scolaires</td>
+        <td>2009-09-02 15:06:35.0</td>
+        <td>Bernard</td>
+      </tr>
+      <tr id="LC23" class="js-file-line">
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td>53</td>
+        <td>Haïti : Nouveau don de 30 millions de dollars de la BID </td>
+        <td>La Banque inter-américaine de développement va accorder à Haïti un nouveau don de 30 millions dollars qui doit assurer le financement de travaux de prévention d’inondations dans trois bassins versants essentiels et la promotion du développement agricole durable.
+&lt;br /&gt;&lt;br /&gt;
+Selon un communiqué rendu public mercredi à Washington, cette enveloppe constituera la part de contribution de la BID à des ouvrages publics qui doivent être réalisés sur une superficie représentant 6% du territoire national. Quelque 360.000 habitants des bassins versants de la Grande Rivière du Nord (nord), de la Ravine du Sud et de Cavaillon (sud) seront les bénéficiaires des interventions techniques qui doivent limiter les flux torrentiels, protéger les infrastructures et les biens immobiliers susceptibles d’être touchés par des inondations ou des glissements de terrain.
+&lt;br &gt;&lt;br /&gt;
+D’autre part, il est prévu une assistance directe à la promotion de l’agriculture durable dans les bassins versants. Ainsi, des dons seront réservés aux producteurs légalement reconnus ou à des cultivateurs indépendants qui accepteront de pratiquer une forme d’agriculture favorable à la lutte contre l’érosion dans les parties les plus vulnérables des bassins versants. En vue de minimiser la gravité des catastrophes naturelles, une partie des 30 millions de dollars sera consacrée à l’assistance technique, la formation et la fourniture de matériels à huit municipalités et entités responsables de l’aménagement des bassins.
+&lt;br &gt;&lt;br /&gt;
+De l’avis de Gilles Damais, chef d’équipe de projet à la BID, les ouvrages financés devraient permettre de réduire jusqu’à 20 % l’intensité des inondations dans les trois régions ciblées et d’augmenter de 20 % leur couverture végétale.
+&lt;br /&gt;&lt;br /&gt;
+Le communiqué souligne que le don s’inscrit dans le cadre d’efforts déployés par les autorités haïtiennes et la Banque interaméricaine de développement afin de limiter les menaces constantes de désastres naturels auxquelles fait face la population et de renforcer les infrastructures essentielles dans les bassins versants extrêmement vulnérables.
+&lt;br /&gt;&lt;br /&gt;
+La BID participe aussi à la mise en place d’un programme national d’alerte précoce pour les 13 principaux bassins versants du pays en cas d’inondations. Dans cette perspective, l’on procédera prochainement dans les départements du Sud-Est et du Sud à la distribution de matériels et à la formation des communautés locales. Tout le dispositif de gestion des inondations devrait être opérationnel en décembre 2010.
+&lt;br /&gt;,br /&gt;
+Outre la prévention des catastrophes, la BID qui figure parmi les principaux partenaires multilatéraux d’Haïti, intervient dans l’amélioration des infrastructures et des services de base. Ses dons pour l’année 2009 totalisent 122 millions de dollars et devraient passer en 2010 à 128 millions.
+&lt;br /&gt;&lt;br /&gt;
+Haïti, qui a récemment obtenu l’effacement d’une bonne partie de sa dette externe, n’a plus accès, depuis plusieurs années, au portefeuille de crédit des institutions financières internationales.
+&lt;br /&gt;&lt;br /&gt;
+Radio Kiskeya</td>
+        <td>don de la bid, bid</td>
+        <td>2009-09-17 11:47:55.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC24" class="js-file-line">
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td>54</td>
+        <td>Haïti-USA : accord pour annuler la dette bilatérale haïtienne</td>
+        <td>Selon un communiqué de l’ambassade, cet accord est réservé aux pays pauvres très endettés (PPTE). Reconnaissant qu’Haïti a atteint le point d’achèvement de l&#39;Initiative PPTE avec succès, environ 12.6 millions de dollars – représentant la totalité de la dette d&#39;Haïti envers le gouvernement américain – seront annulés selon les termes de cet accord.
+&lt;br /&gt;&lt;br /&gt;
+«Je tiens à féliciter le ministre Dorsainvil et le gouvernement haïtien pour leurs efforts concernant la responsabilité fiscale», a déclaré l&#39;ambassadeur Merten. «Je suis heureux d&#39;annoncer que nous avons maintenant conclu un accord bilatéral de réduction de dette avec Haïti. Selon cet accord, les États-Unis annulent les 12.6 millions de dollars de la dette bilatérale, ce qui représente la totalité de la dette du gouvernement haïtien envers le gouvernement américain», a-t-il ajouté.
+&lt;br /&gt;&lt;br /&gt;
+L’application avec succès des réformes économiques et financières par Haiti étaient des facteurs primordiaux conduisant à ces engagements internationaux d’allègement de la dette d&#39;Haïti. Cet été, Haïti a rempli les conditions requises aux Pays Pauvres Très Endettés (PPTE) qui la qualifient à obtenir plus de 1 milliard de dollars d’allègement de sa dette par ses créanciers multilatéraux et bilatéraux.
+&lt;br /&gt;&lt;br /&gt;
+L&#39;accord signé vendredi met en œuvre la portion américaine d’un accord multilatéral que les créanciers officiels du groupe du Club de Paris ont négocié avec Haïti le 8 juillet dernier concernant l’annulation d’environ 62.7 millions de dollars de sa dette officielle.
+&lt;br /&gt;&lt;br /&gt;
+Les créanciers d’Haïti au Club de Paris, incluant le Canada, la France, l&#39;Italie et les Etats-Unis ont l’intention de fournir 152 millions de dollars en annulation additionnelle de dette au-delà des pré requis exigés par l’Initiative accordée aux Pays Pauvres Très Endettés (PPTE).
+&lt;br /&gt;&lt;br /&gt;
+Suite à cette décision, la totalité de la dette d’Haïti envers les membres du Club de Paris, qui est estimée à 214 millions de dollars, sera entièrement annulée.
+&lt;br /&gt;&lt;br /&gt;
+haitipressnetwork.com</td>
+        <td>annulation dete haiti, dette</td>
+        <td>2009-09-19 08:32:50.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC25" class="js-file-line">
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td>55</td>
+        <td>Les Etats-Unis annulent la dette d&#39;Haïti   </td>
+        <td>L&#39;Ambassadeur des Etats-Unis à Port-au-Prince, Kenneth H. Merten, et le Ministre Haïtien de l&#39;Economie et des Finances, Daniel Dorsainvil, ont paraphé vendredi dernier l&#39;accord qui permet d&#39;effacer la totalité de la dette d&#39;Haïti envers le gouvernement américain soit 12.6 millions de dollars.
+&lt;br /&gt;&lt;br /&gt;
+Le diplomate américain a salué les efforts du gouvernement haïtien dans le domaine de la responsabilité fiscale. L&#39;application avec succès des réformes économiques et financières par Haïti étaient des facteurs primordiaux conduisant à ces engagements internationaux d&#39;allègement de la dette d&#39;Haïti.
+&lt;br /&gt;&lt;br /&gt;
+L&#39;ambassadeur des Etats-Unis a rappelé qu&#39;Haïti a rempli au cour de l&#39;été 2009, les conditions requises aux Pays Pauvres Très Endettés (PPTE) l&#39;autorisant à obtenir plus de 1 milliard de dollars d&#39;allègement de sa dette par ses créanciers multilatéraux et bilatéraux.
+&lt;br /&gt;&lt;br /&gt;
+Selon M. Merten l&#39;accord du 18 septembre représente la participation des Etats-Unis à l&#39;accord multilatéral que les créanciers officiels du groupe du Club de Paris avaient négocié avec Haïti en juillet dernier. Les créanciers d&#39;Haïti au Club de Paris, le Canada, la France, l&#39;Italie et les Etats-Unis ont promis d&#39;annuler 62.7 millions de dollars de la dette officielle d&#39;Haiti.
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>annulation, dette, USA</td>
+        <td>2009-09-21 08:08:26.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC26" class="js-file-line">
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td>56</td>
+        <td>Le projet loi de finances 2009-2010 à l&#39;ordre du jour au Sénat de la république   </td>
+        <td>Le sénat de la république pourrait se pencher ce jeudi sur le rapport de la commission de finances chargée d&#39;analyser le projet loi de finances 2009-2010.
+&lt;br /&gt;&lt;br /&gt;
+En dépit des failles répertoriées dans le projet de loi, il devrait passer avec des corrections à la chambre haute avait averti le président de la commission de finances le sénateur Nelnel Cassis.
+&lt;br /&gt;&lt;br /&gt;
+Le budget pour l&#39;année fiscale à venir est évalué à 88.9milliards de gourdes ; 22.6 milliards vont dans les dépenses courantes ,55.5 milliards concernent les dépenses d&#39;investissement.
+&lt;br /&gt;&lt;br /&gt;
+Le budget est ventilé en fonction des mêmes priorités du gouvernement
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>loi de finances, senat, budget</td>
+        <td>2009-09-24 14:45:40.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC27" class="js-file-line">
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td>57</td>
+        <td>258 millions de dollars pour Haïti, promet le Clinton Global Initiative</td>
+        <td>Le Clinton Global Initiative (CGI) dirigé par l’ancien Président américain et actuel envoyé spécial de l’ONU pour Haïti, Bill Clinton, a annoncé vendredi une enveloppe de 258 millions de dollars pour la réalisation de différents projets en Haïti, rapporte l’Associated Press.
+&lt;br /&gt;&lt;br /&gt;
+Lors de la conférence annuelle de la fondation qui s’est déroulée à New York, en marge de la 64e assemblée générale ordinaire des Nations Unies, 21 projets ont été dévoilés. Parmi eux, la distribution, pendant trois ans, d’eau potable et d’installations sanitaires à 50.000 haïtiens issus des couches les plus défavorisées, selon un engagement financier de 2 millions de dollars de Water.org, une organisation du célèbre acteur américain Matt Damon.
+&lt;br /&gt;&lt;br /&gt;
+De leur côté, Habitat pour l’humanité et l’Agence américaine pour le développement international (USAID) ont promis 4,5 millions de dollars qui seront consacrés aux travaux de réparation de 1.500 habitations familiales aux Gonaïves (171 km au nord de Port-au-Prince) et à Cabaret (35 km au nord), deux villes ravagées au cours du passage, l’an dernier, de quatre ouragans et tempêtes tropicales.
+&lt;br /&gt;&lt;br /&gt;
+En 2008, une campagne similaire de levée de fonds du Clinton Global Initiative avait permis de récolter 170 millions de dollars pour 31 projets à travers le pays.
+&lt;br /&gt;&lt;br /&gt;
+Un porte-parole de Bill Clinton précise qu’une partie de l’aide promise cette année a déjà été débloquée.
+&lt;br /&gt;&lt;br /&gt;
+Parmi les personnalités présentes à la réunion annuelle du CGI figuraient le Président René Préval, la militante écologiste kényane et Prix Nobel de la paix 2004, Wangari Maathai et l’acteur américain Brad Pitt, une des coqueluches d’Hollywood. &lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>clinton, clinton global initiative</td>
+        <td>2009-09-26 06:45:05.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC28" class="js-file-line">
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td>58</td>
+        <td>La BID accorde 3 millions de dollars pour la réhabilitation de l&#39;environnement   </td>
+        <td>La Banque Interaméricaine de développement (BID) a octroyé mercredi dernier un don de 3,44 millions pour soutenir la gestion durable des terres et des forêts et améliorer la préservation du parc de Macaya. Ce don, permettra le reboisement des principaux bassins hydrologiques du sud-ouest du pays et la mise en œuvre d&#39;un système de contrôle et de séquestration du carbone pour prévenir les émissions de gaz à effet de serre dans la zone abritant le parc de Macaya.
+&lt;br /&gt;&lt;br /&gt;
+Le projet sera exécuté pendant 4 ans et renferme quatre composantes, dont le renforcement des capacités de gestion des bassins hydrologiques et l&#39;adoption de technologies de gestion durable des terres.
+&lt;br /&gt;&lt;br /&gt;
+Il est également prévu un renforcement des capacités locales de protection des sols et de séquestration du carbone, une augmentation de la plantation d&#39;arbres fruitiers et de haute futaie, ainsi que l&#39;accroissement de la productivité de l&#39;élevage dans les sommets des bassins hydrologiques.
+&lt;br /&gt;&lt;br /&gt;
+En outre la restauration de 200 hectares de forêts du parc de Macaya, le règlement des litiges fonciers, la construction de petits barrages et de réservoirs d&#39;eau, le développement de l&#39;élevage de moutons et le cofinancement d&#39;un centre de décorticage de café seront également réalisés.
+&lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>BID, aide, environnement</td>
+        <td>2009-09-30 06:19:55.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC29" class="js-file-line">
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td>59</td>
+        <td>Le Sénat approuve le budget 2009-2010 dans les mêmes termes que la Chambre Basse</td>
+        <td>Les Sénateurs ont approuvé le budget de l’exercice fiscal 2009-2010 mardi à deux jours de l’ouverture de nouvel exercice fiscal.
+&lt;br /&gt;&lt;br /&gt;
+Le budget  se chiffre à un peu plus de 88  milliards de gourdes (41 gourdes pour 1 USD).
+&lt;br /&gt;&lt;br /&gt;
+Le rapport de la commission de finance de la Chambre Haute avait recommandé aux Sénateurs d’adopter le budget dans les mêmes termes que les Députés, a précisé Nènèl Cassy, Président de ladite commission.
+&lt;br /&gt;&lt;br /&gt;
+Toutefois, le document est passible de modifications, a souligné M. Cassy affirmant que des recommandations ont été faites en ce sens au gouvernement. Le Parlementaire n’a pas précisé les termes de ces changements.
+&lt;br /&gt;&lt;br /&gt;
+Une commission de contrôle sera mise sur pied en vue de suivre le gouvernement dans l’exécution et le suivi des recommandations, a-t-il fait savoir.
+&lt;br /&gt;&lt;br /&gt;
+Onze (11) Sénateurs sur les dix-sept (17) ayant participé à la séance ont adopté le budget et cinq (5) ont fait abstention. Le Président de l’Assemblée ne pouvant pas voter.
+&lt;br /&gt;&lt;br /&gt;
+Le document devrait être acheminé à l’exécutif avant le premier octobre pour promulgation au journal Le Moniteur.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>budget 2009-2010, haiti, senat</td>
+        <td>2009-09-30 06:25:32.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC30" class="js-file-line">
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td>60</td>
+        <td>Le Budget 2009 -2010 a été ratifié par le sénat   </td>
+        <td>Les sénateurs ont approuvé hier, par 11 voix pour et 1 contre, le projet de loi de finance 2009 -2010. Les sénateurs ont préféré mettre une sourdine à leurs exigences sur certaines incohérences relevées par la commission finance afin de respecter le délai constitutionnel pour l&#39;application du budget.
+&lt;br /&gt;&lt;br /&gt;
+Le rapport de la commission, présidée par Nenel Cassy, a été approuvé par les pères conscrits permettant ainsi de voter ce projet de loi dans les mêmes termes que les députés.
+&lt;br /&gt;&lt;br /&gt;
+Auparavant la Première Ministre, Michèle Pierre Louis avait fourni des informations complémentaires notamment en ce qui a trait à la gestion des 22 millions de gourdes allouées au bureau de liaison avec le représentant spécial du secrétaire général de l&#39;ONU et l&#39;absence de ressources financières pour les partis politiques.
+&lt;br /&gt;&lt;br /&gt;
+Mme Pierre Louis a promis qu&#39;une enveloppe sera consacrée au Partis politiques comme prévu dans les lois sur les partis politiques et les élections.
+&lt;br /&gt;&lt;br /&gt;
+Moins d&#39;une douzaine de sénateurs ont ainsi approuvé cette loi de finance alors que le grand corps compte 29 élus. Commentant cette situation, le président du sénat, Kelly Bastien, explique que 8 élus sont en voyage à l&#39;etranger alors que 4 autres participent à une fête patronale dans leur département.
+&lt;br /&gt;&lt;br /&gt;
+La loi de finance 2009 – 2010 a été votée sur le fil, puisque la sénatrice Edmonde Supplice Beauzile avait abandonné la séance en raison de divergences avec le bureau.
+&lt;br /&gt;&lt;br /&gt;Radio Métropole</td>
+        <td>budget 2009/2010, haiti, parlement</td>
+        <td>2009-09-30 09:19:35.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC31" class="js-file-line">
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td>61</td>
+        <td>La BID annonce à Port-au-Prince un don de 25 millions de dollars pour Haïti</td>
+        <td>La Banque interaméricaine de développement a accordé jeudi un don de 25 millions à Haïti qui sera consacré à la poursuite des travaux d’amélioration du réseau routier national et à l’entretien des routes dans les départements des Nippes, de la Grand’Anse (sud-ouest) et du Sud où les difficultés de transport restent énormes.
+&lt;br /&gt;&lt;br /&gt;
+Annoncée à Port-au-Prince en marge de la &quot;réunion d’affaires internationales 2009&quot; organisée à l’initiative de la BID et de l’envoyé spécial de l’ONU, Bill Clinton, cette aide va contribuer à l’amélioration des conditions de transport et de la sécurité routière. Elle doit aussi donner une impulsion au développement économique du sud du pays, une région au potentiel agricole et touristique élevé.
+&lt;br /&gt;&lt;br /&gt;
+Selon un communiqué de la BID, ces 25 millions de dollars constituent la troisième tranche d’une série de quatre dons annuels au montant égal octroyés pour des interventions sur les routes d’Haïti.
+&lt;br /&gt;&lt;br /&gt;
+Les travaux à entreprendre concerneront la réhabilitation de 43 kilomètres de routes secondaires et tertiaires dans la péninsule du sud, l’aménagement de 2 kilomètres de pavage et de drainage aux intersections urbaines de la région, la construction de deux ponts sur la rivière Froide et l’élargissement de la lagune de Miragoâne.
+&lt;br /&gt;&lt;br /&gt;
+La Banque interaméricaine de développement, dont le numéro un Luis Alberto Moreno co-préside avec Bill Clinton la mission commerciale venue en Haïti, représente une partenaire multilatérale très importante pour le pays où elle intervient principalement dans le secteur des infrastructures de base.
+&lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>BID, don, haiti</td>
+        <td>2009-10-02 06:51:42.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC32" class="js-file-line">
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td>62</td>
+        <td>Haïti/BID : 25 millions de dollars pour réhabiliter les routes du Grand Sud</td>
+        <td>La Banque interaméricaine de développement (BID) a annoncé, le 1er octobre 2009, une aide de 25 millions de dollars pour aider Haïti à poursuivre les travaux d’amélioration et d’entretien des routes reliant les départements du Sud, des Nippes et de la Grand Anse.
+&lt;br/&gt;&lt;br/&gt;
+Ce don favorisera l’amélioration des conditions de transport et de la sécurité routière, ce qui stimulera le développement économique de cette région recélant un énorme potentiel agricole et touristique’’, précise la BID dans un communiqué.
+&lt;br /&gt;&lt;br /&gt;
+Dans la péninsule du Sud, une partie de ce montant sera utilisée pour réhabiliter 43 kilomètres de routes secondaires et tertiaires puis aménager 2 kilomètres de pavage et de drainage aux intersections urbaines.
+&lt;br /&gt;&lt;br /&gt;
+4,5 millions de dollars seront utilisés pour financer la construction de deux ponts sur Rivière froide et l’élargissement de la lagune de Miragoâne.
+&lt;br /&gt;&lt;br /&gt;
+Un montant de 2,8 millions de dollars servira à financer des travaux d’entretien routier, notamment l’assistance technique aux bureaux locaux du ministère des Travaux publics, l’acquisition d’équipements pour l’entretien des routes et les travaux d’entretien.
+&lt;br /&gt;&lt;br /&gt;
+Ces activités marqueront le point de départ d’une stratégie globale d’aménagement du réseau routier conçue par les autorités haïtiennes, souligne la BID.
+&lt;br /&gt;&lt;br /&gt;
+C’est le troisième d’une série de quatre dons annuels de 25 millions de dollars chacun octroyés à Haïti pour la réhabilitation de son réseau routier.
+&lt;br /&gt;&lt;br /&gt;
+Avec ce financement, les routes des environs d’Aquin, de L’Asile, et d’Anse à Veaux seront remises en état pour faciliter l’accès des populations de la vallée de Rivière des Pins à la capitale Port-au-Prince et à d’autres services et centres commerciaux comme Cayes et Miragoâne.
+&lt;br /&gt;&lt;br /&gt;
+L’aménagement des intersections dans les localités situées le long de la route Cayes-Jérémie favorisera la participation de petites entreprises locales au programme, créant par la même occasion des emplois et des compétences extrêmement utiles, selon la BID.
+&lt;br /&gt;&lt;br /&gt;
+Les fonds promis proviendront du Mécanisme de financement des dons de la BID et seront décaissés sur une période de trois ans (2010–2012).
+&lt;br /&gt;&lt;br /&gt;
+Le programme dans son ensemble bénéficie également d’un don de 75 millions de dollars canadiens de l’Agence canadienne de développement international qui soutient la remise en état des 71 kilomètres de la route reliant Les Cayes à Jérémie.
+&lt;br /&gt;&lt;br /&gt;
+La BID dit financer un vaste portefeuille de projets en Haïti, principalement dans le secteur de l’infrastructure de base. Ce programme représente plus de la moitié des financements consentis par la Banque pour l’amélioration et l’entretien des routes du pays.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>BID, don, haiti</td>
+        <td>2009-10-03 07:39:50.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC33" class="js-file-line">
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td>63</td>
+        <td>Haïti : Le salaire des fonctionnaires de la justice revu à la hausse</td>
+        <td>Le ministre de la justice annonce un ajustement salarial, à partir de ce mois d’octobre 2009, en faveur des juges, commissaires du gouvernement et substituts de toutes les juridictions du pays.
+&lt;br /&gt;&lt;br /&gt;
+Sans fournir des détails sur cette augmentation salariale, le ministère de la justice et de la sécurité publique (MJSP) indique que cette décision a été adoptée lors du dernier Conseil des ministres.
+&lt;br /&gt;&lt;br /&gt;
+En attendant la mise en place du Conseil supérieur du pouvoir judiciaire, les autorités haïtiennes invitent les juges de différents tribunaux du pays à occuper leurs fonctions conformément à la Constitution.
+&lt;br /&gt;&lt;br /&gt;
+Parallèlement, le ministère de la justice adopte tout un train de mesures concernant la délivrance des certificats de bonne vie et mœurs par les tribunaux de paix du pays.
+&lt;br /&gt;&lt;br /&gt;
+La carte d’identification nationale, l’acte de naissance ou extrait des archives, 2 photos d’identité, certificat délivré par la police, sont entre autres exigés au moment de la demande.
+&lt;br /&gt;&lt;br /&gt;
+Le ministère de la justice dit arrêter ces dispositions pour freiner les abus dans la délivrance de certificats de bonnes vie et mœurs.
+&lt;br /&gt;&lt;br /&gt;
+Un délai maximum de 8 jours ouvrables est accordé au juge de paix pour enquêter sur les déclarations et les documents soumis par le sollicitant ou la sollicitante, précise le MJSP dans un communiqué daté du 1er octobre dernier.
+&lt;br /&gt;&lt;br /&gt;
+Tout certificat de bonne vie et mœurs devra être inscrit dans un registre à ce destiné, selon le ministère de la justice qui appelle à la stricte application de ces mesures.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000 </td>
+        <td>salaire, justice</td>
+        <td>2009-10-15 07:12:46.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC34" class="js-file-line">
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td>64</td>
+        <td>Haïti/BID/Espagne : 39 millions de dollars pour améliorer les services d’alimentation d’eau et d’assainissement</td>
+        <td>Haïti s’apprête à recevoir sous formes de dons et de prêts une somme de 39 millions de dollars américains de la Banque interaméricaine de développement (BID) et de l’Espagne pour financer des projets d’amélioration des services d’approvisionnement en eau potable dans plusieurs de ses régions, annonce la BID dans un communiqué.
+&lt;br /&gt;&lt;br /&gt;
+Une partie de ce montant, soit 20 millions de dollars, est un don du Fonds espagnol à Haïti. Le reste, 19 millions de dollars, sera octroyé par la BID dans le cadre de ces projets.
+&lt;br /&gt;&lt;br /&gt;
+14, 2 millions de dollars, de cette enveloppe, seront consacrés à l’extension de la couverture en eau potable. 17 millions seront utilisés pour mettre en place des services d’assainissement individuels et collectifs, développer les systèmes d’enlèvement, de transport et d’évacuation des ordures ménagères.
+&lt;br /&gt;&lt;br /&gt;
+Ces 17 millions seront également utilisés pour améliorer l’entretien des systèmes de drainage pluvial, appuyer des programmes d’hygiène publique et établir des normes relatives à la gestion des eaux usées.
+&lt;br /&gt;&lt;br /&gt;
+Environ 150 mille personnes doivent bénéficient de ces projets qui seront exécutés dans les communes de Saint-Marc (périphérie nord), Port-de-Paix (nord-ouest), Les Cayes (sud), Jacmel (sud-est), Ouanaminthe (nord-est) et Cap-Haïtien (nord).
+&lt;br /&gt;&lt;br /&gt;
+« Les services d’eau et d’assainissement d’Haïti sont parmi les plus défectueux de l’hémisphère. Le pays ne dispose pas de réseau d’assainissement et, d’après le recensement de 2003, seuls 8,5 % des ménages sont connectés à un système d’alimentation en eau potable », précise ce communiqué daté du 16 octobre 2009.
+&lt;br /&gt;&lt;br /&gt;
+Par ailleurs, une partie des fonds servira à renforcer les capacités institutionnelles et techniques de la Direction nationale d’eau potable et d’assainissement (DINEPA) et à organiser une campagne d’éradication des vers parasites liés au mauvais état des services d’eau et d’assainissement.
+&lt;br /&gt;&lt;br /&gt;
+Cette campagne, selon la BID, mettra un accent particulier sur le traitement des enfants âgés de 1 à 12 ans.
+&lt;br /&gt;&lt;br /&gt;
+Parallèlement, la BID et l’Espagne s’engagent à donner 100 millions de dollars sous forme de prêts et dons à la Bolivie pour cofinancer un projet devant s’attaquer aux problèmes d’eau et d’assainissement auxquels sont confrontées les populations les plus pauvres de ce pays d’Amérique latine.
+&lt;br /&gt;&lt;br /&gt;
+Il s’agit des premiers projets conjointement financés par la BID et le Fonds de coopération espagnol pour l’alimentation en eau et l’assainissement en Amérique latine et aux Caraïbes.
+&lt;br /&gt;&lt;br /&gt;
+Le financement de ces projets fait suite à des engagements pris, l’année dernière, par le premier ministre espagnol José Luis Rodríguez Zapatero.
+&lt;br /&gt;&lt;br /&gt;
+En plus d’Haïti et de la Bolivie, la BID et l’Espagne envisagent de cofinancer des projets au Brésil, au Costa Rica, en Équateur, au Guatemala, au Honduras, au Paraguay, au Pérou, en République dominicaine, au Salvador et en Uruguay, d’ici mi-2010.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>BID, Espagne, alimentation</td>
+        <td>2009-10-19 07:26:10.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC35" class="js-file-line">
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td>65</td>
+        <td>Interpellation prochaine du ministre des finances   </td>
+        <td>Plusieurs sénateurs envisagent de formuler une demande d&#39;interpellation de plusieurs membres du gouvernement. Le sénateur Anacacis Jean Hector (Lespwa) argue que cette démarche s&#39;avère indispensable en raison du laxisme des autorités gouvernementales.
+&lt;br /&gt;&lt;br /&gt;
+Le ministre des finances, Daniel Dorsainvil, est toujours dans le collimateur des sénateurs de Lespwa, jusqu&#39;à présent insatisfaits de la politique économique du gouvernement. Anacacis Jean Hector veut réactiver la demande d&#39;interpellation mise en veilleuse par l&#39;ancien bureau.
+&lt;br /&gt;&lt;br /&gt;
+Il déplore la propension du grand argentier à thésauriser au maximum alors que les ressources devraient être utilisées pour améliorer les conditions de vies de la population. &quot; Le ministre se comporte comme un comptable parce qu&#39;il veut avoir des montants énormes dans les caisses &quot;, se plaint le sénateur Jean Hector faisant référence au maintien de 300 000 dollars dans les réserves de la BRH.
+&lt;br /&gt;&lt;br /&gt;
+Le sénateur de Lespwa croit que la censure de certains ministres permettra au chef de l&#39;Etat de réaliser les changements nécessaires dans l&#39;administration publique. Même si Lespwa est en première ligne de ce mouvement, le sénateur Anacacis assure que les parlementaires du parti au pouvoir veulent tenir compte des revendications de l&#39;opposition. &quot; Les dirigeants des partis de l&#39;opposition ont affiché leur désapprobation vis-à-vis de l&#39;action de Michèle Pierre Louis&quot;, martèle le sénateur Jean Hector qui n&#39;écarte pas la possibilité d&#39;interpeller la Première Ministre.
+&lt;br /&gt;&lt;br /&gt;
+Radio Métropole</td>
+        <td>Dorsainvil, interpellation</td>
+        <td>2009-10-19 11:24:18.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC36" class="js-file-line">
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td>66</td>
+        <td>Kouchner salue l’arrivée de Bellerive et annonce un &quot;important contrat&quot; avec Haïti</td>
+        <td>Le ministre français des affaires étrangères et européennes, Bernard Kouchner, a adressé lundi ses félicitations au nouveau Premier ministre haïtien, Jean-Max Bellerive, et en a profité pour annoncer des négociations en vue de la conclusion d’un &quot;important contrat de désendettement et de développement&quot; en faveur du pays.
+&lt;br /&gt;&lt;br /&gt;
+Selon le texte d’un message lu lundi par le porte-parole du Quai d’Orsay, Bernard Valéro, cet accord s’inscrira dans le cadre d’un nouveau partenariat engagé entre Port-au-Prince et Paris.
+&lt;br /&gt;&lt;br /&gt;
+&quot;A l’occasion de votre prise de fonctions, je vous adresse mes plus chaleureuses félicitations ainsi que tous mes vœux de réussite dans l’accomplissement de votre mission&quot;, a déclaré M. Kouchner au Premier ministre avec qui, dit-il, la France entend &quot;poursuivre le travail entrepris avec le précédent gouvernement&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Le chef de la diplomatie française indique avoir &quot;suivi avec beaucoup d’intérêt&quot; les débats auxquels avait donné lieu au Parlement le processus de ratification de Jean-Max Bellerive, successeur depuis le 11 octobre de Michèle Pierre-Louis destituée par le Sénat, quelques jours plus tôt.
+&lt;br /&gt;&lt;br /&gt;
+&quot;Comme je l’ai rappelé lors de ma récente visite en Haïti, le 18 septembre dernier, la France marque sa disponibilité à approfondir encore la coopération existante entre nos deux pays&quot;, a ajouté Kouchner tout en faisant état de progrès réalisés en Haïti dans le domaine de la stabilisation et de la consolidation des institutions et dans la lutte contre l’insécurité. Il a enfin réaffirmé la volonté de Paris de &quot;demeurer un partenaire de premier plan d’Haïti sur la voie des réformes et du développement&quot;.
+&lt;br /&gt;&lt;br /&gt;
+Lors de sa récente visite à Port-au-Prince, le ministre Bernard Kouchner avait mis en relief l’importance de la coopération bilatérale et promis son renforcement dans plusieurs secteurs.
+&lt;br /&gt;&lt;br /&gt;Radio Kiskeya</td>
+        <td>kouchner, bellerive,haiti,contrat</td>
+        <td>2009-11-17 05:24:26.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC37" class="js-file-line">
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td>67</td>
+        <td>Haïti/Elections : Environ 25 millions de dollars pour financer les prochaines législatives</td>
+        <td>Un accord de 25 millions de dollars américains a été signé, ce 16 novembre 2009, entre le gouvernement haïtien, le Conseil électoral provisoire (CEP) et le Programme des Nations Unies pour le développement (PNUD) en vue de la réalisation des prochaines élections législatives dans le pays, avons-nous constaté.
+&lt;br /&gt;&lt;br /&gt;
+La signature de cet accord s’est déroulée à la Primature (siège du gouvernement) en présence de quelques membres du CEP et des représentants de la communauté internationale, dont la nouvelle coordinatrice résidente du PNUD, la canadienne Kim Bolduc, qui remplace le français Joël Boutroue, à ce poste.
+&lt;br /&gt;&lt;br /&gt;
+Le premier ministre Jean Max Bellerive, qui détient également le portefeuille du ministère de la planification, précise que « cet accord va permettre le financement des élections pour un montant global de 25 millions de dollars environ, dont 7 millions seront fournis par le trésor public haïtien ».
+&lt;br /&gt;&lt;br /&gt;
+Les fonds alloués à l’organisation du prochain scrutin seront gérés par le Programme des Nations Unies pour le développement, selon Gaillot Dorsainvil, président de l’institution électorale.
+&lt;br /&gt;&lt;br /&gt;
+M. Dorsainvil a tenu à signaler que la contribution haïtienne, de l’ordre de 300 millions de gourdes (7 millions de dollars américains), est déjà disponible.
+&lt;br /&gt;&lt;br /&gt;
+Ce montant sera utilisé pour réaliser les deux tours des prochaines élections législatives, précise Gaillot Dorsainvil.
+&lt;br /&gt;&lt;br /&gt;
+Dans 9 des 10 départements géographiques du pays, le premier tour de ce scrutin aura lieu le 28 février 2010 ; tandis que les électeurs du département du Centre doivent attendre la date du 3 mars [2010] pour remplir leur devoir civique.
+&lt;br /&gt;&lt;br /&gt;
+« Nous ferons l’effort nécessaire pour respecter l’échéance du 28 février », rassure Gaillot Dorsainvil qui appelle les partis et regroupements politiques à se faire enregistrer au niveau du CEP.
+&lt;br /&gt;&lt;br /&gt;
+La période d’enregistrement des formations politiques se déroule du 16 au 20 novembre en cours, selon le calendrier électoral soumis par le CEP.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>don, Elections</td>
+        <td>2009-11-17 05:27:57.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+      <tr id="LC38" class="js-file-line">
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td>68</td>
+        <td>Accord de financement des prochaines législatives par la communauté internationale et le gouvernement haïtien : 25 millions de dollars, via le PNUD</td>
+        <td>Le Premier ministre Jean-Max Bellerive, également ministre de la Planification et de la Coopération externe, le président du Conseil Electoral Provisoire (CEP), Gaillot Dorsainvil et la représentante résidente du Programme des Nations-Unies pour le Développement (PNUD), Mme Kim Bolduc, ont conjointement signé lundi à la Primature un accord de financement des élections législatives de février et mars 2010 dans le pays.
+&lt;br /&gt;&lt;br /&gt;
+Cet accord, d’un montant de vingt cinq millions de dollars américains auquel le gouvernement haïtien contribue à hauteur de sept millions de dollars tirés du Trésor public, concerne la réalisation des élections pour le renouvellement de la Chambre des députés, du deuxième tiers du Sénat ainsi que la reprise des sénatoriales partielles annulées dans le département du Centre, suite aux violences enregistrées le jour du scrutin, le 19 avril 2009.
+&lt;br /&gt;&lt;br /&gt;
+La cérémonie de signature d’accord a été l’occasion pour le Premier ministre Bellerive de saluer la nomination, par le secrétaire général de l’Onu, de Mme Kim Bolduc comme sa représentante spéciale adjointe auprès de la Mission des Nations-Unies pour la Stabilisation d’Haïti (MINUSTAH) et représentante résidente du Programme des Nations-Unies pour le Développement (PNUD).
+&lt;br /&gt;&lt;br /&gt;
+Avec la signature de l’accord de financement, une importante étape a été franchie vers l’organisation des élections, a déclaré le président du CEP, Gaillot Dorsainvil. Il assure que l’organisme électoral fera de son mieux afin de respecter le calendrier électoral dont il juge normales les différentes étapes en raison du délai relativement court pour la tenue du scrutin.
+&lt;br /&gt;&lt;br /&gt;
+Radio Kiskeya</td>
+        <td>Elections, accord, financement,PNUD</td>
+        <td>2009-11-17 05:33:03.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC39" class="js-file-line">
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td>69</td>
+        <td>Haïti rejoint les pays signataires des Accords de partenariat économique avec l’Union européenne</td>
+        <td>Le gouvernement haïtien a signé, ce 10 décembre 2009, le document des Accords de partenariat économique (APE) liant les Etats de l’Afrique, Caraïbe, Pacifique (ACP) à l’Union européenne.
+&lt;br /&gt;&lt;br /&gt;
+La signature de cet accord s’est déroulée à la chancellerie haïtienne entre la cheffe de la diplomatie haïtienne, Marie Michèle Rey, et le chef de la délégation européenne, Francesco Gosetti.
+&lt;br /&gt;&lt;br /&gt;
+Marie Michèle Rey a tenu à préciser que cet accord constitue de nouveaux fondements des relations économiques et commerciales entre les pays membres de l’ACP et ceux de l’Union européenne.
+&lt;br /&gt;&lt;br /&gt;
+« Cet accord, une fois ratifié, permettra aux produits d’exportation haïtien d’avoir un libre accès aux grands marchés européens sans limitation de quota et de tarifs douaniers », a indiqué la ministre d’Haïti des affaires étrangères.
+&lt;br /&gt;&lt;br /&gt;
+L’Accord de partenariat économique met en place une relation entre les pays des Caraïbes et l’Union européenne pour établir, dans une échéance de 25 ans, une zone de libre-échange économique.
+&lt;br /&gt;&lt;br /&gt;
+« Cela présuppose que dès la signature de l’accord le marché européen est ouvert à l’exportation des produits venant d’Haïti sans aucune limitation de quota et sans payer les droits de douane à l’entrée », a affirmé Francesco Gosetti.
+&lt;br /&gt;&lt;br /&gt;
+L’accord prévoit aussi une dimension très importante pour les services, pour le transfert des connaissances et des compétences, poursuit le représentant de l’Union européenne en Haïti.
+&lt;br /&gt;&lt;br /&gt;
+« C’est véritablement une grande chance pour Haïti et pour les pays de la région », a indiqué Francesco Gosetti tout en précisant que les APE offrent de nombreux avantages aux pays signataires.
+&lt;br /&gt;&lt;br /&gt;
+L’agriculture haïtienne, selon le chef de la délégation européenne, a besoin de croître, d’être protégée par rapport à la compétitivité mondiale, car elle ne peut pas aller du jour au lendemain dans la compétitivité.
+&lt;br /&gt;&lt;br /&gt;
+Interrogé sur les positions affichées par des mouvements sociaux contre cet accord, Francesco Gosetti dit avoir travaillé avec les autorités en vue de tenir compte des préoccupations de ces organismes qui s’étaient regroupés autour d’une coalition nationale dénommée « Bare APE » (Halte aux APE).
+&lt;br /&gt;&lt;br /&gt;
+Le gouvernement a pris la décision d’inscrire dans cet accord les revendications de ces mouvements sociaux tout en prévoyant un ensemble de conditions différentes de celles qui étaient prévues au départ dans l’objectif d’améliorer la protection de certains secteurs, selon le représentant de l’Union européenne.
+&lt;br /&gt;&lt;br /&gt;
+Francesco Gosetti en a profité pour annoncer la tenue, ce vendredi, en République dominicaine, d’une réunion entre les ordonnateurs nationaux haïtien et dominicain autour de cet accord.
+&lt;br /&gt;&lt;br /&gt;
+Pa cette rencontre, les organisateurs cherchent surtout à élaborer « un programme commun aux deux pays pour améliorer l’utilisation de l’accord, pour améliorer les conditions de transfert des marchandises, les conditions de la gestion, les conditions de vie des personnes », selon le chef de la délégation européenne qui assistera à la rencontre du 11 décembre par vidéo conférence.
+&lt;br /&gt;&lt;br /&gt;
+« Il y a environ 200 millions d’euros qui sont à la disposition de l’intégration régionale et de l’accompagnement de l’accord de partenariat économique », informe M. Gosetti.
+&lt;br /&gt;&lt;br /&gt;
+La signature du document des APE est assortie d’une déclaration formelle fixant la position d’Haïti par rapport à certains aspects de l’Accord et les conditions de son acceptation, selon un communiqué du ministère des Affaires étrangères.
+&lt;br /&gt;&lt;br /&gt;</td>
+        <td>accords partenariat, UE</td>
+        <td>2009-12-11 05:56:33.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC40" class="js-file-line">
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td>70</td>
+        <td>La BID lance un concours pour la sélection de plans d’affaires pour des projets touristiques aux Caraïbes</td>
+        <td>La Banque interaméricaine de développement (BID) annonce l’organisation d’un concours de sélection des plans d’affaires pour des projets touristiques aux Caraïbes dont la chaîne de valeurs fait intervenir les communautés à faibles revenus.
+&lt;br /&gt;&lt;br /&gt;
+Lancé par l’Initiative Opportunités pour la majorité de la BID, ce concours est ouvert aux entreprises établies aux Bahamas, à la Barbade, au Guyana, en Haïti, en Jamaïque, au Surinam et à Trinité-et-Tobago.
+&lt;br /&gt;&lt;br /&gt;
+« Les plans d’affaires admissibles doivent intégrer les communautés à faibles revenus comme fournisseurs ou distributeurs de biens ou de services, de sorte que les entreprises et les résidents locaux bénéficient de l’élaboration de projets touristiques », précise un communiqué de la BID.
+&lt;br /&gt;&lt;br /&gt;
+Les propositions seront jugées sur des critères tels que les innovations, l’impact économique, social et environnemental sur les communautés où seront réalisées des projets, le potentiel de croissance, la solvabilité, la capacité de mise en œuvre et la possibilité de les reproduire ailleurs.
+&lt;br /&gt;&lt;br /&gt;
+Les participants à ce concours devront soumettre, avant le 9 avril 2010, un résumé de trois pages de leur projet et une présentation générale de leur entreprise sur une page.
+&lt;br /&gt;&lt;br /&gt;
+Les propositions gagnantes bénéficieront de services de consultants de $25 000 auprès de cabinets de renommée internationale spécialisés dans le développement du tourisme afin de préparer des plans d’affaires leur permettant de pouvoir accéder à des financements.
+&lt;br /&gt;&lt;br /&gt;
+Opportunités pour la majorité est une initiative spéciale de la BID qui favorise et finance des modèles économiques inspirés du secteur privé, destinés à fournir des produits et des services de qualité, à créer des emplois et à permettre aux communautés à faibles revenus de rejoindre l’économie officielle en Amérique latine et aux Caraïbes.
+&lt;br /&gt;&lt;br /&gt;
+Radio Vision 2000</td>
+        <td>BID, concours, projets, tourisme, caraïbes</td>
+        <td>2009-12-11 06:08:36.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC41" class="js-file-line">
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td>71</td>
+        <td>La Commission européenne décide d’allouer 30 millions d’EUR pour amortir l’impact de la crise économique en Haïti</td>
+        <td>La Commission européenne a approuvé les premières décisions de financement en faveur d’onze pays d’Afrique et de deux pays des Caraïbes, dont Haïti, pour 230 millions d’EUR au total, dont 215 millions au titre du «mécanisme FLEX relatif à la vulnérabilité (V­FLEX)».
+&lt;br /&gt;&lt;br /&gt;
+Il s’agit de la première série de décisions de financement dans le cadre du mécanisme V­FLEX, doté de 500 millions d’EUR, qui a été adoptée en août 2009 en réponse à la crise économique pour les pays d’Afrique, des Caraïbes et du Pacifique (ACP). Au total, Haïti qui avait bénéficié plus tôt dans l’année de plus de 35 millions d’EUR dans le cadre du FLEX et du FED aura donc été soutenu à hauteur de plus de 65 millions d’EUR en 2009.
+&lt;br /&gt;&lt;br /&gt;
+Karel De Gucht, commissaire chargé du développement et de l’aide humanitaire, a déclaré: «Les pays en développement ont été durement touchés par la crise en raison de leur vulnérabilité aux chocs extérieurs. C’est ainsi que les autorités de nombreux pays ACP ont été confrontées à des déficits de financement. Le mécanisme FLEX relatif à la vulnérabilité représente l’instrument de réponse rapide de l’Union européenne, qui vise à aider les pays concernés à maintenir leurs dépenses dans les domaines prioritaires, contribuant par là même à la réduction des coûts sociaux de cette crise dans les pays les plus sévèrement touchés».
+&lt;br /&gt;&lt;br /&gt;
+Le mécanisme V­FLEX est un instrument à court terme destiné à aider les pays ACP les plus vulnérables à faire face à l’impact de la crise économique et financière mondiale et à en atténuer les conséquences sociales. Les premiers pays à bénéficier de cet instrument, à leur demande, sont le Bénin, le Burundi, la République centrafricaine, les Comores, le Ghana, Grenade, la Guinée­Bissau, Haïti, le Malawi, Maurice, les Seychelles, la Sierra Leone et la Zambie. Le montant alloué à Haïti, correspondant à 1.9 milliard de gourdes, est le plus important par tête d’habitant parmi les 11 pays ACP bénéficiant de ce nouvel apport.
+&lt;br /&gt;&lt;br /&gt;
+Pour cette première tranche, toutes les sommes sont versées sous la forme d’appui budgétaire, ce qui permettra aux pays partenaires de maintenir leur niveau de dépenses publiques dans les domaines prioritaires, notamment dans les secteurs sociaux, sans mettre en danger la stabilité macroéconomique. Ces fonds, qui devraient pour la plupart être octroyés avant la fin de cette année, seront complétés par de nouveaux versements en 2010.
+&lt;br /&gt;&lt;br /&gt;
+Cet instrument de réponse à la vulnérabilité fonctionne de manière préventive, c’est­à­dire lorsque les indicateurs laissent entrevoir une baisse des rentrées fiscales, ainsi que sur la base d’autres critères de mesure de la vulnérabilité, contribuant ainsi à atténuer l’impact de la crise, au lieu d’intervenir une fois que le mal a été fait. Il octroie à bref délai des subventions ciblées et s’inscrit en complément de l’aide qu’accordent sous la forme de prêts la Banque mondiale, le Fonds monétaire international et d’autres banques de développement régionales qui ont participé à sa conception.
+&lt;br /&gt;&lt;br /&gt;
+Le mécanisme V­FLEX fournit une aide à la demande, qui cible les pays très vulnérables sur les plans économique, social et politique, qui ont élaboré des stratégies adéquates pour lutter contre la crise, présentent des capacités d’absorption suffisantes, ainsi qu’un déficit de financement dans leur budget, lorsque l’aide de l’Union européenne peut faire la différence en comblant ce déficit, ou du moins en le réduisant de manière significative.
+&lt;br /&gt;&lt;br /&gt;
+Le mécanisme FLEX relatif à la vulnérabilité, de 500 millions d’EUR, s’ajoute à la Facilité alimentaire, dotée pour sa part d’un milliard d’EUR et adoptée le 30 mars 2009, ainsi qu’à la somme de 200 millions d’EUR allouée en 2008 dans le cadre du FED afin d’aider les pays en développement à faire face à la flambée des prix alimentaires. En créant ces mécanismes ciblés, l’UE a été la première à prendre des mesures conformément aux engagements du sommet du G 20 qui s’est tenu à Londres en avril, à savoir œuvrer à une reprise durable et équilibrée.
+&lt;br /&gt;&lt;br /&gt;
+Radio Vision 2000</td>
+        <td>UE, impact crise économique</td>
+        <td>2009-12-16 10:20:48.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC42" class="js-file-line">
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td>72</td>
+        <td>L’Union européenne annonce 230 millions d’euros pour soutenir une dizaine de pays africains et caribéens, dont Haïti</td>
+        <td>La commission européenne a annoncé, ce 15 décembre, une aide de 230 millions d’euros pour amortir l’impact de la crise économique dans 13 pays africains et dans les Caraïbes.
+&lt;br /&gt;&lt;br /&gt;
+Ce financement s’inscrit dans le cadre de l’instrument “Vulnérabilité mécanisme FLEX ” (V-Flex) mis en place par l’Union européenne dans l’objectif d’amortir l’impact de la crise économique dans les pays bénéficiaires, selon un communiqué de la commission.
+&lt;br /&gt;&lt;br /&gt;
+Haïti figure parmi les premiers pays à bénéficier de ce mécanisme aux côtés d’autres nations comme la Zambie, le Ghana, la République Centrafricaine, la Guinée-Bissau, entre autres.
+&lt;br /&gt;&lt;br /&gt;
+Le Ghana recevra à lui seul 35 millions d’euros. Haïti et la Zambie pourront bénéficier chacun 30 millions d’euros. Le Bénin et le Malawi recevront respectivement 26.4 et 25 millions.
+&lt;br /&gt;&lt;br /&gt;
+Ce montant, poursuit le communiqué, vient en complément de la Facilité alimentaire de 1 milliard d’euros adoptée en Mars dernier et de l’allocation de 200 millions d’euros pour aider les pays en développement à faire face aux prix élevés des aliments.
+&lt;br /&gt;&lt;br /&gt;
+« Les pays en développement ont été durement touchés par la crise en raison de leur incapacité à résister aux chocs extérieurs », estime Karel De Gucht, commissaire européen au développement et à l’aide humanitaire.
+&lt;br /&gt;&lt;br /&gt;
+« Cela a laissé des lacunes de financement dans les budgets de nombreux gouvernements des pays ACP », ajoute le haut fonctionnaire européen.
+&lt;br /&gt;&lt;br /&gt;
+La plupart de ces fonds devraient être versés avant la fin de l’année 2009, précise la Commission européenne tout en informant que des allocations supplémentaires suivront en 2010.
+&lt;br /&gt;&lt;br /&gt;
+Vulnérabilité mécanisme Flex (V-Flex) est un instrument d’intervention rapide de l’Union Européenne créé à court terme pour aider, à leur demande les pays ACP les plus vulnérables, à faire face à l’impact de la crise financière et économique mondiale et à atténuer ses conséquences sociales.
+&lt;br /&gt;&lt;br /&gt;
+Le 10 décembre dernier, Haïti a paraphé le document des Accords de partenariat économique (APE) liant les pays d’Afrique, Caraïbe, Pacifique (ACP) à l’Union européenne.
+&lt;br /&gt;&lt;br /&gt;
+Radio Vision 2000</td>
+        <td>UE</td>
+        <td>2009-12-16 10:23:59.0</td>
+        <td>Jean Michel</td>
+      </tr>
+      <tr id="LC43" class="js-file-line">
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td>73</td>
+        <td>Haïti/Economie : La BID veut renforcer le secteur industriel</td>
+        <td>Le président de la Banque interaméricaine de développement (BID), Luis Alberto Moreno, a entamé vendredi une visite de quatre jours à Port-au-Prince dans l’objectif de contribuer au renforcement du secteur industriel haïtien.
+&lt;br /&gt;&lt;br /&gt;
+Quelques minutes après son arrivée à l’Aéroport international Toussaint Louverture, Luis Alberto Moreno s’est rendu à la Société nationale des parcs industriels (SONAPI) où il a paraphé un accord d’assistance technique avec les responsables de l’Association des industries d’Haïti (ADIH).
+&lt;br /&gt;&lt;br /&gt;
+Cet accord de 1 million de dollars devra aider au renforcement des capacités des industries d’assemblages haïtiennes concernées par la loi Hope II autorisant l’entrée sans droit de douane aux Etats-Unis de vêtements fabriqués en Haïti.
+&lt;br /&gt;&lt;br /&gt;
+Le président de la BID a également annoncé la création d’un fonds d’appui au secteur industriel haïtien.
+&lt;br /&gt;&lt;br /&gt;
+M. Moreno a aussi participé à la pose de la première pierre de 7 nouveaux bâtiments au niveau de la SONAPI, sur la route de l’aéroport, pour un montant total de 3.5 millions de dollars.
+&lt;br /&gt;&lt;br /&gt;
+La BID promet par ailleurs 2 millions de dollars pour attirer les investisseurs et permettre à des entreprises haïtiennes d’accéder au marché international.
+&lt;br /&gt;&lt;br /&gt;
+Durant son séjour, le président de la BID doit s’entretenir avec le chef de l’Etat haïtien, René Préval, ainsi qu’avec des représentants du secteur des affaires en Haïti. Luis Alberto Moreno aura également à visiter des projets financés par la BID en Haïti.
+&lt;br /&gt;&lt;br /&gt;Radio Vision 2000</td>
+        <td>BID, secteur industriel</td>
+        <td>2009-12-21 05:38:48.0</td>
+        <td>Jean Bouco</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  </div>
+
+  </div>
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.24926s from unicorn-1013759233-gc2w7">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-2VdGgXQE8W5ONZ4OsrbEo/noennUZaqXkevD9R8juTHiCsjT0HFTTF6MoBfySUc8G+eFqUcDgd7v+CAu8Gjxlg==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-f849c975b0ffaa01d6ca305e48417d08.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-KzMN78fl7zl9khU8sHnDTAaEOs8IyidbN0kN5dcsEMnFAhDD3SueLZN/Cgd4v2+BUolauU3VbjbBe5d0eA9DfQ==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-edf16da922b28a7eed43ab4f51c61f11.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-s88meRIcvDnXKnIQB6WOGjeL7oFd0p5tbEx5y41L4GMYBvQP2ptoAKXr4xICOZoQE+Ew/MrNfG2n7IZhcaDmug==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-28d4da53a275ebe46605b50aa15c41d8.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
