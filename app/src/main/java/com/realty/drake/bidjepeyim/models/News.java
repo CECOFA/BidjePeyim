@@ -30,4 +30,52 @@ public class News {
         this.datePublication = datePublication;
         this.auteur = auteur;
     }
+
+    public double getIdActualite() {
+        return idActualite;
+    }
+
+    public void setIdActualite(double idActualite) {
+        this.idActualite = idActualite;
+    }
+
+    public String getTitreActualite() {
+        return titreActualite;
+    }
+
+    public void setTitreActualite(String titreActualite) {
+        this.titreActualite = titreActualite;
+    }
+
+    public String getContenuActualite() {
+        return contenuActualite;
+    }
+
+    public void setContenuActualite(String contenuActualite) {
+        this.contenuActualite = contenuActualite;
+    }
+
+    public String getMotsCles() {
+        return motsCles;
+    }
+
+    public void setMotsCles(String motsCles) {
+        this.motsCles = motsCles;
+    }
+
+    public String getDatePublication() {
+        return datePublication;
+    }
+
+    public void setDatePublication(String datePublication) {
+        this.datePublication = datePublication;
+    }
+
+    public String getAuteur() {
+        return auteur;
+    }
+
+    public void setAuteur(String auteur) {
+        this.auteur = auteur;
+    }
 }
