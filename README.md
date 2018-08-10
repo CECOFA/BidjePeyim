@@ -69,6 +69,7 @@ Describe any challenges encountered while building the app.
 
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android by Google
 - [Parceler](https://github.com/johncarl81/parceler) - Make class parcelable
+- [Firebase-UI](https://github.com/firebase/FirebaseUI-Android)
 
 ## LICENCE
 

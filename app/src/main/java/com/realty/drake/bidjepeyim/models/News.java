@@ -14,6 +14,7 @@ public class News {
     private String motsCles;
     private String datePublication;
     private String auteur;
+    private String imageActualite;
 
     public News() { } //Needed for Firebase's auto data mapping
 
@@ -22,13 +23,15 @@ public class News {
                 String contenuActualite,
                 String motsCles,
                 String datePublication,
-                String auteur) {
+                String auteur,
+                String imageActualite) {
         this.idActualite = idActualite;
         this.titreActualite = titreActualite;
         this.contenuActualite = contenuActualite;
         this.motsCles = motsCles;
         this.datePublication = datePublication;
         this.auteur = auteur;
+        this.imageActualite = imageActualite;
     }
 
     public double getIdActualite() {
@@ -78,4 +81,13 @@ public class News {
     public void setAuteur(String auteur) {
         this.auteur = auteur;
     }
+
+    public String getImageActualite() {
+        return imageActualite;
+    }
+
+    public void setImageActualite(String imageActualite) {
+        this.imageActualite = imageActualite;
+    }
+
 }
