@@ -1,10 +1,12 @@
 package com.realty.drake.bidjepeyim.fragments;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.CircularProgressDrawable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Property;
@@ -24,6 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
+import com.realty.drake.bidjepeyim.GlideApp;
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.models.News;
 
@@ -144,8 +147,17 @@ public class NewsFragment extends Fragment{
 
         public void setImageActualite(String imageActualite){
             ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
-            Glide.with(getContext())
+            //Loading circle for placeholder, ColorAccent has been used
+            CircularProgressDrawable progressDrawable =
+                    new CircularProgressDrawable(getContext());
+            progressDrawable.setStrokeWidth(5f);
+            progressDrawable.setCenterRadius(30f);
+            progressDrawable.setColorSchemeColors(Color.argb(1,255,145,0));
+            progressDrawable.start();
+
+            GlideApp.with(getContext())
                     .load(imageActualite)
+                    .placeholder(progressDrawable)
                     .into(ivImageActualite);
         }
     }
