@@ -1,6 +1,5 @@
 package com.realty.drake.bidjepeyim.fragments;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -9,21 +8,18 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.CircularProgressDrawable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Property;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import com.realty.drake.bidjepeyim.GlideApp;
@@ -34,11 +30,8 @@ import com.realty.drake.bidjepeyim.models.News;
  * Created by drake on 8/8/18
  */
 public class NewsFragment extends Fragment{
-    //todo Implement the fragment related to the News
-    private DatabaseReference newsRef;
     private RecyclerView rvNews;
     FirebaseRecyclerAdapter<News, newsViewHolder> newsAdapter;
-
 
     @Nullable
     @Override
@@ -54,10 +47,11 @@ public class NewsFragment extends Fragment{
     @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
         rvNews.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvNews.hasFixedSize();
 
-        newsRef = FirebaseDatabase.getInstance()
+        DatabaseReference newsRef = FirebaseDatabase.getInstance()
                 .getReference()
                 .child("News");
         newsRef.keepSynced(true);
@@ -113,7 +107,7 @@ public class NewsFragment extends Fragment{
                 // Called when there is an error getting data. You may want to update
                 // your UI to display an error message to the user.
                 // ...
-                //progressBar.setVisibility(View.GONE);
+                progressBar.setVisibility(View.GONE);
                 Toast.makeText(getActivity(),
                         "DatabaseError", Toast.LENGTH_SHORT).show();
             }
@@ -135,7 +129,7 @@ public class NewsFragment extends Fragment{
     public class newsViewHolder extends RecyclerView.ViewHolder {
         View mView;
 
-        public newsViewHolder(View itemView) {
+        newsViewHolder(View itemView) {
             super(itemView);
             mView = itemView;
         }
