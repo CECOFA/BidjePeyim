@@ -11,6 +11,7 @@ import android.util.Property;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,9 +25,6 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.models.News;
-
-import java.text.NumberFormat;
-import java.util.Locale;
 
 /**
  * Created by drake on 8/8/18
@@ -74,12 +72,7 @@ public class NewsFragment extends Fragment{
             public void onBindViewHolder(@NonNull newsViewHolder holder,
                                          final int position,
                                          @NonNull final News model) {
-                holder.set.getPrice());
-                holder.setAddress(model.getAddress());
-                holder.setNumberOfBed(model.getNumberOfBed());
-                holder.setNumberOfBath(model.getNumberOfBath());
-                holder.setNumberOfCar(model.getNumberOfCar());
-                holder.setPropertyImage(model.getPropertyImage());
+                holder.setTitreActualite(model.getTitreActualite());
 
                 //This Intent send Parcelable from Property to PropertyDetail
                 //holder.itemView.setOnClickListener(view1 -> getActivity()
@@ -93,7 +86,7 @@ public class NewsFragment extends Fragment{
                 // Create a new instance of the ViewHolder, in this case we are using a custom
                 // layout called R.layout.property_card for each item
                 View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.property_card, parent, false);
+                        .inflate(R.layout.news_card, parent, false);
                 return new newsViewHolder(view);
             }
 
@@ -117,6 +110,18 @@ public class NewsFragment extends Fragment{
                         "DatabaseError", Toast.LENGTH_SHORT).show();
             }
         };
+        rvNews.setAdapter(newsAdapter);
+    }
+    @Override
+    public void onStart() {
+        super.onStart();
+        newsAdapter.startListening();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        newsAdapter.stopListening();
     }
 
     public class newsViewHolder extends RecyclerView.ViewHolder {
@@ -127,19 +132,17 @@ public class NewsFragment extends Fragment{
             mView = itemView;
         }
 
-        public void setPrice(int price) {
-            String currencyPrice = NumberFormat //Format the price variable in currency form
-                    .getCurrencyInstance(Locale.US)
-                    .format(price);
-            TextView Price = mView.findViewById(R.id.post_price);
-            Price.setText(currencyPrice);
-        }
-
         public void setTitreActualite(String titreActualite){
+            TextView tvTitreActualite = mView.findViewById(R.id.tvNewsTitle);
+            tvTitreActualite.setText(titreActualite);
+        }
+
+        public void setImageActualite(String imageActualite){
+            ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
 
         }
     }
 
-    }
+}
 
 
