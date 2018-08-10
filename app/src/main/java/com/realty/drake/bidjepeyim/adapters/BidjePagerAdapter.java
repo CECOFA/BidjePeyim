@@ -60,7 +60,7 @@ public class BidjePagerAdapter extends FragmentPagerAdapter {
             case 2:
                 return "Statistiques";
             case 3:
-                return "Cadre Legale";
+                return "Cadre Legal";
         }
         return null;
     }

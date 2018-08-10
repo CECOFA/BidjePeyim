@@ -1,5 +1,6 @@
 package com.realty.drake.bidjepeyim.activities;
 
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,16 +25,15 @@ public class MainActivity extends AppCompatActivity {
                 (getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-//        viewPager = findViewById(R.id.container);
-//        viewPager.setAdapter(mSectionsPagerAdapter);
-//
-//        TabLayout tabLayout = findViewById(R.id.tabs);
-//        tabLayout.setupWithViewPager(viewPager);
-//
-//
-//        viewPager.addOnPageChangeListener(new TabLayout
-//                .TabLayoutOnPageChangeListener(tabLayout));
-//        tabLayout.addOnTabSelectedListener(new TabLayout
-//                .ViewPagerOnTabSelectedListener(viewPager));
+        viewPager = findViewById(R.id.container);
+        viewPager.setAdapter(bidjePagerAdapter);
+
+        TabLayout tabLayout = findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+
+        viewPager.addOnPageChangeListener(new TabLayout
+                .TabLayoutOnPageChangeListener(tabLayout));
+        tabLayout.addOnTabSelectedListener(new TabLayout
+                .ViewPagerOnTabSelectedListener(viewPager));
     }
 }
