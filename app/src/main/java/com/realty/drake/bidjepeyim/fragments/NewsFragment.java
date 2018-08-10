@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -139,7 +140,9 @@ public class NewsFragment extends Fragment{
 
         public void setImageActualite(String imageActualite){
             ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
-
+            Glide.with(getContext())
+                    .load()
+                    .into(ivImageActualite);
         }
     }
 
