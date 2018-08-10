@@ -74,6 +74,10 @@ public class NewsFragment extends Fragment{
                                          final int position,
                                          @NonNull final News model) {
                 holder.setTitreActualite(model.getTitreActualite());
+                //If there's no image, default image will be load
+                if ((model.getImageActualite())!= null) {
+                    holder.setImageActualite(model.getImageActualite());
+                }
 
                 //This Intent send Parcelable from Property to PropertyDetail
                 //holder.itemView.setOnClickListener(view1 -> getActivity()
@@ -141,7 +145,7 @@ public class NewsFragment extends Fragment{
         public void setImageActualite(String imageActualite){
             ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
             Glide.with(getContext())
-                    .load()
+                    .load(imageActualite)
                     .into(ivImageActualite);
         }
     }
