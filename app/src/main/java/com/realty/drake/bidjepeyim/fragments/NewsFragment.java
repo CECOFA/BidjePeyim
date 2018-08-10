@@ -1,76 +1,145 @@
 package com.realty.drake.bidjepeyim.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import android.util.Property;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.models.News;
+
+import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Created by drake on 8/8/18
  */
 public class NewsFragment extends Fragment{
     //todo Implement the fragment related to the News
-    private DatabaseReference NewsRef;
+    private DatabaseReference newsRef;
     private RecyclerView rvNews;
+    FirebaseRecyclerAdapter<News, newsViewHolder> newsAdapter;
+
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View rootView = inflater
                 .inflate(R.layout.fragment_news, container, false);
         rvNews = rootView.findViewById(R.id.rv_News);
         return rootView;
     }
 
-    /**
-     * Called immediately after {@link #onCreateView(LayoutInflater, ViewGroup, Bundle)}
-     * has returned, but before any saved state has been restored in to the view.
-     * This gives subclasses a chance to initialize themselves once
-     * they know their view hierarchy has been completely created.  The fragment's
-     * view hierarchy is not however attached to its parent at this point.
-     *
-     * @param view               The View returned by {@link #onCreateView(LayoutInflater, ViewGroup, Bundle)}.
-     * @param savedInstanceState If non-null, this fragment is being re-constructed
-     */
     @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        NewsRef = FirebaseDatabase.getInstance()
+        rvNews.setLayoutManager(new LinearLayoutManager(getActivity()));
+        rvNews.hasFixedSize();
+
+        newsRef = FirebaseDatabase.getInstance()
                 .getReference()
                 .child("News");
-        NewsRef.keepSynced(true);
+        newsRef.keepSynced(true);
 
-        // Read from the database
-        NewsRef.child("1").addValueEventListener(new ValueEventListener() {
+        FirebaseRecyclerOptions<News> options =
+                new FirebaseRecyclerOptions.Builder<News>()
+                        .setQuery(newsRef, News.class)
+                        .build();
+
+        newsAdapter = new FirebaseRecyclerAdapter<News,
+                newsViewHolder>(options) {
+
+
             @Override
-            public void onDataChange(final DataSnapshot dataSnapshot) {
-                News news = dataSnapshot.getValue(News.class);
-                assert news != null;
-                Toast.makeText(getContext(), news.getAuteur(), Toast.LENGTH_SHORT).show();
-                TextView textView = view.findViewById(R.id.tvAbout);
-                textView.setText(news.getAuteur());
+            // Bind the Property object to the ViewHolder PropertyHolder
+            public void onBindViewHolder(@NonNull newsViewHolder holder,
+                                         final int position,
+                                         @NonNull final News model) {
+                holder.set.getPrice());
+                holder.setAddress(model.getAddress());
+                holder.setNumberOfBed(model.getNumberOfBed());
+                holder.setNumberOfBath(model.getNumberOfBath());
+                holder.setNumberOfCar(model.getNumberOfCar());
+                holder.setPropertyImage(model.getPropertyImage());
+
+                //This Intent send Parcelable from Property to PropertyDetail
+                //holder.itemView.setOnClickListener(view1 -> getActivity()
+                //        .startActivity(new Intent(getActivity(), PropertyDetail.class)
+                //                .putExtra("Property", model)));
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
+            public newsViewHolder
+            onCreateViewHolder(ViewGroup parent, int viewType) {
+                // Create a new instance of the ViewHolder, in this case we are using a custom
+                // layout called R.layout.property_card for each item
+                View view = LayoutInflater.from(parent.getContext())
+                        .inflate(R.layout.property_card, parent, false);
+                return new newsViewHolder(view);
             }
-        });
+
+            @Override
+            public void onDataChanged() {
+                // Called each time there is a new data snapshot.
+                // You may want to use this method
+                // to hide a loading spinner or check for the "no documents" state and update your UI.
+                // ...
+                //progressBar.setVisibility(View.GONE);
+            }
+
+            //TODO Implement onError
+            @Override
+            public void onError(@NonNull DatabaseError e) {
+                // Called when there is an error getting data. You may want to update
+                // your UI to display an error message to the user.
+                // ...
+                //progressBar.setVisibility(View.GONE);
+                Toast.makeText(getActivity(),
+                        "DatabaseError", Toast.LENGTH_SHORT).show();
+            }
+        };
     }
 
-}
+    public class newsViewHolder extends RecyclerView.ViewHolder {
+        View mView;
+
+        public newsViewHolder(View itemView) {
+            super(itemView);
+            mView = itemView;
+        }
+
+        public void setPrice(int price) {
+            String currencyPrice = NumberFormat //Format the price variable in currency form
+                    .getCurrencyInstance(Locale.US)
+                    .format(price);
+            TextView Price = mView.findViewById(R.id.post_price);
+            Price.setText(currencyPrice);
+        }
+
+        public void setTitreActualite(String titreActualite){
+
+        }
+    }
+
+    }
+
+
