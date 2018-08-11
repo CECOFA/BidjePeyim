@@ -140,7 +140,7 @@ public class NewsFragment extends Fragment{
         }
 
         public void setImageActualite(String imageActualite){
-            ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
+            ImageView ivImageActualite = mView.findViewById(R.id.ivNewsImage);
             //Loading circle for placeholder, ColorAccent has been used
             CircularProgressDrawable progressDrawable =
                     new CircularProgressDrawable(getContext());
