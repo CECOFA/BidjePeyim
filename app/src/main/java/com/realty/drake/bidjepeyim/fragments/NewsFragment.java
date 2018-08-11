@@ -86,7 +86,7 @@ public class NewsFragment extends Fragment{
             public newsViewHolder
             onCreateViewHolder(ViewGroup parent, int viewType) {
                 // Create a new instance of the ViewHolder, in this case we are using a custom
-                // layout called R.layout.property_card for each item
+                // layout called R.layout.news_card for each item
                 View view = LayoutInflater.from(parent.getContext())
                         .inflate(R.layout.news_card, parent, false);
                 return new newsViewHolder(view);
