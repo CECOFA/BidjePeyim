@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.realty.drake.bidjepeyim.GlideApp;
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.models.News;
 
@@ -31,10 +32,20 @@ public class NewsDetailActivity extends AppCompatActivity {
                         .getParcelableExtra("news"));
 
         titreActualite= findViewById(R.id.tvNewsTitleDetail);
+        titreActualite.setText(news.getTitreActualite());
         contenuActualite = findViewById(R.id.tvNewsTextDetail);
+        contenuActualite.setText(news.getContenuActualite());
         motsCles = findViewById(R.id.tvTag);
+        motsCles.setText(news.getMotsCles());
         datePublication = findViewById(R.id.tvPublicationDate);
+        datePublication.setText(news.getDatePublication());
         auteur = findViewById(R.id.tvAuthor);
+        auteur.setText(news.getAuteur());
         imageActualite = findViewById(R.id.ivNewsImageDetail);
+        if (news.getImageActualite() != null){
+            GlideApp.with(getBaseContext())
+                    .load(news.getImageActualite())
+                    .into(imageActualite);
+        }
     }
 }
