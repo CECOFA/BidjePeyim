@@ -101,7 +101,7 @@ public class NewsFragment extends Fragment{
                 // Called each time there is a new data snapshot.
                 // You may want to use this method
                 // to hide a loading spinner or check for the "no documents" state and update your UI.
-                // ...
+
                 //progressBar.setVisibility(View.GONE);
             }
 
