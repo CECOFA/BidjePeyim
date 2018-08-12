@@ -10,7 +10,7 @@
 
     <ScrollView
         android:layout_width="368dp"
-        android:layout_height="551dp"
+        android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
@@ -19,8 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp"
-            android:paddingBottom="10dp"
+            android:paddingBottom="20dp"
             android:paddingTop="10dp">
 
             <ImageView
@@ -92,6 +91,7 @@
                 android:layout_marginStart="5dp"
                 android:paddingBottom="4dp"
                 android:paddingRight="0dp"
+                android:textColor="@color/colorAccent"
                 android:text="tags tags tags"
                 app:layout_constraintBottom_toBottomOf="parent"
                 tools:layout_editor_absoluteX="216dp"
@@ -104,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
                 android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp"
                 android:text="author here"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:layout_editor_absoluteY="416dp" />
