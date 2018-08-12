@@ -9,10 +9,7 @@ import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
-    private ViewPager viewPager;
 
-    //The {@link ViewPager} that will host the section contents.
-    private BidjePagerAdapter bidjePagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        bidjePagerAdapter = new BidjePagerAdapter
+        BidjePagerAdapter bidjePagerAdapter = new BidjePagerAdapter
                 (getSupportFragmentManager());
 
+        //The {@link ViewPager} that will host the section contents.
         // Set up the ViewPager with the sections adapter.
-        viewPager = findViewById(R.id.container);
+        ViewPager viewPager = findViewById(R.id.container);
         viewPager.setAdapter(bidjePagerAdapter);
 
         TabLayout tabLayout = findViewById(R.id.tabs);
