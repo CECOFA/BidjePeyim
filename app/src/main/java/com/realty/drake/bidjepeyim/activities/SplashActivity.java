@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.VideoView;
 
-
-import com.airbnb.lottie.LottieAnimationView;
 import com.realty.drake.bidjepeyim.R;
 
 public class SplashActivity extends AppCompatActivity {
