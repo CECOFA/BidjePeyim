@@ -1,5 +1,6 @@
 package com.realty.drake.bidjepeyim.fragments;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -24,7 +25,10 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import com.realty.drake.bidjepeyim.GlideApp;
 import com.realty.drake.bidjepeyim.R;
+import com.realty.drake.bidjepeyim.activities.NewsDetailActivity;
 import com.realty.drake.bidjepeyim.models.News;
+
+import org.parceler.Parcels;
 
 /**
  * Created by drake on 8/8/18
@@ -76,10 +80,10 @@ public class NewsFragment extends Fragment{
                     holder.setImageActualite(model.getImageActualite());
                 }
 
-                //This Intent send Parcelable from Property to PropertyDetail
-                //holder.itemView.setOnClickListener(view1 -> getActivity()
-                //        .startActivity(new Intent(getActivity(), PropertyDetail.class)
-                //                .putExtra("Property", model)));
+                //This Intent send Parcelable to NewsDetail
+                holder.itemView.setOnClickListener(view1 -> getActivity()
+                        .startActivity(new Intent(getActivity(), NewsDetailActivity.class)
+                                .putExtra("news", Parcels.wrap(model))));
             }
 
             @Override
