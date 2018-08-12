@@ -65,7 +65,8 @@
                 android:text="12/10/18"
                 android:textStyle="italic"
                 app:layout_constraintBaseline_toBaselineOf="@+id/tvAuthor"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="5dp" />
 
             <TextView
                 android:id="@+id/tvNewsTextDetail"
@@ -81,7 +82,8 @@
                 app:layout_constraintHorizontal_bias="0.008"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.312" />
+                app:layout_constraintVertical_bias="0.312"
+                android:gravity="start" />
 
             <TextView
                 android:id="@+id/tvTag"
@@ -92,7 +94,9 @@
                 android:paddingRight="0dp"
                 android:text="tags tags tags"
                 app:layout_constraintBottom_toBottomOf="parent"
-                tools:layout_editor_absoluteX="216dp" />
+                tools:layout_editor_absoluteX="216dp"
+                android:layout_marginLeft="5dp"
+                android:paddingEnd="0dp" />
 
             <TextView
                 android:id="@+id/tvAuthor"
