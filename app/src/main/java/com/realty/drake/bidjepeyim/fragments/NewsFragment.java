@@ -86,7 +86,7 @@ public class NewsFragment extends Fragment{
             public newsViewHolder
             onCreateViewHolder(ViewGroup parent, int viewType) {
                 // Create a new instance of the ViewHolder, in this case we are using a custom
-                // layout called R.layout.property_card for each item
+                // layout called R.layout.news_card for each item
                 View view = LayoutInflater.from(parent.getContext())
                         .inflate(R.layout.news_card, parent, false);
                 return new newsViewHolder(view);
@@ -140,6 +140,7 @@ public class NewsFragment extends Fragment{
         }
 
         public void setImageActualite(String imageActualite){
+            ImageView ivImageActualite = mView.findViewById(R.id.iv_News);
             ImageView ivImageActualite = mView.findViewById(R.id.ivNewsImageDetail);
             //Loading circle for placeholder, ColorAccent has been used
             CircularProgressDrawable progressDrawable =
