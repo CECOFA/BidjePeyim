@@ -13,6 +13,7 @@ import com.realty.drake.bidjepeyim.R;
  */
 public class RegulatoryFrameworkFragment extends Fragment {
     //todo Implement RegulatoryFrameworkFragment here
+    //todo Integrate firebase storage
     //todo replace layout
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
