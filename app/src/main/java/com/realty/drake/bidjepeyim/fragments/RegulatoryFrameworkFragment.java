@@ -21,5 +21,4 @@ public class RegulatoryFrameworkFragment extends Fragment {
         return inflater
                 .inflate(R.layout.activity_about, container, false);
     }
-
 }
