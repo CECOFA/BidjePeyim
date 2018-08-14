@@ -30,7 +30,7 @@ The following **required** functionality is completed:
 
 User can : 
 
-* [ ] see a list of news related to Public Finances.
+* [x] see a list of news related to Public Finances.
 * [ ] search news and documents using Search bar.
 * [ ] access budget(credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
@@ -56,9 +56,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-1.png' title='I' width='' alt='' />
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2.png' title='II' width='' alt='' />
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2-copy.png' title='III' width='' alt='V' />
+<img align = "left" src='hhttps://imgur.com/w7xzglg.gif' title='I' width='' alt='' />
 
 
 ## NOTES
