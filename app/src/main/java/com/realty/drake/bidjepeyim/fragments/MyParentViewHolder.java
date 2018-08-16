@@ -29,8 +29,6 @@ public class MyParentViewHolder extends GroupViewHolder {
         listGroup.setText(group.getTitle());
     }
 
-
-
     @Override
     public void expand() {
         animateExpand();
