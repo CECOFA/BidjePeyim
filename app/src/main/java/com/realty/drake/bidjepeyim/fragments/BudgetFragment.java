@@ -28,8 +28,6 @@ import java.util.List;
  * Created by drake on 8/8/18
  */
 public class BudgetFragment extends Fragment {
-    //todo Implement BudgetFragment here
-    //todo replace layout
     private RecyclerView recycler_view;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -58,8 +56,6 @@ public class BudgetFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 final List<ParentList> Parent = new ArrayList<>();
                 for (final DataSnapshot snapshot : dataSnapshot.getChildren()){
-
-
                     final String ParentKey = snapshot.getKey().toString();
 
                     snapshot.child("Parent").getValue();
