@@ -105,8 +105,6 @@ public class BudgetFragment extends Fragment {
 
     }
 
-
-
     public class DocExpandableRecyclerAdapter extends
             ExpandableRecyclerViewAdapter<MyParentViewHolder,
                     MyChildViewHolder> {
@@ -165,5 +163,3 @@ public class BudgetFragment extends Fragment {
         }
     }
 }
-
-
