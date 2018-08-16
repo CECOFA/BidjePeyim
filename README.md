@@ -22,7 +22,7 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 * [ ] Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **3** hours spent in total
+Time spent: **20** hours spent in total
 
 ## USER STORIES
 
@@ -32,7 +32,7 @@ User can :
 
 * [x] see a list of news related to Public Finances.
 * [ ] search news and documents using Search bar.
-* [ ] access budget(credit and expenditures) report of each Ministry.
+* [x] access budget(credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
@@ -57,6 +57,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://imgur.com/w7xzglg.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/Xv0JlYR.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 ## NOTES
