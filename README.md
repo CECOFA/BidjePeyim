@@ -12,17 +12,17 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 
 ### Objectif général
 
-* [ ]	Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
-* [ ] Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
+ Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
+ Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
 
 ### Objectifs spécifiques
 
-* [ ] Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
-* [ ] Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
-* [ ] Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
+ Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
+ Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
+ Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **3** hours spent in total
+Time spent: **30** hours spent in total
 
 ## USER STORIES
 
@@ -30,9 +30,9 @@ The following **required** functionality is completed:
 
 User can : 
 
-* [ ] see a list of news related to Public Finances.
+* [x] see a list of news related to Public Finances.
 * [ ] search news and documents using Search bar.
-* [ ] access budget(credit and expenditures) report of each Ministry.
+* [x] access budget(credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
@@ -56,9 +56,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-1.png' title='I' width='' alt='' />
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2.png' title='II' width='' alt='' />
-<img align = "left" src='https://github.com/CECOFA/BidjePeyim/blob/develop/budgetArtboard-2-copy.png' title='III' width='' alt='V' />
+<img align="left" src='https://imgur.com/KlIyuEj.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/Xv0JlYR.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## NOTES
@@ -69,7 +68,8 @@ Describe any challenges encountered while building the app.
 
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android by Google
 - [Parceler](https://github.com/johncarl81/parceler) - Make class parcelable
-- [Firebase-UI](https://github.com/firebase/FirebaseUI-Android)
+- [Firebase-UI](https://github.com/firebase/FirebaseUI-Android) Optimized UI components for Firebase
+- [ExpandableRecyclerView](https://github.com/thoughtbot/expandable-recycler-view) Custom Android RecyclerViewAdapters that collapse and expand 
 
 ## LICENCE
 
