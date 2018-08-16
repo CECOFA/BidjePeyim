@@ -1,6 +1,7 @@
 package com.realty.drake.bidjepeyim.fragments;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -23,6 +24,7 @@ import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by drake on 8/8/18
@@ -57,9 +59,7 @@ public class BudgetFragment extends Fragment {
                 final List<ParentList> Parent = new ArrayList<>();
                 for (final DataSnapshot snapshot : dataSnapshot.getChildren()){
                     final String ParentKey = snapshot.getKey().toString();
-
                     snapshot.child("Parent").getValue();
-
                     DatabaseReference childReference =
                             FirebaseDatabase.getInstance()
                                     .getReference("/Budget").child(ParentKey);
@@ -71,8 +71,10 @@ public class BudgetFragment extends Fragment {
 
                             for (DataSnapshot snapshot1:dataSnapshot.getChildren())
                             {
-                                final String ChildValue1 =  snapshot1.getValue().toString();
-                                final String ChildValue2 = snapshot1.getKey();
+                                final String ChildValue1 =
+                                        Objects.requireNonNull(snapshot1.getValue()).toString();
+                                final String ChildValue2 =
+                                        snapshot1.getKey();
 
                                 snapshot1.child("title").getValue();
 
@@ -88,7 +90,7 @@ public class BudgetFragment extends Fragment {
                         }
 
                         @Override
-                        public void onCancelled(DatabaseError error) {
+                        public void onCancelled(@NonNull DatabaseError error) {
                             // Failed to read value
                             System.out.println("Failed to read value." + error.toException());
                         }
@@ -96,7 +98,7 @@ public class BudgetFragment extends Fragment {
                     });}}
 
             @Override
-            public void onCancelled(DatabaseError databaseError) {
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
@@ -138,13 +140,9 @@ public class BudgetFragment extends Fragment {
             final ChildList childItem = ((ParentList) group).getItems().get(childIndex);
             holder.onBind(childItem.getMinistry(), childItem.getCredit());
             final String TitleChild=group.getTitle();
-            holder.listMinistry.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Toast toast = Toast.makeText(getContext(), TitleChild, Toast.LENGTH_SHORT);
-                    toast.show();
-                }
-
+            holder.listMinistry.setOnClickListener(view -> {
+                Toast toast = Toast.makeText(getContext(), TitleChild, Toast.LENGTH_SHORT);
+                toast.show();
             });
 
         }
@@ -157,20 +155,14 @@ public class BudgetFragment extends Fragment {
 
             if(group.getItems()==null)
             {
-                holder.listGroup.setOnClickListener(  new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        Toast toast = Toast.makeText(getContext(),
-                                group.toString(), Toast.LENGTH_SHORT);
-                        toast.show();
-                    }
+                holder.listGroup.setOnClickListener(view -> {
+                    Toast toast = Toast.makeText(getContext(),
+                            group.toString(), Toast.LENGTH_SHORT);
+                    toast.show();
                 });
 
             }
         }
-
-
     }
 }
 
