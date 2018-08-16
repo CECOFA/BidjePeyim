@@ -12,17 +12,17 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
 
 ### Objectif général
 
-* [ ]	Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
-* [ ] Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
+ Promouvoir la transparence budgétaire au niveau de l'administration d'Etat ;
+ Rendre accessibles les informations relatives aux prévisions de dépenses de l'Etat central ;
 
 ### Objectifs spécifiques
 
-* [ ] Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
-* [ ] Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
-* [ ] Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
+ Publier au moins quatre lois de finances passées et celle en vigueur (en cours d'application) ;
+ Communiquer des statistiques sur le niveau de l'emploi, la masse salariale et les mouvements dans les entités ;
+ Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **20** hours spent in total
+Time spent: **30** hours spent in total
 
 ## USER STORIES
 
@@ -68,7 +68,8 @@ Describe any challenges encountered while building the app.
 
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android by Google
 - [Parceler](https://github.com/johncarl81/parceler) - Make class parcelable
-- [Firebase-UI](https://github.com/firebase/FirebaseUI-Android)
+- [Firebase-UI](https://github.com/firebase/FirebaseUI-Android) Optimized UI components for Firebase
+- [ExpandableRecyclerView](https://github.com/thoughtbot/expandable-recycler-view) Custom Android RecyclerViewAdapters that collapse and expand 
 
 ## LICENCE
 
