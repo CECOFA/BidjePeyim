@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingTop="3dp"
+    android:orientation="vertical"
     android:paddingBottom="3dp"
     >
 
@@ -14,36 +15,35 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_height="wrap_content"
-        android:background="#E0E0E0"
-        android:divider="#FFFFFF"
-        android:showDividers="middle"
-        android:dividerHeight="2px"
+        android:divider="#a1a1a1"
+        android:showDividers="beginning"
+        android:dividerHeight="2dp"
         >
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/listChild1"
-            android:textSize="16dp"
             android:text="child"
-            android:layout_margin="25dp"
-            android:textColor="#000000"
-
-            />
+            android:layout_margin="10dp"
+            android:textColor="#000000"/>
 
         <TextView
-
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listChild"
-            android:textSize="16dp"
             android:text="child"
-            android:gravity="right"
-            android:layout_margin="25dp"
-            android:textColor="#000000"
-
-            />
+            android:gravity="end"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorAccent"/>
 
 
     </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@color/colorDivider" />
+
 </LinearLayout>
