@@ -22,5 +22,7 @@ public class MyParentViewHolder extends GroupViewHolder {
     public void setParentTitle(ExpandableGroup group) {
         listGroup.setText(group.getTitle());
     }
+
+
 }
 

@@ -65,7 +65,8 @@ public class BudgetFragment extends Fragment {
                     snapshot.child("Parent").getValue();
 
                     DatabaseReference childReference =
-                            FirebaseDatabase.getInstance().getReference("/Budget").child(ParentKey);
+                            FirebaseDatabase.getInstance()
+                                    .getReference("/Budget").child(ParentKey);
                     childReference.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
@@ -80,13 +81,12 @@ public class BudgetFragment extends Fragment {
                                 snapshot1.child("title").getValue();
 
                                 Child.add(new ChildList(ChildValue1, ChildValue2));
-
                             }
 
                             Parent.add(new ParentList(ParentKey, Child));
 
-                            DocExpandableRecyclerAdapter adapter = new DocExpandableRecyclerAdapter(Parent);
-
+                            DocExpandableRecyclerAdapter adapter =
+                                    new DocExpandableRecyclerAdapter(Parent);
                             recycler_view.setAdapter(adapter);
 
                         }
@@ -109,8 +109,9 @@ public class BudgetFragment extends Fragment {
 
 
 
-    public class DocExpandableRecyclerAdapter extends ExpandableRecyclerViewAdapter<MyParentViewHolder,MyChildViewHolder> {
-
+    public class DocExpandableRecyclerAdapter extends
+            ExpandableRecyclerViewAdapter<MyParentViewHolder,
+                    MyChildViewHolder> {
 
         public DocExpandableRecyclerAdapter(List<ParentList> groups) {
             super(groups);
@@ -118,18 +119,25 @@ public class BudgetFragment extends Fragment {
 
         @Override
         public MyParentViewHolder onCreateGroupViewHolder(ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_parent, parent, false);
+            View view = LayoutInflater
+                    .from(parent.getContext())
+                    .inflate(R.layout.item_parent, parent, false);
             return new MyParentViewHolder(view);
         }
 
         @Override
         public MyChildViewHolder onCreateChildViewHolder(ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_child, parent, false);
+            View view = LayoutInflater
+                    .from(parent.getContext())
+                    .inflate(R.layout.item_child, parent, false);
             return new MyChildViewHolder(view);
         }
 
         @Override
-        public void onBindChildViewHolder(MyChildViewHolder holder, int flatPosition, ExpandableGroup group, int childIndex) {
+        public void onBindChildViewHolder(MyChildViewHolder holder,
+                                          int flatPosition,
+                                          ExpandableGroup group,
+                                          int childIndex) {
 
             final ChildList childItem = ((ParentList) group).getItems().get(childIndex);
             holder.onBind(childItem.getMinistry(), childItem.getCredit());
@@ -146,7 +154,9 @@ public class BudgetFragment extends Fragment {
         }
 
         @Override
-        public void onBindGroupViewHolder(MyParentViewHolder holder, int flatPosition, final ExpandableGroup group) {
+        public void onBindGroupViewHolder(MyParentViewHolder holder,
+                                          int flatPosition,
+                                          final ExpandableGroup group) {
             holder.setParentTitle(group);
 
             if(group.getItems()==null)
@@ -155,7 +165,8 @@ public class BudgetFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
 
-                        Toast toast = Toast.makeText(getContext(), group.toString(), Toast.LENGTH_SHORT);
+                        Toast toast = Toast.makeText(getContext(),
+                                group.toString(), Toast.LENGTH_SHORT);
                         toast.show();
                     }
                 });
