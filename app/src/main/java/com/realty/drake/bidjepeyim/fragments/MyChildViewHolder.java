@@ -3,6 +3,7 @@ package com.realty.drake.bidjepeyim.fragments;
 import android.view.View;
 import android.widget.TextView;
 
+import com.realty.drake.bidjepeyim.R;
 import com.thoughtbot.expandablerecyclerview.viewholders.ChildViewHolder;
 
 /**
@@ -16,8 +17,8 @@ public class MyChildViewHolder extends ChildViewHolder {
 
     public MyChildViewHolder(View itemView) {
         super(itemView);
-        listMinistry = (TextView) itemView.findViewById(R.id.listChild);
-        listCredit = (TextView) itemView.findViewById(R.id.listChild1);
+        listMinistry = itemView.findViewById(R.id.listChild);
+        listCredit = itemView.findViewById(R.id.listChild1);
 
     }
 

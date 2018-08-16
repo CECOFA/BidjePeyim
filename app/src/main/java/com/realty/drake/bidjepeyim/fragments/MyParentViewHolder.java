@@ -3,6 +3,7 @@ package com.realty.drake.bidjepeyim.fragments;
 import android.view.View;
 import android.widget.TextView;
 
+import com.realty.drake.bidjepeyim.R;
 import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
 import com.thoughtbot.expandablerecyclerview.viewholders.GroupViewHolder;
 
