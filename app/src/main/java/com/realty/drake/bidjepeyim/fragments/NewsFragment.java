@@ -52,9 +52,12 @@ public class NewsFragment extends Fragment{
     @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
         rvNews.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvNews.hasFixedSize();
+
+        //Loading bar when content are not yet available
+        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
+        progressBar.setVisibility(View.VISIBLE);
 
         DatabaseReference newsRef = FirebaseDatabase.getInstance()
                 .getReference()

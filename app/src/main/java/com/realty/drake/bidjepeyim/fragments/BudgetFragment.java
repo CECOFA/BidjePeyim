@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -46,6 +47,10 @@ public class BudgetFragment extends Fragment {
         recycler_view = view.findViewById(R.id.recycler_Expand);
         recycler_view.setLayoutManager(new LinearLayoutManager(getContext()));
 
+        //Loading bar when content are not yet available
+        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
+        progressBar.setVisibility(View.VISIBLE);
+
         //Initialize your Firebase app
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -66,6 +71,7 @@ public class BudgetFragment extends Fragment {
                     childReference.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
+                            progressBar.setVisibility(View.GONE);
                             final List<ChildList> Child = new ArrayList<>();
                             //numberOnline = 0;
 
@@ -92,7 +98,8 @@ public class BudgetFragment extends Fragment {
                         @Override
                         public void onCancelled(@NonNull DatabaseError error) {
                             // Failed to read value
-                            System.out.println("Failed to read value." + error.toException());
+                            progressBar.setVisibility(View.GONE);
+                            Toast.makeText(getContext(), "Failed to read value.", Toast.LENGTH_SHORT).show();
                         }
 
                     });}}
