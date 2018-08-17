@@ -81,6 +81,9 @@ public class NewsFragment extends Fragment{
                     holder.setImageActualite(model.getImageActualite());
                 }
 
+                //Set Date on cardView
+                holder.setDateActualite(model.getDatePublication());
+
                 //This Intent send Parcelable to NewsDetail
                 holder.itemView.setOnClickListener(view1 -> getActivity()
                         .startActivity(new Intent(getActivity(), NewsDetailActivity.class)
@@ -158,6 +161,11 @@ public class NewsFragment extends Fragment{
                     .load(imageActualite)
                     .placeholder(progressDrawable)
                     .into(ivImageActualite);
+        }
+
+        public void setDateActualite(String dateActualite){
+            TextView tvDate = mView.findViewById(R.id.tvDate);
+            tvDate.setText(dateActualite);
         }
     }
 
