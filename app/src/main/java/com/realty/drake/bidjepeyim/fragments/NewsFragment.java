@@ -109,7 +109,7 @@ public class NewsFragment extends Fragment{
                 // You may want to use this method
                 // to hide a loading spinner or check for the "no documents" state and update your UI.
 
-                //progressBar.setVisibility(View.GONE);
+                progressBar.setVisibility(View.GONE);
             }
 
             //TODO Implement onError
