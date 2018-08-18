@@ -9,8 +9,6 @@ import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
