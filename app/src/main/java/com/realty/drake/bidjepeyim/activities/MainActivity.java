@@ -1,7 +1,6 @@
 package com.realty.drake.bidjepeyim.activities;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
@@ -12,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
@@ -45,7 +43,8 @@ public class MainActivity extends AppCompatActivity
                     // For example, swap UI fragments here
                     switch (menuItem.getItemId()) {
                         case R.id.nav_about: {
-                            startActivity(new Intent(this, AboutActivity.class));
+                            startActivity(new Intent
+                                    (this, AboutActivity.class));
                             break;
                         }
                     }
