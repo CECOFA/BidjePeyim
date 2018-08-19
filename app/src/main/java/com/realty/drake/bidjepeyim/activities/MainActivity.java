@@ -1,5 +1,6 @@
 package com.realty.drake.bidjepeyim.activities;
 
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
@@ -10,13 +11,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+        {
     private DrawerLayout mDrawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +42,15 @@ public class MainActivity extends AppCompatActivity {
                     mDrawerLayout.closeDrawers();
                     // Add code here to update the UI based on the item selected
                     // For example, swap UI fragments here
+                    switch (menuItem.getItemId()) {
+                        case R.id.nav_about: {
+                            Toast.makeText(this, "About OK", Toast.LENGTH_SHORT).show();
+                            break;
+                        }
+                    }
                     return true;
                 });
+
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
