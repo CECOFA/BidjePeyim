@@ -22,7 +22,7 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
  Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **30** hours spent in total
+Time spent: **40** hours spent in total
 
 ## USER STORIES
 
@@ -36,7 +36,7 @@ User can :
 * [ ] access "employment statistics on each ministry".
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
-* [ ] read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
+* [x] read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
 
 The following **optional** features are implemented:
 
