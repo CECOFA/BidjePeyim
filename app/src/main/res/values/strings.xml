@@ -14,4 +14,6 @@
     <string name="about_text">BidjePeyim est une application mobile dédiée à la publication d’au moins des cinq dernières lois de finances de la République d’Haïti plus celle en vigueur. Elle diffusera aussi des rapports financiers et des statistiques relatifs aux autorisations de dépenses mensuelles de fonctionnement et d’investissement et au niveau d’emploi dans l’administration d’Etat. Elle fournira enfin des dashboards de la situation financière des institutions de l’Etat et se voudra un outil de travail principalement pour les techniciens en finances publiques du Ministère de l’Economie et des Finances.
 Les données publiées seront tirées de la base de données du système de gestion des dépenses budgétaires de l’Etat (SYSDEP) dont la gouvernance est assurée par la Direction des Systèmes d’Information (DSI) du Ministère de l’Economie et des Finances (MEF).
         Cette application BidjePeyim,  développée par l’équipe composée des sieurs Joseph Colin, Célande Pierre et Fabrice Ledan, constitue le projet de ladite équipe dans le cadre du bootcamp codepath tenue du 3 juillet au 25 août 2018 à St-Louis de Conzague à Port-au-Prince, Haiti.</string>
+
+    <string name="budget_text">Voici les crédit alloués aux Ministères pour l\'année 2016–2017:</string>
 </resources>

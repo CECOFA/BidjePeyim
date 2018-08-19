@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -16,10 +16,21 @@
         android:indeterminateTintMode="src_in"
         android:visibility="gone"
         android:layout_gravity="center|center"/>
+    <TextView
+        android:id="@+id/tvBudgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/budget_text"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="16dp"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_Expand"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvBudgetText"
+        />
 
-</FrameLayout>
+</RelativeLayout>
