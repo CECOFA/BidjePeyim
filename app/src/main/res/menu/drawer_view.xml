@@ -2,6 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/about"/>
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_menu_contacts"
+            android:title="@string/contacts"/>
+        <item
             android:id="@+id/nav_tools"
             android:icon="@drawable/ic_menu_tools"
             android:title="@string/tools"/>
@@ -10,16 +18,8 @@
             android:icon="@drawable/ic_menu_guide"
             android:title="@string/guide"/>
         <item
-            android:id="@+id/nav_contacts"
-            android:icon="@drawable/ic_menu_contacts"
-            android:title="@string/contacts"/>
-        <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_settings"
             android:title="@string/settings"/>
-        <item
-        android:id="@+id/nav_about"
-        android:icon="@drawable/ic_menu_about"
-        android:title="@string/about"/>
     </group>
 </menu>
