@@ -60,49 +60,55 @@ public class BudgetFragment extends Fragment {
         //reading data from firebase
         parentReference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 final List<ParentList> Parent = new ArrayList<>();
                 for (final DataSnapshot snapshot : dataSnapshot.getChildren()){
-                    final String ParentKey = snapshot.getKey().toString();
+                    final String ParentKey = snapshot.getKey();
                     snapshot.child("Parent").getValue();
                     DatabaseReference childReference =
-                            FirebaseDatabase.getInstance()
-                                    .getReference("/Budget").child(ParentKey);
-                    childReference.addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-                            progressBar.setVisibility(View.GONE);
-                            final List<ChildList> Child = new ArrayList<>();
-                            //numberOnline = 0;
+                            null;
+                    if (ParentKey != null) {
+                        childReference = FirebaseDatabase.getInstance()
+                                .getReference("/Budget").child(ParentKey);
+                    }
+                    if (childReference != null) {
+                        childReference.addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                progressBar.setVisibility(View.GONE);
+                                final List<ChildList> Child = new ArrayList<>();
+                                //numberOnline = 0;
 
-                            for (DataSnapshot snapshot1:dataSnapshot.getChildren())
-                            {
-                                final String ChildValue1 =
-                                        Objects.requireNonNull(snapshot1.getValue()).toString();
-                                final String ChildValue2 =
-                                        snapshot1.getKey();
+                                for (DataSnapshot snapshot1:dataSnapshot.getChildren())
+                                {
+                                    final String ChildValue1 =
+                                            Objects.requireNonNull(snapshot1.getValue()).toString();
+                                    final String ChildValue2 =
+                                            snapshot1.getKey();
 
-                                snapshot1.child("title").getValue();
+                                    snapshot1.child("title").getValue();
 
-                                Child.add(new ChildList(ChildValue1, ChildValue2));
+                                    Child.add(new ChildList(ChildValue1, ChildValue2));
+                                }
+
+                                Parent.add(new ParentList(ParentKey, Child));
+
+                                DocExpandableRecyclerAdapter adapter =
+                                        new DocExpandableRecyclerAdapter(Parent);
+                                recycler_view.setAdapter(adapter);
+
                             }
 
-                            Parent.add(new ParentList(ParentKey, Child));
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError error) {
+                                // Failed to read value
+                                progressBar.setVisibility(View.GONE);
+                                Toast.makeText(getContext(), "Failed to read value.", Toast.LENGTH_SHORT).show();
+                            }
 
-                            DocExpandableRecyclerAdapter adapter =
-                                    new DocExpandableRecyclerAdapter(Parent);
-                            recycler_view.setAdapter(adapter);
-
-                        }
-
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError error) {
-                            // Failed to read value
-                            progressBar.setVisibility(View.GONE);
-                            Toast.makeText(getContext(), "Failed to read value.", Toast.LENGTH_SHORT).show();
-                        }
-
-                    });}}
+                        });
+                    }
+                }}
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
