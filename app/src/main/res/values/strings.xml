@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">BidjePeyim</string>
     <string name="news">news</string>
@@ -7,6 +8,6 @@
     <string name="tools">Outils</string>
     <string name="guide">Guide</string>
     <string name="contacts">Contacts</string>
-    <string name="settings">Parametres</string>
+    <string name="settings">Param\u00E8tres</string>
     <string name="about">A propos</string>
 </resources>
