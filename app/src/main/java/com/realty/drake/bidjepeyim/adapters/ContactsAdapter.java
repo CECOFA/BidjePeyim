@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -45,9 +44,19 @@ public class ContactsAdapter extends ArrayAdapter<Contacts> {
         tvContactFunction.setText(contacts.getContactFunction());
         tvContactPhone.setText(contacts.getContactPhone());
 
-        Glide.with(getContext())
-                .load(contacts.getContactImage())
+        if(contacts.getContactName().equals("Jephte COLIN")) {
+            Glide.with(getContext())
+                    .load(R.drawable.jephte)
+                    .into(ivContactPhoto);
+        }else if(contacts.getContactName().equals("Celande PIERRE")){
+            Glide.with(getContext())
+                    .load(R.drawable.celande)
+                    .into(ivContactPhoto);
+        }else Glide.with(getContext())
+                .load(R.drawable.fabrice)
                 .into(ivContactPhoto);
+
+
 
         //return the completed View to return to screen
         return convertView;

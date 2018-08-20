@@ -7,8 +7,7 @@ public class Contacts {
     String contactName,
             contactFunction,
             contactPhone,
-            contactEmail,
-            contactImage;
+            contactEmail;
 
     public String getContactName() {
         return contactName;
@@ -26,19 +25,13 @@ public class Contacts {
         return contactEmail;
     }
 
-    public String getContactImage() {
-        return contactImage;
-    }
-
     public Contacts(String contactName,
                     String contactFunction,
                     String contactPhone,
-                    String contactEmail,
-                    String contactImage) {
+                    String contactEmail) {
         this.contactName = contactName;
         this.contactFunction = contactFunction;
         this.contactPhone = contactPhone;
         this.contactEmail = contactEmail;
-        this.contactImage = contactImage;
     }
 }

@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity
                                     (this, AboutActivity.class));
                             break;
                         }
+                        case R.id.nav_contacts: {
+                            startActivity(new Intent
+                                    (this, ContactActivity.class));
+                            break;
+                        }
+
                     }
                     return true;
                 });
