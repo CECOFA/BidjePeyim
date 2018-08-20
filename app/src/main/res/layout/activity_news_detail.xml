@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingBottom="20dp"
-            android:paddingTop="10dp">
+            android:paddingTop="10dp"
+            tools:background="@android:drawable/editbox_dropdown_light_frame">
 
             <ImageView
                 android:id="@+id/ivNewsImageDetail"
@@ -29,8 +30,8 @@
                 android:layout_height="180dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginStart="5dp"
-                android:src="@drawable/newstry"
                 android:scaleType="centerCrop"
+                android:src="@drawable/newstry"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.323"
                 app:layout_constraintStart_toStartOf="parent"
@@ -43,11 +44,11 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
-                android:textColor="#000000"
                 android:padding="0dp"
                 android:paddingBottom="0dp"
                 android:paddingTop="0dp"
                 android:text="Le FMI accorde 24,5 millions de dollars à Haïti."
+                android:textColor="#000000"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -59,14 +60,19 @@
                 android:id="@+id/tvPublicationDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
                 android:text="12/10/18"
                 android:textStyle="italic"
                 app:layout_constraintBaseline_toBaselineOf="@+id/tvAuthor"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginLeft="5dp" />
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
 
             <TextView
                 android:id="@+id/tvNewsTextDetail"
@@ -75,6 +81,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginStart="5dp"
+                android:gravity="start"
                 android:text="@string/lorum_ipsum"
                 android:textAlignment="viewStart"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -82,30 +89,34 @@
                 app:layout_constraintHorizontal_bias="0.008"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.312"
-                android:gravity="start" />
+                app:layout_constraintVertical_bias="0.312" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
 
             <TextView
                 android:id="@+id/tvTag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"
                 android:paddingBottom="4dp"
+                android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-                android:textColor="@color/colorAccent"
                 android:text="tags tags tags"
+                android:textColor="@color/colorAccent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                tools:layout_editor_absoluteX="216dp"
-                android:layout_marginLeft="5dp"
-                android:paddingEnd="0dp" />
+                tools:layout_editor_absoluteX="216dp" />
 
             <TextView
                 android:id="@+id/tvAuthor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginBottom="20dp"
                 android:text="author here"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:layout_editor_absoluteY="416dp" />

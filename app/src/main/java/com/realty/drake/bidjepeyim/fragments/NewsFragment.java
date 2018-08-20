@@ -18,6 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -56,8 +57,11 @@ public class NewsFragment extends Fragment{
         rvNews.hasFixedSize();
 
         //Loading bar when content are not yet available
-        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
-        progressBar.setVisibility(View.VISIBLE);
+        //final ProgressBar progressBar = view.findViewById(R.id.progressBar);
+       // progressBar.setVisibility(View.VISIBLE);
+
+        final LottieAnimationView lottieAnimationView = view.findViewById(R.id.animation_view1);
+        lottieAnimationView.setVisibility(View.VISIBLE);
 
         DatabaseReference newsRef = FirebaseDatabase.getInstance()
                 .getReference()
@@ -109,7 +113,7 @@ public class NewsFragment extends Fragment{
                 // You may want to use this method
                 // to hide a loading spinner or check for the "no documents" state and update your UI.
 
-                progressBar.setVisibility(View.GONE);
+                lottieAnimationView.setVisibility(View.GONE);
             }
 
             //TODO Implement onError
@@ -118,7 +122,7 @@ public class NewsFragment extends Fragment{
                 // Called when there is an error getting data. You may want to update
                 // your UI to display an error message to the user.
                 // ...
-                progressBar.setVisibility(View.GONE);
+                lottieAnimationView.setVisibility(View.GONE);
                 Toast.makeText(getActivity(),
                         "DatabaseError", Toast.LENGTH_SHORT).show();
             }

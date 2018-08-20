@@ -1,8 +1,10 @@
 package com.realty.drake.bidjepeyim.fragments;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -12,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -48,8 +51,11 @@ public class BudgetFragment extends Fragment {
         recycler_view.setLayoutManager(new LinearLayoutManager(getContext()));
 
         //Loading bar when content are not yet available
-        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
-        progressBar.setVisibility(View.VISIBLE);
+       // final ProgressBar progressBar = view.findViewById(R.id.progressBar);
+       // progressBar.setVisibility(View.VISIBLE);
+
+        final LottieAnimationView lottieAnimationView = view.findViewById(R.id.animation_view2);
+        lottieAnimationView.setVisibility(View.VISIBLE);
 
         //Initialize your Firebase app
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -73,9 +79,10 @@ public class BudgetFragment extends Fragment {
                     }
                     if (childReference != null) {
                         childReference.addValueEventListener(new ValueEventListener() {
+                            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                progressBar.setVisibility(View.GONE);
+                                lottieAnimationView.setVisibility(View.GONE);
                                 final List<ChildList> Child = new ArrayList<>();
                                 //numberOnline = 0;
 
@@ -102,7 +109,7 @@ public class BudgetFragment extends Fragment {
                             @Override
                             public void onCancelled(@NonNull DatabaseError error) {
                                 // Failed to read value
-                                progressBar.setVisibility(View.GONE);
+                                lottieAnimationView.setVisibility(View.GONE);
                                 Toast.makeText(getContext(), "Failed to read value.", Toast.LENGTH_SHORT).show();
                             }
 

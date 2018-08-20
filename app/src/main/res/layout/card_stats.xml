@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="45dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="25dp">
+
+            <LinearLayout
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCredit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credits" />
+
+                <TextView
+                    android:id="@+id/tvDepense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dépenses" />
+
+                <TextView
+                    android:id="@+id/tvSolde"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soldes" />
+
+                <TextView
+                    android:id="@+id/tvAbsorbtion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Absorbtion" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvCreditAmnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000000"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tvDepensesAmnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1000"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tvSoldesAmnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9000"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tvAbsorbtionAmnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.25%"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_Ministere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="MINISTERE"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="38dp"
+            android:background="@android:color/darker_gray" />
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
