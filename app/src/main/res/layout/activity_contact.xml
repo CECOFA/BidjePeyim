@@ -9,5 +9,47 @@
     <ImageView
         android:id="@+id/ivContactPhoto"
         android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/tvContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvFunction"
+        android:layout_marginBottom="-28dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ivContactPhoto"
+        android:text="name"
+        android:layout_toRightOf="@+id/ivContactPhoto" />
+
+    <TextView
+        android:id="@+id/tvFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/ivContactPhoto"
+        android:text="Android Dev"
+        android:layout_toRightOf="@+id/ivContactPhoto" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tvFunction"
+        android:layout_toEndOf="@+id/ivContactPhoto"
+        android:text="atgmail.com"
+        android:layout_toRightOf="@+id/ivContactPhoto" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail"
+        android:layout_toEndOf="@+id/ivContactPhoto"
+        android:text="121345678"
+        android:layout_toRightOf="@+id/ivContactPhoto" />
 </RelativeLayout>
