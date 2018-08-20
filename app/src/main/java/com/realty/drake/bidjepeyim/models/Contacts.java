@@ -10,6 +10,26 @@ public class Contacts {
             contactEmail,
             contactImage;
 
+    public String getContactName() {
+        return contactName;
+    }
+
+    public String getContactFunction() {
+        return contactFunction;
+    }
+
+    public String getContactPhone() {
+        return contactPhone;
+    }
+
+    public String getContactEmail() {
+        return contactEmail;
+    }
+
+    public String getContactImage() {
+        return contactImage;
+    }
+
     public Contacts(String contactName,
                     String contactFunction,
                     String contactPhone,

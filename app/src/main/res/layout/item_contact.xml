@@ -15,7 +15,7 @@
         android:id="@+id/tvContactName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvFunction"
+        android:layout_above="@+id/tvContactFunction"
         android:layout_marginBottom="-28dp"
         android:layout_marginLeft="10dp"
         android:layout_toEndOf="@+id/ivContactPhoto"
@@ -23,7 +23,7 @@
         android:layout_toRightOf="@+id/ivContactPhoto" />
 
     <TextView
-        android:id="@+id/tvFunction"
+        android:id="@+id/tvContactFunction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -34,21 +34,21 @@
         android:layout_toRightOf="@+id/ivContactPhoto" />
 
     <TextView
-        android:id="@+id/tvEmail"
+        android:id="@+id/tvContactEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_below="@+id/tvFunction"
+        android:layout_below="@+id/tvContactFunction"
         android:layout_toEndOf="@+id/ivContactPhoto"
         android:text="atgmail.com"
         android:layout_toRightOf="@+id/ivContactPhoto" />
 
     <TextView
-        android:id="@+id/tvPhone"
+        android:id="@+id/tvContactPhone"
         android:layout_width="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvEmail"
+        android:layout_below="@+id/tvContactEmail"
         android:layout_toEndOf="@+id/ivContactPhoto"
         android:text="121345678"
         android:layout_toRightOf="@+id/ivContactPhoto" />
