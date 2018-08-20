@@ -32,11 +32,11 @@ User can :
 
 * [x] see a list of news related to Public Finances.
 * [ ] search news and documents using Search bar.
-* [x] access budget(credit and expenditures) report of each Ministry.
+* [x] access budget (credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
-* [x] read the "About" page describing the role and mission of the 'Direction Generale du Budget'.
+* [x] read the "About" page describing the aim of the application.
 
 The following **optional** features are implemented:
 
