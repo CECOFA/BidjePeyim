@@ -1,9 +1,11 @@
 package com.realty.drake.bidjepeyim.activities;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 
 import com.realty.drake.bidjepeyim.R;
@@ -31,5 +33,14 @@ public class AboutActivity extends AppCompatActivity {
             finish(); // close this activity and return to Tab Activity...
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode==KeyEvent.KEYCODE_BACK)
+        {
+            startActivity(new Intent(this, MainActivity.class));
+        }
+        return true;
     }
 }
