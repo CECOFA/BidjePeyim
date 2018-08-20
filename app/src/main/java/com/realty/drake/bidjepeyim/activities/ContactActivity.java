@@ -2,28 +2,30 @@ package com.realty.drake.bidjepeyim.activities;
 
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 import com.realty.drake.bidjepeyim.R;
-import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
+import com.realty.drake.bidjepeyim.adapters.ContactsAdapter;
+import com.realty.drake.bidjepeyim.models.Contacts;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity
-        {
+public class ContactActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_contact);
 
         Toolbar toolbar = findViewById(R.id.bidje_toolbar);
         setSupportActionBar(toolbar);
@@ -57,26 +59,33 @@ public class MainActivity extends AppCompatActivity
                     return true;
                 });
 
+        //Construct the data source
+        ArrayList<Contacts> arrayOfUsers = new ArrayList<Contacts>();
+        //Create the adapter to covert the array to views
+        ContactsAdapter adapter = new ContactsAdapter(this, arrayOfUsers);
+        //Add item to the adapter
+        Contacts jephte = new Contacts("Jephte COLIN",
+                "Développeur Android\n" + "Project Manager",
+                "(509) 3743-8713",
+                "drakecolinj@gmail.com");
+        adapter.add(jephte);
 
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
-        BidjePagerAdapter bidjePagerAdapter = new BidjePagerAdapter
-                (getSupportFragmentManager());
+        Contacts celande = new Contacts("Celande PIERRE",
+                "IT Instructor\n" + "Fonctionnaire",
+                "(509) 3750-2564",
+                "celandep@gmail.com");
+        adapter.add(celande);
 
-        //The {@link ViewPager} that will host the section contents.
-        // Set up the ViewPager with the sections adapter.
-        ViewPager viewPager = findViewById(R.id.container);
-        viewPager.setAdapter(bidjePagerAdapter);
+        Contacts fabrice = new Contacts("Fabrice LEDAN",
+                "Graphiste\n" + "Développeur Android",
+                "(509) 3821-7170",
+                "ledanfab.93@gmail.com");
+        adapter.add(fabrice);
 
-        TabLayout tabLayout = findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
-
-        viewPager.addOnPageChangeListener(new TabLayout
-                .TabLayoutOnPageChangeListener(tabLayout));
-        tabLayout.addOnTabSelectedListener(new TabLayout
-                .ViewPagerOnTabSelectedListener(viewPager));
+        //Attach the adapter to the ListView
+        ListView listView = (ListView) findViewById(R.id.lvItems);
+        listView.setAdapter(adapter);
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -85,5 +94,15 @@ public class MainActivity extends AppCompatActivity
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    //Override back button
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(keyCode==KeyEvent.KEYCODE_BACK)
+        {
+            startActivity(new Intent(this, MainActivity.class));
+        }
+        return true;
     }
 }
