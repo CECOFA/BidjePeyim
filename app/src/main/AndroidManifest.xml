@@ -16,14 +16,13 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".activities.AboutActivity"
+            android:label="@string/about"/>
         <activity android:name=".activities.SearchActivity" />
         <activity android:name=".activities.SplashActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
             </intent-filter>
         </activity>
         <activity android:name=".activities.NewsDetailActivity" />
