@@ -9,22 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.MainActivity">
+        <activity android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
-
-
             </intent-filter>
         </activity>
-        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".activities.AboutActivity"
+            android:label="@string/about"/>
         <activity android:name=".activities.SearchActivity" />
         <activity android:name=".activities.SplashActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
             </intent-filter>
         </activity>
         <activity android:name=".activities.NewsDetailActivity" />

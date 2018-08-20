@@ -19,6 +19,6 @@ public class RegulatoryFrameworkFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return inflater
-                .inflate(R.layout.activity_about, container, false);
+                .inflate(R.layout.fragment_regulatory_framework, container, false);
     }
 }

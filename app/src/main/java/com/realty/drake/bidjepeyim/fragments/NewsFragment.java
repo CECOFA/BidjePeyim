@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.CircularProgressDrawable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,9 +52,12 @@ public class NewsFragment extends Fragment{
     @Override
     public void onViewCreated(final View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
         rvNews.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvNews.hasFixedSize();
+
+        //Loading bar when content are not yet available
+        final ProgressBar progressBar = view.findViewById(R.id.progressBar);
+        progressBar.setVisibility(View.VISIBLE);
 
         DatabaseReference newsRef = FirebaseDatabase.getInstance()
                 .getReference()
@@ -80,6 +84,9 @@ public class NewsFragment extends Fragment{
                     holder.setImageActualite(model.getImageActualite());
                 }
 
+                //Set Date on cardView
+                holder.setDateActualite(model.getDatePublication());
+
                 //This Intent send Parcelable to NewsDetail
                 holder.itemView.setOnClickListener(view1 -> getActivity()
                         .startActivity(new Intent(getActivity(), NewsDetailActivity.class)
@@ -102,7 +109,7 @@ public class NewsFragment extends Fragment{
                 // You may want to use this method
                 // to hide a loading spinner or check for the "no documents" state and update your UI.
 
-                //progressBar.setVisibility(View.GONE);
+                progressBar.setVisibility(View.GONE);
             }
 
             //TODO Implement onError
@@ -140,7 +147,7 @@ public class NewsFragment extends Fragment{
 
         public void setTitreActualite(String titreActualite){
             TextView tvTitreActualite = mView.findViewById(R.id.tvNewsTitle);
-            tvTitreActualite.setText(titreActualite);
+            tvTitreActualite.setText(Html.fromHtml(titreActualite));
         }
 
         public void setImageActualite(String imageActualite){
@@ -157,6 +164,11 @@ public class NewsFragment extends Fragment{
                     .load(imageActualite)
                     .placeholder(progressDrawable)
                     .into(ivImageActualite);
+        }
+
+        public void setDateActualite(String dateActualite){
+            TextView tvDate = mView.findViewById(R.id.tvDate);
+            tvDate.setText(dateActualite);
         }
     }
 
