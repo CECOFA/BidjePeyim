@@ -11,8 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:background="@drawable/shadowwhiltelayout"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
         card_view:cardCornerRadius="4dp"
         card_view:cardElevation="4dp">
 
@@ -23,17 +27,25 @@
 
             <ImageView
                 android:id="@+id/iv_News"
-                android:layout_width="385dp"
+                android:layout_width="wrap_content"
                 android:layout_height="206dp"
+                android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/economic" />
+                android:src="@drawable/economic"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
 
             <LinearLayout
+                android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:drawable/screen_background_dark_transparent"
                 android:orientation="vertical"
-                card_view:layout_constraintBottom_toBottomOf="parent">
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent">
 
                 <TextView
                     android:id="@+id/tvNewsTitle"
