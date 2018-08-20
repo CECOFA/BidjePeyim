@@ -15,5 +15,5 @@
 Les données publiées seront tirées de la base de données du système de gestion des dépenses budgétaires de l’Etat (SYSDEP) dont la gouvernance est assurée par la Direction des Systèmes d’Information (DSI) du Ministère de l’Economie et des Finances (MEF).
         Cette application BidjePeyim,  développée par l’équipe composée des sieurs Joseph Colin, Célande Pierre et Fabrice Ledan, constitue le projet de ladite équipe dans le cadre du bootcamp codepath tenue du 3 juillet au 25 août 2018 à St-Louis de Conzague à Port-au-Prince, Haiti.</string>
 
-    <string name="budget_text">Voici les crédit alloués aux Ministères pour l\'année 2016–2017:</string>
+    <string name="budget_text">Crédit alloués aux Ministères. Années 2016–2017</string>
 </resources>
