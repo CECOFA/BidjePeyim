@@ -61,14 +61,14 @@ public class StatisticsFragment extends Fragment{
         final LottieAnimationView lottieAnimationView = view.findViewById(R.id.animation_view1);
         lottieAnimationView.setVisibility(View.VISIBLE);
 
-        DatabaseReference newsRef = FirebaseDatabase.getInstance()
+        DatabaseReference statisticsRef = FirebaseDatabase.getInstance()
                 .getReference()
                 .child("Ministry");
-        newsRef.keepSynced(true);
+        statisticsRef.keepSynced(true);
 
         FirebaseRecyclerOptions<Statistic> options =
                 new FirebaseRecyclerOptions.Builder<Statistic>()
-                        .setQuery(newsRef, Statistic.class)
+                        .setQuery(statisticsRef, Statistic.class)
                         .build();
 
         statisticsAdapter = new FirebaseRecyclerAdapter<Statistic,
