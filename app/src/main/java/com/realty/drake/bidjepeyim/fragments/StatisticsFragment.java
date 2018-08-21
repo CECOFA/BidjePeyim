@@ -93,7 +93,7 @@ public class StatisticsFragment extends Fragment{
                 // Create a new instance of the ViewHolder, in this case we are using a custom
                 // layout called R.layout.news_card for each item
                 View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.news_card, parent, false);
+                        .inflate(R.layout.card_stats, parent, false);
                 return new statisticsViewHolder(view);
             }
 
@@ -161,7 +161,7 @@ public class StatisticsFragment extends Fragment{
 
         public void setAbsorption(double credit, double expense){
             TextView tvAbsorption = mView.findViewById(R.id.tvAbsorbtionAmnt);
-            double percentage = ((double)credit/(double)expense)*100;
+            double percentage = (credit/expense)*100;
             tvAbsorption.setText(String.valueOf(percentage));
         }
         }
