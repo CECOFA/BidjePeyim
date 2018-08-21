@@ -34,6 +34,7 @@ User can :
 * [ ] search news and documents using Search bar.
 * [x] access budget (credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
+* [x] access statistics detail of each minitry
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
 * [x] read the "About" page describing the aim of the application.
