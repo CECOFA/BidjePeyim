@@ -1,6 +1,8 @@
 package com.realty.drake.bidjepeyim.activities;
 
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,6 +15,7 @@ import com.realty.drake.bidjepeyim.R;
 import java.util.Objects;
 
 public class AboutActivity extends AppCompatActivity {
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

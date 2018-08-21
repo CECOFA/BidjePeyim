@@ -8,12 +8,36 @@
     <string name="tools">Outils</string>
     <string name="guide">Guide</string>
     <string name="contacts">Contacts</string>
-    <string name="settings">Param\u00E8tres</string>
+    <string name="settings">Param\u00E8tres
+    </string>
     <string name="about">A propos</string>
-    <string name="lorum_ipsum">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l\'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n\'a pas fait que survivre cinq siècles, mais s\'est aussi adapté à la bureautique informatique, sans que son contenu n\'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker. Pourquoi l\'utiliser? On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L\'avantage du Lorem Ipsum sur un texte générique comme \'Du texte. Du texte. Du texte.\' est qu\'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour \'Lorem Ipsum\' vous conduira vers de nombreux sites qui n\'en sont encore qu\'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d\'y rajouter de petits clins d\'oeil, voire des phrases embarassantes).</string>
-    <string name="about_text">BidjePeyim est une application mobile dédiée à la publication d’au moins des cinq dernières lois de finances de la République d’Haïti plus celle en vigueur. Elle diffusera aussi des rapports financiers et des statistiques relatifs aux autorisations de dépenses mensuelles de fonctionnement et d’investissement et au niveau d’emploi dans l’administration d’Etat. Elle fournira enfin des dashboards de la situation financière des institutions de l’Etat et se voudra un outil de travail principalement pour les techniciens en finances publiques du Ministère de l’Economie et des Finances.
-Les données publiées seront tirées de la base de données du système de gestion des dépenses budgétaires de l’Etat (SYSDEP) dont la gouvernance est assurée par la Direction des Systèmes d’Information (DSI) du Ministère de l’Economie et des Finances (MEF).
-        Cette application BidjePeyim,  développée par l’équipe composée des sieurs Joseph Colin, Célande Pierre et Fabrice Ledan, constitue le projet de ladite équipe dans le cadre du bootcamp codepath tenue du 3 juillet au 25 août 2018 à St-Louis de Conzague à Port-au-Prince, Haiti.</string>
+    <string name="lorum_ipsum">Le Lorem Ipsum est simplement du faux texte employé dans la \n
+        composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard \n
+        de l\'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des \n
+        morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n\'a pas fait que \n
+        survivre cinq siècles, mais s\'est aussi adapté à la bureautique informatique, sans que son \n
+        contenu n\'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset \n
+        contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise \n
+        en page de texte, comme Aldus PageMaker. Pourquoi l\'utiliser? On sait depuis longtemps que travailler avec \n
+        du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en \n
+        page elle-même. L\'avantage du Lorem Ipsum sur un texte générique comme \'Du texte. Du texte. Du texte.\' est qu\'il \n
+        possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. \n
+        De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, \n
+        et une recherche pour \'Lorem Ipsum\' vous conduira vers de nombreux sites qui n\'en sont encore qu\'à leur phase de construction. \n
+        Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d\'y rajouter de petits \n
+        clins d\'oeil, voire des phrases embarassantes).</string>
+    <string name="about_text">BidjePeyim est une application mobile dédiée à la publication d’au moins des cinq
+        dernières lois de finances de la République d’Haïti plus celle en vigueur. Elle diffusera aussi des rapports
+        financiers et des statistiques relatifs aux autorisations de dépenses mensuelles de fonctionnement et d’investissement
+        et au niveau d’emploi dans l’administration d’Etat. Elle fournira enfin des dashboards de la situation financière des
+        institutions de l’Etat et se voudra un outil de travail principalement pour les techniciens en finances publiques du
+        Ministère de l’Economie et des Finances.
+        Les données publiées seront tirées de la base de données du système de gestion des dépenses budgétaires de l’Etat
+        (SYSDEP) dont la gouvernance est assurée par la Direction des Systèmes d’Information (DSI) du Ministère de
+        l’Economie et des Finances (MEF).
+        Cette application BidjePeyim,  développée par l’équipe composée des sieurs Joseph Colin, Célande Pierre et
+        Fabrice Ledan, constitue le projet de ladite équipe dans le cadre du bootcamp codepath tenue du 3 juillet au
+        25 août 2018 à St-Louis de Conzague à Port-au-Prince, Haiti.</string>
 
     <string name="budget_text">Crédit alloués aux Ministères. Années 2016–2017</string>
 </resources>
