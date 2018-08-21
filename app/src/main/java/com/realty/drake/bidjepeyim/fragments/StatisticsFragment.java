@@ -1,6 +1,5 @@
 package com.realty.drake.bidjepeyim.fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -20,15 +19,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.realty.drake.bidjepeyim.R;
-import com.realty.drake.bidjepeyim.activities.NewsDetailActivity;
 import com.realty.drake.bidjepeyim.models.Statistic;
-
-import org.parceler.Parcels;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
-import java.util.Locale;
 
 /**
  * Created by drake on 8/8/18
@@ -167,7 +162,7 @@ public class StatisticsFragment extends Fragment{
 
         public void setExpense(double expense){
             TextView tvExpense = mView.findViewById(R.id.tvExpenseAmount);
-            tvExpense.setText(String.valueOf(inCurrencyHT(expense)));
+            tvExpense.setText(String.valueOf("- "+inCurrencyHT(expense)));
         }
 
         public void setBalance(double balance){
@@ -176,7 +171,7 @@ public class StatisticsFragment extends Fragment{
         }
 
         public void setAbsorption(double credit, double expense){
-            TextView tvAbsorption = mView.findViewById(R.id.tvAbsorbtionAmnt);
+            TextView tvAbsorption = mView.findViewById(R.id.tvAbsorbtionAmount);
             double percentage = (expense/credit);
             NumberFormat defaultFormat = NumberFormat.getPercentInstance();
             defaultFormat.setMinimumFractionDigits(1);

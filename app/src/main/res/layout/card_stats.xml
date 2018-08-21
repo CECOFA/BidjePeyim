@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1000000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorGreen" />
 
                 <TextView
                     android:id="@+id/tvExpenseAmount"
@@ -78,7 +78,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorRed" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorRed" />
 
                 <TextView
                     android:id="@+id/tvBalanceAmount"
@@ -86,14 +91,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="9000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorGreen" />
 
                 <TextView
-                    android:id="@+id/tvAbsorbtionAmnt"
+                    android:id="@+id/tvAbsorbtionAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorGray"
                     android:text="0.25%"
-                    android:textColor="@color/colorGreen" />
+                    android:textColor="@color/colorPrimary" />
             </LinearLayout>
         </LinearLayout>
 
