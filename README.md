@@ -56,8 +56,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align="left" src='https://i.imgur.com/w0f74mi.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/w0f74mi.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## NOTES
