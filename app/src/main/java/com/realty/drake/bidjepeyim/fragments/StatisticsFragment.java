@@ -25,6 +25,8 @@ import com.realty.drake.bidjepeyim.models.Statistic;
 
 import org.parceler.Parcels;
 
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -85,9 +87,9 @@ public class StatisticsFragment extends Fragment{
                 holder.setAbsorption(model.getCredit(), model.getExpense());
 
                 //This Intent send Parcelable to NewsDetail
-               // holder.itemView.setOnClickListener(view1 -> getActivity()
-               //         .startActivity(new Intent(getActivity(), MinistryDetailActivity.class)
-               //                 .putExtra("ministry", Parcels.wrap(model.getMinistry()))));
+                // holder.itemView.setOnClickListener(view1 -> getActivity()
+                //         .startActivity(new Intent(getActivity(), MinistryDetailActivity.class)
+                //                 .putExtra("ministry", Parcels.wrap(model.getMinistry()))));
             }
 
             @Override
@@ -134,6 +136,17 @@ public class StatisticsFragment extends Fragment{
         statisticsAdapter.stopListening();
     }
 
+    //Format double in HT currency
+    String inCurrencyHT(double money){
+        NumberFormat df = NumberFormat.getCurrencyInstance();
+        DecimalFormatSymbols dfs = new DecimalFormatSymbols();
+        dfs.setCurrencySymbol("HTG ");
+        dfs.setGroupingSeparator(',');
+        dfs.setMonetaryDecimalSeparator('.');
+        ((DecimalFormat) df).setDecimalFormatSymbols(dfs);
+        return (df.format(money));
+    }
+
     //Format double in US currency
     String inCurrency(double money) {
         return NumberFormat
@@ -156,17 +169,17 @@ public class StatisticsFragment extends Fragment{
 
         public void setCredit(double credit){
             TextView tvCredit = mView.findViewById(R.id.tvCreditAmount);
-            tvCredit.setText(String.valueOf(inCurrency(credit)));
+            tvCredit.setText(String.valueOf(inCurrencyHT(credit)));
         }
 
         public void setExpense(double expense){
             TextView tvExpense = mView.findViewById(R.id.tvExpenseAmount);
-            tvExpense.setText(String.valueOf(inCurrency(expense)));
+            tvExpense.setText(String.valueOf(inCurrencyHT(expense)));
         }
 
         public void setBalance(double balance){
             TextView tvBalance = mView.findViewById(R.id.tvBalanceAmount);
-            tvBalance.setText(String.valueOf(inCurrency(balance)));
+            tvBalance.setText(String.valueOf(inCurrencyHT(balance)));
         }
 
         public void setAbsorption(double credit, double expense){
@@ -176,7 +189,7 @@ public class StatisticsFragment extends Fragment{
             defaultFormat.setMinimumFractionDigits(1);
             tvAbsorption.setText(defaultFormat.format(percentage));
         }
-        }
+    }
 
 
 }
