@@ -147,13 +147,6 @@ public class StatisticsFragment extends Fragment{
         return (df.format(money));
     }
 
-    //Format double in US currency
-    String inCurrency(double money) {
-        return NumberFormat
-                .getCurrencyInstance(Locale.US)
-                .format(money);
-    }
-
     public class statisticsViewHolder extends RecyclerView.ViewHolder {
         View mView;
 
