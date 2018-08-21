@@ -5,4 +5,7 @@
     <color name="colorAccent">#4DD0E1</color>
     <color name="colorDivider">#80CBC4</color>
     <color name="colorTextBlack">#000000</color>
+    <color name="colorGreen">#108712</color>
+    <color name="colorRed">#de346f</color>
+    <color name="colorGray">#e9e8e8</color>
 </resources>
