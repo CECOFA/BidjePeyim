@@ -105,7 +105,7 @@
             android:foregroundGravity="center"
             android:gravity="center"
             android:text="MINISTERE"
-            android:textSize="30sp" />
+            android:textSize="18sp" />
 
         <View
             android:layout_width="match_parent"

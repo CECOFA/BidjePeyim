@@ -25,6 +25,9 @@ import com.realty.drake.bidjepeyim.models.Statistic;
 
 import org.parceler.Parcels;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 /**
  * Created by drake on 8/8/18
  */
@@ -131,6 +134,13 @@ public class StatisticsFragment extends Fragment{
         statisticsAdapter.stopListening();
     }
 
+    //Format double in US currency
+    String inCurrency(double money) {
+        return NumberFormat
+                .getCurrencyInstance(Locale.US)
+                .format(money);
+    }
+
     public class statisticsViewHolder extends RecyclerView.ViewHolder {
         View mView;
 
@@ -146,23 +156,25 @@ public class StatisticsFragment extends Fragment{
 
         public void setCredit(double credit){
             TextView tvCredit = mView.findViewById(R.id.tvCreditAmount);
-            tvCredit.setText(String.valueOf(credit));
+            tvCredit.setText(String.valueOf(inCurrency(credit)));
         }
 
         public void setExpense(double expense){
             TextView tvExpense = mView.findViewById(R.id.tvExpenseAmount);
-            tvExpense.setText(String.valueOf(expense));
+            tvExpense.setText(String.valueOf(inCurrency(expense)));
         }
 
         public void setBalance(double balance){
             TextView tvBalance = mView.findViewById(R.id.tvBalanceAmount);
-            tvBalance.setText(String.valueOf(balance));
+            tvBalance.setText(String.valueOf(inCurrency(balance)));
         }
 
         public void setAbsorption(double credit, double expense){
             TextView tvAbsorption = mView.findViewById(R.id.tvAbsorbtionAmnt);
-            double percentage = (credit/expense)*100;
-            tvAbsorption.setText(String.valueOf(percentage));
+            double percentage = (expense/credit);
+            NumberFormat defaultFormat = NumberFormat.getPercentInstance();
+            defaultFormat.setMinimumFractionDigits(1);
+            tvAbsorption.setText(defaultFormat.format(percentage));
         }
         }
 
