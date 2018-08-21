@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Liste des contacts: "
+        android:text="L'équipe qui a travaillée sur l'application BudjetPeyim: "
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:textColor="@color/colorAccent"
