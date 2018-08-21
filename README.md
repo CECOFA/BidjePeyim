@@ -22,7 +22,7 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
  Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **40** hours spent in total
+Time spent: **44** hours spent in total
 
 ## USER STORIES
 
@@ -56,8 +56,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/pBRvsbr.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img align="left" src='https://imgur.com/pBRvsbr.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img align="left" src='https://imgur.com/dJQpWQ8.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## NOTES
 
