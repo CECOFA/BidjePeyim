@@ -76,11 +76,15 @@ public class StatisticsFragment extends Fragment{
                                          final int position,
                                          @NonNull final Statistic model) {
                 holder.setMinistry(model.getMinistry());
+                holder.setBalance(model.getBalance());
+                holder.setCredit(model.getCredit());
+                holder.setExpense(model.getExpense());
+                holder.setAbsorption(model.getCredit(), model.getExpense());
 
                 //This Intent send Parcelable to NewsDetail
-                holder.itemView.setOnClickListener(view1 -> getActivity()
-                        .startActivity(new Intent(getActivity(), NewsDetailActivity.class)
-                                .putExtra("news", Parcels.wrap(model))));
+               // holder.itemView.setOnClickListener(view1 -> getActivity()
+               //         .startActivity(new Intent(getActivity(), MinistryDetailActivity.class)
+               //                 .putExtra("ministry", Parcels.wrap(model.getMinistry()))));
             }
 
             @Override
@@ -140,8 +144,26 @@ public class StatisticsFragment extends Fragment{
             tvMinistry.setText(ministry);
         }
 
-        public void set
+        public void setCredit(double credit){
+            TextView tvCredit = mView.findViewById(R.id.tvCreditAmount);
+            tvCredit.setText(String.valueOf(credit));
+        }
 
+        public void setExpense(double expense){
+            TextView tvExpense = mView.findViewById(R.id.tvExpenseAmount);
+            tvExpense.setText(String.valueOf(expense));
+        }
+
+        public void setBalance(double balance){
+            TextView tvBalance = mView.findViewById(R.id.tvBalanceAmount);
+            tvBalance.setText(String.valueOf(balance));
+        }
+
+        public void setAbsorption(double credit, double expense){
+            TextView tvAbsorption = mView.findViewById(R.id.tvAbsorbtionAmnt);
+            double percentage = ((double)credit/(double)expense)*100;
+            tvAbsorption.setText(String.valueOf(percentage));
+        }
         }
 
 
