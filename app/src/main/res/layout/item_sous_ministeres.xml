@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadowwhiltelayout">
+
+    <TextView
+        android:id="@+id/tvSousMinisteres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DGB" />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSousMinisteres">
+
+        <TextView
+            android:id="@+id/tvCreditAmntSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvDepensesAmntSub"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/tvDepensesAmntSub"
+            android:text="100000.00"
+            app:layout_constraintEnd_toStartOf="@+id/tvDpensesSub"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:id="@+id/tvCreditsAmntSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Credit"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:id="@+id/tvDepensesAmntSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvDpensesSub"
+            android:layout_alignBottom="@+id/tvDpensesSub"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="5000.00"
+            app:layout_constraintEnd_toStartOf="@+id/tvDpensesSub"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:id="@+id/tvDpensesSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="Depenses"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="49dp" />
+
+        <TextView
+            android:id="@+id/tvSoldeSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Soldes" />
+
+        <TextView
+            android:id="@+id/tvSoldesAmntSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvTauxAmntSub"
+            android:layout_alignEnd="@+id/tvDepensesAmntSub"
+            android:layout_alignRight="@+id/tvDepensesAmntSub"
+            android:text="95000.00" />
+
+        <TextView
+            android:id="@+id/tvTauxAmntSub"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignBottom="@+id/tvTauxSub"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvSoldeSub"
+            android:text="25%"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <TextView
+            android:id="@+id/tvTauxSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvSoldeSub"
+            android:text="Taux"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

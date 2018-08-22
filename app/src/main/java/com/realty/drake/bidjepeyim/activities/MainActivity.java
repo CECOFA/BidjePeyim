@@ -1,6 +1,8 @@
 package com.realty.drake.bidjepeyim.activities;
 
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
@@ -12,6 +14,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
 
@@ -20,6 +23,7 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity
         {
     private DrawerLayout mDrawerLayout;
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +86,8 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
+                LottieAnimationView lottieAnimationView = (LottieAnimationView)findViewById(R.id.headerlottie);
+                lottieAnimationView.playAnimation();
                 return true;
         }
         return super.onOptionsItemSelected(item);

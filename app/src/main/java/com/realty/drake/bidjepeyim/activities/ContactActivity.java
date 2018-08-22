@@ -12,6 +12,7 @@ import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.widget.ListView;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.ContactsAdapter;
 import com.realty.drake.bidjepeyim.models.Contacts;
@@ -91,6 +92,8 @@ public class ContactActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
+                LottieAnimationView lottieAnimationView = (LottieAnimationView)findViewById(R.id.headerlottie);
+                lottieAnimationView.playAnimation();
                 return true;
         }
         return super.onOptionsItemSelected(item);
