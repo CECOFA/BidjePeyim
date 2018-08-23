@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_stats"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
@@ -38,13 +39,13 @@
                     android:text="Credits" />
 
                 <TextView
-                    android:id="@+id/tvDepense"
+                    android:id="@+id/tvExpense"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Dépenses" />
 
                 <TextView
-                    android:id="@+id/tvSoldeSub"
+                    android:id="@+id/tvBalance"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Soldes" />
@@ -53,58 +54,65 @@
                     android:id="@+id/tvAbsorbtion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Absorbtion" />
+                    android:text="Taux d'absorbtion" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="right"
+                android:gravity="end"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvCreditAmnt"
+                    android:id="@+id/tvCreditAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1000000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorGreen" />
 
                 <TextView
-                    android:id="@+id/tvDepensesAmnt"
+                    android:id="@+id/tvExpenseAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorRed" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorRed" />
 
                 <TextView
-                    android:id="@+id/tvSoldesAmnt"
+                    android:id="@+id/tvBalanceAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="9000"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorGreen" />
 
                 <TextView
-                    android:id="@+id/tvAbsorbtionAmnt"
+                    android:id="@+id/tvAbsorbtionAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@color/colorGray"
                     android:text="0.25%"
                     android:textColor="@color/colorPrimary" />
             </LinearLayout>
         </LinearLayout>
 
         <TextView
-            android:id="@+id/tv_Ministere"
+            android:id="@+id/tvMinistry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:foregroundGravity="center"
+            android:textColor="@color/colorPrimary"
             android:gravity="center"
             android:text="MINISTERE"
-            android:textSize="30sp" />
+            android:textSize="18sp" />
 
         <View
             android:layout_width="match_parent"

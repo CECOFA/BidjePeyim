@@ -12,29 +12,23 @@
         <activity
             android:name=".activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activities.AboutActivity"
             android:label="@string/about"
-            android:parentActivityName=".activities.MainActivity" />
+            android:parentActivityName=".activities.MainActivity"/>
         <activity android:name=".activities.SearchActivity" />
         <activity
             android:name=".activities.SplashActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
-
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".activities.NewsDetailActivity" />
-        <activity
-            android:name=".activities.ContactActivity"
-            android:label="@string/contacts" />
-        <activity android:name=".StatsSousMinisteres"></activity>
+        <activity android:name=".activities.ContactActivity"
+            android:label="@string/contacts"/>
     </application>
 
 </manifest>

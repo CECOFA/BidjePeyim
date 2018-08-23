@@ -14,7 +14,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,7 +45,7 @@ public class NewsFragment extends Fragment{
                              @Nullable Bundle savedInstanceState) {
         View rootView = inflater
                 .inflate(R.layout.fragment_news, container, false);
-        rvNews = rootView.findViewById(R.id.rv_News);
+        rvNews = rootView.findViewById(R.id.rvNews);
         return rootView;
     }
 

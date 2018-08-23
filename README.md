@@ -22,7 +22,7 @@ Des objectifs sont naturellement assignés au projet ; ils sont d’ordre géné
  Publier mensuellement le niveau des autorisations de dépenses dans les entités étatiques ; 
 
 
-Time spent: **40** hours spent in total
+Time spent: **44** hours spent in total
 
 ## USER STORIES
 
@@ -34,6 +34,7 @@ User can :
 * [ ] search news and documents using Search bar.
 * [x] access budget (credit and expenditures) report of each Ministry.
 * [ ] access "employment statistics on each ministry".
+* [x] access statistics detail of each minitry
 * [ ] access statistics related to nominations, termination and reintegration process.
 * [ ] access and download text related to "Regulatory framework for budget"
 * [x] read the "About" page describing the aim of the application.
@@ -56,8 +57,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img align="left" src='https://imgur.com/KlIyuEj.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='https://imgur.com/Xv0JlYR.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img align="left" src='https://imgur.com/pBRvsbr.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img align="center" src='https://imgur.com/dJQpWQ8.gif' ministry='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## NOTES
