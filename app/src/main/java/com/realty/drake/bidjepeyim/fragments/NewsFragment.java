@@ -74,8 +74,6 @@ public class NewsFragment extends Fragment{
 
         newsAdapter = new FirebaseRecyclerAdapter<News,
                 newsViewHolder>(options) {
-
-
             @Override
             // Bind the Property object to the ViewHolder PropertyHolder
             public void onBindViewHolder(@NonNull newsViewHolder holder,
@@ -176,5 +174,3 @@ public class NewsFragment extends Fragment{
     }
 
 }
-
-
