@@ -40,7 +40,7 @@ public class AboutActivity extends AppCompatActivity {
                 "publiées seront tirées de la base de données du système de gestion des dépenses budgétaires de l’Etat\n" + "     " +
                 "   (SYSDEP) dont la gouvernance est assurée par la Direction des Systèmes d’Information (DSI) du Ministère de\n" + "         " +
                 "   l’Economie et des Finances (MEF).<p><p>Cette application BidjePeyim,  développée par l’équipe composée des" +
-                " sieurs Joseph Colin, Célande Pierre et\n" + "        Fabrice Ledan, constitue le projet de ladite équipe dans le" +
+                " sieurs Jephte Colin, Célande Pierre et\n" + "        Fabrice Ledan, constitue le projet de ladite équipe dans le" +
                 " cadre du bootcamp codepath tenue du 3 juillet au\n" + "         " +
                 "   25 août 2018 à St-Louis de Conzague à Port-au-Prince, Haiti. <p>";
         textView.setText(Html.fromHtml(htmlText));

@@ -36,7 +36,7 @@ User can :
 * [ ] access "employment statistics on each ministry".
 * [x] access statistics detail of each minitry
 * [ ] access statistics related to nominations, termination and reintegration process.
-* [ ] access and download text related to "Regulatory framework for budget"
+* [x] access and download text related to "Regulatory framework for budget"
 * [x] read the "About" page describing the aim of the application.
 
 The following **optional** features are implemented:
