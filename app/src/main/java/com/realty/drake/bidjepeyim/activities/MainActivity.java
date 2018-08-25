@@ -15,13 +15,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.firebase.database.FirebaseDatabase;
 import com.realty.drake.bidjepeyim.R;
 import com.realty.drake.bidjepeyim.adapters.BidjePagerAdapter;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity
-        {
+public class MainActivity extends AppCompatActivity {
+    //Add persistence to data from firebase
+    static { FirebaseDatabase.getInstance().setPersistenceEnabled(true);}
     private DrawerLayout mDrawerLayout;
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override

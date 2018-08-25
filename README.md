@@ -42,7 +42,7 @@ User can :
 The following **optional** features are implemented:
 
 * [ ] App can send Push notification when there's a new content added.
-* [ ] Data can persist on device.
+* [x] Data can persist on device.
 
 The following **bonus** features are implemented: 
 
