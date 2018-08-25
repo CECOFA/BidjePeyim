@@ -94,6 +94,7 @@ public class AboutActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //Return to MainActivity when back button is pressed
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if(keyCode==KeyEvent.KEYCODE_BACK)
