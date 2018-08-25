@@ -10,7 +10,7 @@ public class PDF_Viewer extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pdf__viewer);
+        setContentView(R.layout.activity_pdf_viewer);
 
 
         PDFView pdfView = (PDFView)findViewById(R.id.pdfView);
