@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -60,6 +61,11 @@ public class AboutActivity extends AppCompatActivity {
                     // Add code here to update the UI based on the item selected
                     // For example, swap UI fragments here
                     switch (menuItem.getItemId()) {
+                        case R.id.nav_acceuil: {
+                            startActivity(new Intent
+                                    (this,MainActivity.class));
+                            break;
+                        }
                         case R.id.nav_about: {
                             startActivity(new Intent
                                     (this, AboutActivity.class));
@@ -77,6 +83,7 @@ public class AboutActivity extends AppCompatActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

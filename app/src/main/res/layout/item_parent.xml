@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:background="#F5F5F5"
+        android:background="@color/cardview_light_background"
+        android:backgroundTint="@color/colorPrimary"
         android:gravity="start"
         android:orientation="horizontal">
 
@@ -26,7 +27,7 @@
             android:layout_marginRight="2dp"
             android:layout_marginTop="15dp"
             android:text="text"
-            android:textColor="#000000"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:textSize="15dp"
             android:textStyle="bold" />
 

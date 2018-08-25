@@ -15,6 +15,14 @@ import android.widget.Toast;
 import com.airbnb.lottie.LottieAnimationView;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.components.AxisBase;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.formatter.IAxisValueFormatter;
+import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,6 +32,10 @@ import com.realty.drake.bidjepeyim.models.Statistic;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 /**
  * Created by drake on 8/8/18
@@ -31,6 +43,16 @@ import java.text.NumberFormat;
 public class StatisticsFragment extends Fragment{
     private RecyclerView rvStatistics;
     FirebaseRecyclerAdapter<Statistic, statisticsViewHolder> statisticsAdapter;
+    public String uid;
+    public String author;
+    public String title1;
+    public String body;
+    public int starCount = 0;
+    public Map<String, Boolean> stars = new HashMap<>();
+
+
+
+
 
     @Nullable
     @Override
@@ -80,6 +102,7 @@ public class StatisticsFragment extends Fragment{
                 holder.setCredit(model.getCredit());
                 holder.setExpense(model.getExpense());
                 holder.setAbsorption(model.getCredit(), model.getExpense());
+                holder.barchart();
 
                 //This Intent send Parcelable to NewsDetail
                 // holder.itemView.setOnClickListener(view1 -> getActivity()
@@ -94,6 +117,8 @@ public class StatisticsFragment extends Fragment{
                 // layout called R.layout.news_card for each item
                 View view = LayoutInflater.from(parent.getContext())
                         .inflate(R.layout.card_stats, parent, false);
+
+
                 return new statisticsViewHolder(view);
             }
 
@@ -130,7 +155,12 @@ public class StatisticsFragment extends Fragment{
         super.onStop();
         statisticsAdapter.stopListening();
     }
-
+    private float randRange(int min, int max) {
+        Random r = new Random();
+        int x = min + r.nextInt(max - min);
+        float res = (float) x;
+        return res;
+    }
     //Format double in HT currency
     String inCurrencyHT(double money){
         NumberFormat df = NumberFormat.getCurrencyInstance();
@@ -159,6 +189,70 @@ public class StatisticsFragment extends Fragment{
             TextView tvCredit = mView.findViewById(R.id.tvCreditAmount);
             tvCredit.setText(String.valueOf(inCurrencyHT(credit)));
         }
+        public void barchart(){
+            //BarChart barChart;
+            BarChart barChart = mView.findViewById(R.id.chart);
+            barChart.setDrawBarShadow(false);
+            barChart.setDrawValueAboveBar(true);
+            barChart.setMaxVisibleValueCount(100000);
+            barChart.setPinchZoom(false);
+            barChart.setDrawGridBackground(true);
+            barChart.animateXY(3100, 3100);
+
+            //myRef.setValue("Hello, World!");
+            ArrayList<BarEntry> barEntries = new ArrayList<>();
+
+
+            // barEntries.add(new BarEntry(0,350f));
+            barEntries.add(new BarEntry(1,randRange(5000,100000)));
+            barEntries.add(new BarEntry(2,randRange(5000,100000)));
+            barEntries.add(new BarEntry(3,randRange(5000,100000)));
+            barEntries.add(new BarEntry(4,randRange(5000,100000)));
+            barEntries.add(new BarEntry(5,randRange(5000,100000)));
+            barEntries.add(new BarEntry(6,randRange(5000,100000)));
+            barEntries.add(new BarEntry(7,randRange(5000,100000)));
+            barEntries.add(new BarEntry(8,randRange(5000,100000)));
+            barEntries.add(new BarEntry(9,randRange(5000,100000)));
+            barEntries.add(new BarEntry(10,randRange(5000,100000)));
+            barEntries.add(new BarEntry(11,randRange(5000,100000)));
+            barEntries.add(new BarEntry(12,randRange(5000,100000)));
+
+
+            final BarDataSet barDataSet = new BarDataSet(barEntries,"MONTH");
+
+
+            barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+
+            BarData data = new BarData(barDataSet);
+
+
+            data.setBarWidth(0.35f);
+            barChart.setData(data);
+
+
+
+            final String[] months = new String[]{"","Jan","Fev","Mar","Av","Mai","Juin","Jun","Aout","Sept","Oct","Nov","Dec"};
+            XAxis xAxis = barChart.getXAxis();
+            xAxis.setValueFormatter(new MyXAxisValueFormatter(months));
+            xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+          //  xAxis.setAxisLineWidth(0.5f);
+            //xAxis.setGranularity(1);
+            //  xAxis.setAxisMaximum(14);
+            //  xAxis.setCenterAxisLabels(true);
+        }
+        public class MyXAxisValueFormatter implements IAxisValueFormatter {
+
+            private String[] mValues;
+            public MyXAxisValueFormatter(String[] values) {
+
+                this.mValues = values;
+            }
+
+            @Override
+            public String getFormattedValue(float value, AxisBase axis) {
+                return mValues[(int)value];
+            }
+        }
 
         public void setExpense(double expense){
             TextView tvExpense = mView.findViewById(R.id.tvExpenseAmount);
@@ -180,4 +274,8 @@ public class StatisticsFragment extends Fragment{
     }
 
 
+
 }
+
+
+

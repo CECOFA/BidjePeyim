@@ -45,6 +45,11 @@ public class ContactActivity extends AppCompatActivity {
                     // Add code here to update the UI based on the item selected
                     // For example, swap UI fragments here
                     switch (menuItem.getItemId()) {
+                        case R.id.nav_acceuil: {
+                            Intent your_cmdrs = new Intent(this, MainActivity.class);
+                            startActivity(your_cmdrs);
+                            break;
+                        }
                         case R.id.nav_about: {
                             startActivity(new Intent
                                     (this, AboutActivity.class));

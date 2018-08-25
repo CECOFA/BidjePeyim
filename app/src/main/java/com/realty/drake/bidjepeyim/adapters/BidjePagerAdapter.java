@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.realty.drake.bidjepeyim.activities.MainActivity;
 import com.realty.drake.bidjepeyim.fragments.BudgetFragment;
 import com.realty.drake.bidjepeyim.fragments.NewsFragment;
 import com.realty.drake.bidjepeyim.fragments.RegulatoryFrameworkFragment;
@@ -34,6 +35,7 @@ public class BidjePagerAdapter extends FragmentPagerAdapter {
                 return new StatisticsFragment();
             case 3:
                 return new RegulatoryFrameworkFragment();
+
             default:
                 return  null;
         }
@@ -55,7 +57,7 @@ public class BidjePagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return "Budget";
             case 2:
-                return "Statistiques";
+                return "Stats";
             case 3:
                 return "Cadre Legal";
         }

@@ -46,12 +46,13 @@ public class SousMinisteresAdapter extends ArrayAdapter<StatsSousMinisteres> {
 
             viewHolder.tvCredit =(TextView) convertView.findViewById(R.id.tvCredit);
             viewHolder.tvCreditamnt =(TextView) convertView.findViewById(R.id.tvCreditAmntSub);
-            viewHolder.tvDepenses =(TextView) convertView.findViewById(R.id.tvDepense);
+            viewHolder.tvDepenses =(TextView) convertView.findViewById(R.id.tvDpensesSub);
             viewHolder.tvDepensesamnt =(TextView) convertView.findViewById(R.id.tvDepensesAmntSub);
             viewHolder.tvSoldes =(TextView) convertView.findViewById(R.id.tvSoldeSub);
             viewHolder.tvSoldesamnt =(TextView) convertView.findViewById(R.id.tvSoldesAmntSub);
             viewHolder.tvTaux =(TextView) convertView.findViewById(R.id.tvTauxSub);
             viewHolder.tvTauxamnt =(TextView) convertView.findViewById(R.id.tvTauxAmntSub);
+
             convertView.setTag(viewHolder);
 
         }
